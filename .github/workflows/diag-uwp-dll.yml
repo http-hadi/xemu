@@ -1,0 +1,134 @@
+name: Diagnose UWP DLL build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [uwp-diag]
+    paths:
+      - '.github/workflows/diag-uwp-dll.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: diag-uwp-dll-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  diag:
+    name: Configure + build qemu-system-i386.dll (UWP)
+    runs-on: windows-2025
+    timeout-minutes: 90
+    env:
+      PYTHONUTF8: '1'
+
+    steps:
+      - name: Check out xemu
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Fetch upstream xemu tags (same as Build UWP-Port)
+        shell: bash
+        run: |
+          git remote add upstream https://github.com/xemu-project/xemu.git
+          git fetch upstream '+refs/tags/*:refs/tags/*' --force
+          if ! git describe --tags --match 'v*' >/dev/null 2>&1; then
+            git tag -f v0.0.0 HEAD
+          fi
+          git describe --tags --match 'v*'
+
+      - name: Set up MSYS2 UCRT64 dependencies
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            base-devel
+            bison
+            flex
+            git
+            make
+            mingw-w64-ucrt-x86_64-curl
+            mingw-w64-ucrt-x86_64-cmake
+            mingw-w64-ucrt-x86_64-gcc
+            mingw-w64-ucrt-x86_64-glib2
+            mingw-w64-ucrt-x86_64-glslang
+            mingw-w64-ucrt-x86_64-libepoxy
+            mingw-w64-ucrt-x86_64-libsamplerate
+            mingw-w64-ucrt-x86_64-libslirp
+            mingw-w64-ucrt-x86_64-libusb
+            mingw-w64-ucrt-x86_64-meson
+            mingw-w64-ucrt-x86_64-ninja
+            mingw-w64-ucrt-x86_64-pixman
+            mingw-w64-ucrt-x86_64-pkgconf
+            mingw-w64-ucrt-x86_64-python-yaml
+            mingw-w64-ucrt-x86_64-sdl3
+            mingw-w64-ucrt-x86_64-vulkan-headers
+            mingw-w64-ucrt-x86_64-vulkan-volk
+            mingw-w64-ucrt-x86_64-xxhash
+            mingw-w64-ucrt-x86_64-zstd
+
+      - name: Configure xemu UWP DLL
+        id: configure
+        shell: msys2 {0}
+        run: |
+          set -o pipefail
+          mkdir -p build-uwp-embed
+          cd build-uwp-embed
+          ../configure \
+            --target-list=i386-softmmu \
+            --enable-uwp \
+            --enable-slirp \
+            --enable-opengl \
+            --enable-sdl \
+            --disable-werror \
+            --disable-docs \
+            --audio-drv-list=sdl 2>&1 | tee ../configure.log
+
+      - name: Build xemu UWP DLL
+        id: build
+        shell: msys2 {0}
+        run: |
+          set -o pipefail
+          ninja -C build-uwp-embed qemu-system-i386.dll 2>&1 | tee build.log | tail -n 60
+          test -f build-uwp-embed/qemu-system-i386.dll
+          ls -l build-uwp-embed/qemu-system-i386.dll
+
+      - name: Collect logs
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p logs
+          cp configure.log logs/ 2>/dev/null
+          cp build-uwp-embed/meson-logs/meson-log.txt logs/meson-log.txt 2>/dev/null
+          if [ -f build.log ]; then tail -n 4000 build.log > logs/build-tail.log; grep -n -E 'error|Error|FAILED' build.log | head -200 > logs/build-errors.log; fi
+          # what did configure decide about accelerators?
+          grep -n -i -E 'whpx|hax|nvmm|mshv|hvf|kvm|tcg|accel' configure.log > logs/configure-accel-lines.log 2>/dev/null
+          ls -la logs
+
+      - name: Push logs to ci-logs branch
+        if: always()
+        shell: bash
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          work="$(mktemp -d)"
+          mkdir -p "$work/uwp-diag/run-${{ github.run_number }}"
+          cp logs/* "$work/uwp-diag/run-${{ github.run_number }}/" 2>/dev/null
+          cd "$work"
+          git init -q
+          git config user.name "ci"
+          git config user.email "ci@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
+          if git fetch -q --depth 1 origin ci-logs 2>/dev/null; then
+            git checkout -q -b ci-logs FETCH_HEAD
+          else
+            git checkout -q -b ci-logs
+          fi
+          git add -A
+          git commit -qm "uwp-diag logs for run ${{ github.run_number }}"
+          git push -q origin HEAD:ci-logs
