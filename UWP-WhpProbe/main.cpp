@@ -19,6 +19,7 @@
 #include <string>
 #include <vector>
 #include <thread>
+#include <agile.h>
 
 using namespace Platform;
 using namespace Windows::ApplicationModel::Core;
@@ -414,6 +415,26 @@ static std::string probe_whp()
     return verdict;
 }
 
+static std::string narrow(const std::wstring &w)
+{
+    if (w.empty())
+        return std::string();
+    int n = WideCharToMultiByte(CP_UTF8, 0, w.c_str(), (int)w.size(), nullptr, 0, nullptr, nullptr);
+    std::string out((size_t)n, '\0');
+    WideCharToMultiByte(CP_UTF8, 0, w.c_str(), (int)w.size(), &out[0], n, nullptr, nullptr);
+    return out;
+}
+
+static std::wstring widen(const std::string &s)
+{
+    if (s.empty())
+        return std::wstring();
+    int n = MultiByteToWideChar(CP_UTF8, 0, s.c_str(), (int)s.size(), nullptr, 0);
+    std::wstring out((size_t)n, L'\0');
+    MultiByteToWideChar(CP_UTF8, 0, s.c_str(), (int)s.size(), &out[0], n);
+    return out;
+}
+
 // ------------------------------------------------------------------ driver --
 
 static std::string RunProbe(const std::wstring &dir)
@@ -441,7 +462,7 @@ static std::string RunProbe(const std::wstring &dir)
     for (const std::string &s : g_summary)
         text += s + "\n";
     text += "\nFull report: ";
-    text += std::string(path.begin(), path.end());
+    text += narrow(path);
     return text;
 }
 
@@ -460,11 +481,12 @@ public:
         CoreWindow ^window = CoreWindow::GetForCurrentThread();
         window->Activate();
         std::wstring dir = ApplicationData::Current->LocalFolder->Path->Data();
-        std::thread([window, dir]() {
+        Platform::Agile<CoreWindow ^> agileWindow(window);
+        std::thread([agileWindow, dir]() {
             std::string text = RunProbe(dir);
-            std::wstring wide(text.begin(), text.end());
+            std::wstring wide = widen(text);
             String ^msg = ref new String(wide.c_str());
-            window->Dispatcher->RunAsync(CoreDispatcherPriority::Normal, ref new DispatchedHandler([msg]() {
+            agileWindow.Get()->Dispatcher->RunAsync(CoreDispatcherPriority::Normal, ref new DispatchedHandler([msg]() {
                 MessageDialog ^dlg = ref new MessageDialog(msg, "WHP probe");
                 dlg->ShowAsync();
             }));
