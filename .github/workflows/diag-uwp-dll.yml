@@ -93,7 +93,7 @@ jobs:
         shell: msys2 {0}
         run: |
           set -o pipefail
-          ninja -C build-uwp-embed qemu-system-i386.dll 2>&1 | tee build.log | tail -n 60
+          ninja -k 0 -C build-uwp-embed qemu-system-i386.dll 2>&1 | tee build.log | tail -n 60
           test -f build-uwp-embed/qemu-system-i386.dll
           ls -l build-uwp-embed/qemu-system-i386.dll
 
@@ -104,7 +104,7 @@ jobs:
           mkdir -p logs
           cp configure.log logs/ 2>/dev/null
           cp build-uwp-embed/meson-logs/meson-log.txt logs/meson-log.txt 2>/dev/null
-          if [ -f build.log ]; then tail -n 4000 build.log > logs/build-tail.log; grep -n -E 'error|Error|FAILED' build.log | head -200 > logs/build-errors.log; fi
+          if [ -f build.log ]; then tail -n 4000 build.log > logs/build-tail.log; grep -n -E 'FAILED:|: error:|undefined reference|ld returned|multiple definition' build.log | head -300 > logs/build-errors.log; fi
           # what did configure decide about accelerators?
           grep -n -i -E 'whpx|hax|nvmm|mshv|hvf|kvm|tcg|accel' configure.log > logs/configure-accel-lines.log 2>/dev/null
           ls -la logs
