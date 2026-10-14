@@ -101,6 +101,7 @@ jobs:
         if: always()
         shell: bash
         run: |
+          set +e   # grep exits 1 when it finds nothing; that must not fail this step
           mkdir -p logs
           cp configure.log logs/ 2>/dev/null
           cp build-uwp-embed/meson-logs/meson-log.txt logs/meson-log.txt 2>/dev/null
