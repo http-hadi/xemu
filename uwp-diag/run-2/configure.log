@@ -1,0 +1,1047 @@
+python determined to be '/ucrt64/bin/python3'
+python version: Python 3.14.8
+mkvenv: Creating non-isolated virtual environment at 'pyvenv'
+mkvenv: checking for meson>=1.5.0
+mkvenv: checking for pycotap>=1.1.0
+mkvenv: installing pycotap==1.3.1
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/volk/.git/
+From https://github.com/zeux/volk
+ * branch            3ca312a4f38baa63d8006b6905abbeeb89c8087d -> FETCH_HEAD
+HEAD is now at 3ca312a Merge pull request #296 from zeux/update/350
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/SPIRV-Reflect/.git/
+From https://github.com/KhronosGroup/SPIRV-Reflect
+ * branch            9137a7e529e4e911a4dbd63f1ce71e4b3e8f4cfc -> FETCH_HEAD
+HEAD is now at 9137a7e Update spirv.h for next Vulkan SDK
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/imgui/.git/
+From https://github.com/xemu-project/imgui
+ * branch            b911105fca3ca1b025706dd168e5798070f143a1 -> FETCH_HEAD
+HEAD is now at b911105 Retina display fixes
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/implot/.git/
+From https://github.com/xemu-project/implot
+ * branch            8553562dbb2025fd520f4bed57b094767b96c670 -> FETCH_HEAD
+HEAD is now at 8553562 Add meson packaging
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/genconfig/.git/
+From https://github.com/mborgerson/genconfig
+ * branch            42f85f9a2457e61d7e32542c07723565a284fcd6 -> FETCH_HEAD
+HEAD is now at 42f85f9 Add meson packaging
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/VulkanMemoryAllocator/.git/
+From https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
+ * branch            3aa921224c154a0d2c43912bc88e1c42ce1f7607 -> FETCH_HEAD
+HEAD is now at 3aa9212 Merge pull request #535 from sawickiap/master
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/tomlplusplus/.git/
+From https://github.com/marzer/tomlplusplus
+ * branch            30172438cee64926dc41fdd9c11fb3ba5b2ba9de -> FETCH_HEAD
+HEAD is now at 3017243 v3.4.0
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/nlohmann_json/.git/
+From https://github.com/nlohmann/json
+ * branch            55f93686c01528224f448c19128836e7df245f72 -> FETCH_HEAD
+HEAD is now at 55f9368 Merge branch 'release/3.12.0'
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/keycodemapdb/.git/
+From https://gitlab.com/qemu-project/keycodemapdb
+ * branch            f5772a62ec52591ff6870b7e8ef32482371f22c6 -> FETCH_HEAD
+HEAD is now at f5772a6 Add Qemu qcode support for F13 to F24
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/nv2a_vsh_cpu/.git/
+From https://github.com/xemu-project/nv2a_vsh_cpu
+ * branch            561fe80da57a881f89000256b459440c0178a7ce -> FETCH_HEAD
+HEAD is now at 561fe80 Add default case to apply_operation output type check
+The Meson build system
+Version: 1.12.1
+Source dir: D:/a/xemu/xemu
+Build dir: D:/a/xemu/xemu/build-uwp-embed
+Build type: native build
+Project name: qemu
+Project version: 10.2.0
+C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program scripts/symlink-install-tree.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/symlink-install-tree.py)
+Program sh found: YES (D:\a\_temp\msys64\usr\bin/sh.exe)
+Program python3 found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe)
+Compiler for language rust skipped: feature rust disabled
+Program iasl found: NO
+Program bzip2 found: YES (D:\a\_temp\msys64\ucrt64\bin/bzip2.exe)
+Program python3 found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe)
+Compiler for C supports arguments -fno-pie: YES 
+Compiler for C supports arguments -no-pie: YES 
+Compiler for C supports link arguments -Wl,-z,relro: NO 
+Compiler for C supports link arguments -Wl,-z,now: NO 
+Compiler for C supports link arguments -Wl,--no-seh: YES 
+Compiler for C supports link arguments -Wl,--nxcompat: YES 
+Compiler for C supports link arguments -Wl,--dynamicbase: YES 
+Compiler for C supports link arguments -Wl,--high-entropy-va: YES 
+Checking if "-fzero-call-used-regs=used-gpr" compiles: YES 
+Compiler for C supports arguments -ftrivial-auto-var-init=zero: YES 
+Compiler for C supports arguments -fzero-call-used-regs=used-gpr: YES 
+Compiler for C supports arguments -Wempty-body: YES 
+Compiler for C supports arguments -Wendif-labels: YES 
+Compiler for C supports arguments -Wexpansion-to-defined: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wformat-y2k: YES 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough=2: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wold-style-declaration: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wshadow=local: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -Wno-gnu-variable-sized-type-not-at-end: NO 
+Compiler for C supports arguments -Wno-initializer-overrides: NO 
+Compiler for C supports arguments -Wno-missing-include-dirs: YES 
+Compiler for C supports arguments -Wno-psabi: YES 
+Compiler for C supports arguments -Wno-shift-negative-value: YES 
+Compiler for C supports arguments -Wno-string-plus-int: NO 
+Compiler for C supports arguments -Wno-tautological-type-limit-compare: NO 
+Compiler for C supports arguments -Wno-typedef-redefinition: NO 
+Compiler for C++ supports arguments -Wempty-body: YES 
+Compiler for C++ supports arguments -Wendif-labels: YES 
+Compiler for C++ supports arguments -Wexpansion-to-defined: YES 
+Compiler for C++ supports arguments -Wformat-security: YES 
+Compiler for C++ supports arguments -Wformat-y2k: YES 
+Compiler for C++ supports arguments -Wignored-qualifiers: YES 
+Compiler for C++ supports arguments -Wimplicit-fallthrough=2: YES 
+Compiler for C++ supports arguments -Winit-self: YES 
+Compiler for C++ supports arguments -Wmissing-format-attribute: YES 
+Compiler for C++ supports arguments -Wmissing-prototypes: NO 
+Compiler for C++ supports arguments -Wnested-externs: NO 
+Compiler for C++ supports arguments -Wold-style-declaration: NO 
+Compiler for C++ supports arguments -Wold-style-definition: NO 
+Compiler for C++ supports arguments -Wredundant-decls: YES 
+Compiler for C++ supports arguments -Wshadow=local: YES 
+Compiler for C++ supports arguments -Wstrict-prototypes: NO 
+Compiler for C++ supports arguments -Wtype-limits: YES 
+Compiler for C++ supports arguments -Wwrite-strings: YES 
+Compiler for C++ supports arguments -Wno-gnu-variable-sized-type-not-at-end: NO 
+Compiler for C++ supports arguments -Wno-initializer-overrides: NO 
+Compiler for C++ supports arguments -Wno-missing-include-dirs: YES 
+Compiler for C++ supports arguments -Wno-psabi: YES 
+Compiler for C++ supports arguments -Wno-shift-negative-value: YES 
+Compiler for C++ supports arguments -Wno-string-plus-int: NO 
+Compiler for C++ supports arguments -Wno-tautological-type-limit-compare: NO 
+Compiler for C++ supports arguments -Wno-typedef-redefinition: NO 
+Program cgcc skipped: feature sparse disabled
+Library m found: YES
+Library util found: NO
+Program midl found: NO
+Program widl found: NO
+Library pathcch found: YES
+Library synchronization found: YES
+Library ws2_32 found: YES
+Library crypt32 found: YES
+Windows resource compiler: GNU windres (GNU Binutils) 2.47.20260726
+Found pkg-config: YES (D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe) 3.0.8
+Run-time dependency glib-2.0 found: YES 2.90.1
+Dependency gio-2.0 for host machine skipped: feature gio disabled
+Program scripts/xml-preprocess.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/xml-preprocess.py)
+Dependency pixman-1 for host machine skipped: feature pixman disabled
+Run-time dependency zlib found: YES 1.3.2
+Library aio skipped: feature linux_aio disabled
+Dependency liburing for host machine skipped: feature linux_io_uring disabled
+Dependency libnfs for host machine skipped: feature libnfs disabled
+Dependency appleframeworks(modules: Cocoa, CoreVideo, QuartzCore) for host machine skipped: feature cocoa disabled
+Dependency appleframeworks(modules: vmnet) for host machine skipped: feature vmnet disabled
+Dependency libseccomp for host machine skipped: feature seccomp disabled
+Library cap-ng skipped: feature cap_ng disabled
+Dependency xkbcommon for host machine skipped: feature xkbcommon disabled
+Run-time dependency slirp found: YES 4.9.3
+Library vdeplug skipped: feature vde disabled
+Dependency libpulse for host machine skipped: feature pa disabled
+Dependency alsa for host machine skipped: feature alsa disabled
+Dependency jack for host machine skipped: feature jack disabled
+Dependency libpipewire-0.3 for host machine skipped: feature pipewire disabled
+Dependency sndio for host machine skipped: feature sndio disabled
+Dependency spice-protocol for host machine skipped: feature spice_protocol disabled
+Dependency libiscsi for host machine skipped: feature libiscsi disabled
+Dependency libzstd for host machine skipped: feature zstd disabled
+Dependency qpl for host machine skipped: feature qpl disabled
+Dependency libwd for host machine skipped: feature uadk disabled
+Dependency libwd_comp for host machine skipped: feature uadk disabled
+Dependency qatzip for host machine skipped: feature qatzip disabled
+Dependency virglrenderer for host machine skipped: feature virglrenderer disabled
+Dependency rutabaga_gfx_ffi for host machine skipped: feature rutabaga_gfx disabled
+Dependency blkio for host machine skipped: feature blkio disabled
+Run-time dependency libcurl found: YES 8.22.0
+Dependency igvm for host machine skipped: feature igvm disabled
+Library brlapi skipped: feature brlapi disabled
+Run-time dependency sdl3 found: YES 3.4.18
+Dependency SDL3_image for host machine skipped: feature sdl_image disabled
+Library rados skipped: feature rbd disabled
+Library rbd skipped: feature rbd disabled
+Dependency glusterfs-api for host machine skipped: feature glusterfs disabled
+Dependency libssh for host machine skipped: feature libssh disabled
+Library bz2 skipped: feature bzip2 disabled
+Library lzfse skipped: feature lzfse disabled
+Dependency appleframeworks(modules: CoreAudio) for host machine skipped: feature coreaudio disabled
+Run-time dependency epoxy found: YES 1.5.10
+Run-time dependency gbm found: NO  (tried pkg-config)
+Dependency libcbor for host machine skipped: feature libcbor disabled
+Dependency libgcrypt for host machine skipped: feature gcrypt disabled
+Dependency nettle for host machine skipped: feature nettle disabled
+Dependency capstone for host machine skipped: feature capstone disabled
+Run-time dependency gmp found: YES 6.3.0
+Library pam skipped: feature auth_pam disabled
+Library snappy skipped: feature snappy disabled
+Library lzo2 skipped: feature lzo disabled
+Library numa skipped: feature numa disabled
+Library rdmacm skipped: feature rdma disabled
+Library ibverbs skipped: feature rdma disabled
+Dependency libcacard for host machine skipped: feature smartcard disabled
+Dependency u2f-emu for host machine skipped: feature u2f disabled
+Dependency canokey-qemu for host machine skipped: feature canokey disabled
+Dependency libusbredirparser-0.5 for host machine skipped: feature usb_redir disabled
+Run-time dependency libusb-1.0 found: YES 1.0.30
+Dependency libpmem for host machine skipped: feature libpmem disabled
+Dependency libdaxctl for host machine skipped: feature libdaxctl disabled
+Dependency libkeyutils for host machine skipped: feature libkeyutils disabled
+Checking for function "gettid" : NO 
+Dependency libselinux for host machine skipped: feature selinux disabled
+Dependency fuse3 for host machine skipped: feature fuse disabled
+Dependency libbpf for host machine skipped: feature bpf disabled
+Dependency libdw for host machine skipped: feature libdw disabled
+Found CMake: D:\a\_temp\msys64\ucrt64\bin/cmake.exe (4.4.4)
+Run-time dependency glslang found: YES 16.6.0
+
+Executing subproject volk method cmake for machine: host 
+
+
+| Configuring the build directory with CMake version 4.4.4
+| Running CMake with: -G Ninja -DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe -DCMAKE_INSTALL_PREFIX=/qemu -DCMAKE_INSTALL_LIBDIR=lib -DVOLK_STATIC_DEFINES=VK_NO_PROTOTYPES -DCMAKE_BUILD_TYPE=Debug
+| - build directory:          D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build
+| - source directory:         D:/a/xemu/xemu/subprojects/volk
+| - toolchain file:           D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build/CMakeMesonToolchainFile.cmake
+| - preload file:             D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake
+| - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+| - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+| Put cmake in trace mode, but with variables expanded.
+| Put cmake in trace mode and sets the trace output format.
+| The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+| Put cmake in trace mode and redirect trace output to a file instead of stderr.
+| Trace will be written to cmake_trace.txt
+| -- The C compiler identification is GNU 16.2.0
+| -- Detecting C compiler ABI info
+| -- Detecting C compiler ABI info - done
+| -- Check for working C compiler: D:/a/_temp/msys64/ucrt64/bin/cc.EXE - skipped
+| -- Detecting C compile features
+| -- Detecting C compile features - done
+| volk: using Vulkan_INCLUDE_DIRS from FindVulkan module
+| -- Configuring done (0.6s)
+| CMake Warning (policy) at CMakeLists.txt:35 (add_library):
+| Policy CMP0179 is not set: De-duplication of static libraries on link lines
+| keeps first occurrence.  Run "cmake --help-policy CMP0179" for policy
+| details.  Use the cmake_policy command to set the policy and suppress this
+| warning.
+
+| Since the policy is not set, static libraries de-duplication will keep the
+| last occurrence of the static libraries.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Generating done (0.0s)
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::Headers" selected
+| configuration "(none)", but would select configuration "DEBUG" under the
+| NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::Vulkan" selected
+| configuration "(none)", but would select configuration "DEBUG" under the
+| NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::glslangValidator"
+| selected configuration "(none)", but would select configuration "DEBUG"
+| under the NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::glslangValidator"
+| selected configuration "(none)", but would select configuration "DEBUG"
+| under the NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::glslangValidator"
+| selected configuration "(none)", but would select configuration "DEBUG"
+| under the NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Build files have been written to: D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build
+
+volk| CMake configuration: SUCCEEDED
+volk| CMake project volk 350 has 2 build targets.
+volk| Generated Meson AST: D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/meson.build
+volk| Project name: volk
+volk| Project version: 350
+volk| C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+volk| C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+volk| Build targets in project: 3
+volk| Subproject volk finished.
+
+
+Executing subproject SPIRV-Reflect method cmake for machine: host 
+
+
+| Configuring the build directory with CMake version 4.4.4
+| Running CMake with: -G Ninja -DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe -DCMAKE_INSTALL_PREFIX=/qemu -DCMAKE_INSTALL_LIBDIR=lib -DSPIRV_REFLECT_STATIC_LIB=ON -DCMAKE_BUILD_TYPE=Debug
+| - build directory:          D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build
+| - source directory:         D:/a/xemu/xemu/subprojects/SPIRV-Reflect
+| - toolchain file:           D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeMesonToolchainFile.cmake
+| - preload file:             D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake
+| - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+| - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+| Put cmake in trace mode, but with variables expanded.
+| Put cmake in trace mode and sets the trace output format.
+| The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+| Put cmake in trace mode and redirect trace output to a file instead of stderr.
+| Trace will be written to cmake_trace.txt
+| -- The C compiler identification is GNU 16.2.0
+| -- The CXX compiler identification is GNU 16.2.0
+| CMake Warning (policy) at D:/a/_temp/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program):
+| Policy CMP0126 is not set: set(CACHE) does not remove a normal variable of
+| the same name.  Run "cmake --help-policy CMP0126" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| For compatibility with older versions of CMake, normal variable
+| "CMAKE_TAPI" will be removed from the current scope.
+| Call Stack (most recent call first):
+| D:/a/_temp/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)
+| CMakeLists.txt:3 (project)
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Detecting C compiler ABI info
+| -- Detecting C compiler ABI info - done
+| -- Check for working C compiler: D:/a/_temp/msys64/ucrt64/bin/cc.EXE - skipped
+| -- Detecting C compile features
+| -- Detecting C compile features - done
+| -- Detecting CXX compiler ABI info
+| -- Detecting CXX compiler ABI info - done
+| -- Check for working CXX compiler: D:/a/_temp/msys64/ucrt64/bin/c++.EXE - skipped
+| -- Detecting CXX compile features
+| -- Detecting CXX compile features - done
+| -- Configuring done (1.0s)
+| CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+| Policy CMP0181 is not set: Link command-line fragment variables are parsed
+| and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, the contents of variable
+| 'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+| Policy CMP0181 is not set: Link command-line fragment variables are parsed
+| and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, the contents of variable
+| 'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:116 (add_library):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Generating done (0.0s)
+| CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+| Policy CMP0181 is not set: Link command-line fragment variables are parsed
+| and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, the contents of variable
+| 'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+| Policy CMP0181 is not set: Link command-line fragment variables are parsed
+| and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, the contents of variable
+| 'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Build files have been written to: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build
+
+SPIRV-Reflect| CMake configuration: SUCCEEDED
+SPIRV-Reflect| CMake project spirv-reflect  has 3 build targets.
+SPIRV-Reflect| Generated Meson AST: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/meson.build
+SPIRV-Reflect| Project name: spirv-reflect
+SPIRV-Reflect| Project version: undefined
+SPIRV-Reflect| C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+SPIRV-Reflect| C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+SPIRV-Reflect| C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+SPIRV-Reflect| C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+SPIRV-Reflect| Build targets in project: 6
+SPIRV-Reflect| Subproject SPIRV-Reflect finished.
+
+Run-time dependency samplerate found: YES 0.2.2
+Applying diff file "imgui-uwp.diff"
+
+Executing subproject imgui for machine: host 
+
+imgui| Project name: imgui
+imgui| Project version: 1.91.8
+imgui| C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+imgui| C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+imgui| Library d3dcompiler found: YES
+imgui| Library d3d9 skipped: feature dx9 disabled
+imgui| Library d3d10 skipped: feature dx10 disabled
+imgui| Library d3d11 skipped: feature dx11 disabled
+imgui| Library d3d12 found: YES
+imgui| Dependency appleframeworks(modules: Foundation, AppKit, GameController, Metal) for host machine skipped: feature metal disabled
+imgui| Run-time dependency gl found: YES
+imgui| Library dl found: NO
+imgui| Dependency sdl2 for host machine skipped: feature sdl2_renderer disabled
+imgui| Dependency sdl3 for host machine skipped: feature sdl3_renderer disabled
+imgui| Dependency vulkan for host machine skipped: feature vulkan disabled
+imgui| Has header "webgpu/webgpu.h" skipped: feature webgpu disabled
+imgui| Dependency sdl2 for host machine skipped: feature sdl2 disabled
+imgui| Dependency sdl3 for host machine found: YES 3.4.18 (cached)
+imgui| Dependency allegro-5 for host machine skipped: feature allegro5 disabled
+imgui| Dependency allegro_primitives-5 for host machine skipped: feature allegro5 disabled
+imgui| Build targets in project: 7
+imgui| Subproject imgui finished.
+
+
+Executing subproject implot for machine: host 
+
+implot| Project name: ImGui Plotting Library
+implot| Project version: 0.16
+implot| C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+implot| C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+implot| Build targets in project: 8
+implot| Subproject implot finished.
+
+
+Executing subproject genconfig for machine: host 
+
+genconfig| Project name: genconfig
+genconfig| Project version: 0.1
+genconfig| C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+genconfig| C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+genconfig| Build targets in project: 8
+genconfig| Subproject genconfig finished.
+
+
+Executing subproject VulkanMemoryAllocator method cmake for machine: host 
+
+
+| Configuring the build directory with CMake version 4.4.4
+| Running CMake with: -G Ninja -DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe -DCMAKE_INSTALL_PREFIX=/qemu -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_BUILD_TYPE=Debug
+| - build directory:          D:/a/xemu/xemu/build-uwp-embed/subprojects/VulkanMemoryAllocator/__CMake_build
+| - source directory:         D:/a/xemu/xemu/subprojects/VulkanMemoryAllocator
+| - toolchain file:           D:/a/xemu/xemu/build-uwp-embed/subprojects/VulkanMemoryAllocator/__CMake_build/CMakeMesonToolchainFile.cmake
+| - preload file:             D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake
+| - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+| - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+| Put cmake in trace mode, but with variables expanded.
+| Put cmake in trace mode and sets the trace output format.
+| The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+| Put cmake in trace mode and redirect trace output to a file instead of stderr.
+| Trace will be written to cmake_trace.txt
+| -- The CXX compiler identification is GNU 16.2.0
+| -- Detecting CXX compiler ABI info
+| -- Detecting CXX compiler ABI info - done
+| -- Check for working CXX compiler: D:/a/_temp/msys64/ucrt64/bin/c++.EXE - skipped
+| -- Detecting CXX compile features
+| -- Detecting CXX compile features - done
+| -- Configuring done (0.6s)
+| -- Generating done (0.0s)
+| -- Build files have been written to: D:/a/xemu/xemu/build-uwp-embed/subprojects/VulkanMemoryAllocator/__CMake_build
+
+VulkanMemoryAllocator| CMake configuration: SUCCEEDED
+VulkanMemoryAllocator| CMake project VMA 3.4.0 has 1 build targets.
+VulkanMemoryAllocator| Generated Meson AST: D:/a/xemu/xemu/build-uwp-embed/subprojects/VulkanMemoryAllocator/meson.build
+VulkanMemoryAllocator| Project name: VMA
+VulkanMemoryAllocator| Project version: 3.4.0
+VulkanMemoryAllocator| Build targets in project: 8
+VulkanMemoryAllocator| Subproject VulkanMemoryAllocator finished.
+
+Has header "sys/epoll.h" : NO 
+Has header "linux/magic.h" : NO 
+Has header "linux/btrfs.h" : NO 
+Has header "libdrm/drm.h" : NO 
+Has header "linux/openat2.h" : NO 
+Has header "pty.h" : NO 
+Has header "sys/disk.h" : NO 
+Has header "sys/ioccom.h" : NO 
+Has header "sys/kcov.h" : NO 
+Has header "afunix.h" : YES 
+Checking for function "close_range" : NO 
+Checking for function "accept4" : NO 
+Checking for function "clock_adjtime" : NO 
+Checking for function "dup3" : NO 
+Checking for function "fallocate" : NO 
+Checking for function "posix_fallocate" : NO 
+Checking for function "sched_getcpu" : NO 
+Checking for function "posix_memalign" : NO 
+Checking for function "_aligned_malloc" : YES 
+Checking for function "valloc" : NO 
+Checking for function "memalign" : NO 
+Checking for function "ppoll" : NO 
+Checking for function "preadv" : NO 
+Checking for function "pthread_fchdir_np" : NO 
+Checking for function "sendfile" : NO 
+Checking for function "setns" : NO 
+Checking for function "syncfs" : NO 
+Checking for function "sync_file_range" : NO 
+Checking for function "timerfd_create" : NO 
+Checking for function "getloadavg" : NO 
+Checking for function "htonll" : NO 
+Checking for function "copy_file_range" : NO 
+Checking for function "getifaddrs" : NO 
+Checking for function "openpty" with dependency -lutil: NO 
+Checking for function "strchrnul" : NO 
+Checking for function "system" : YES 
+Header "sys/inotify.h" has symbol "inotify_init" : NO 
+Header "sys/inotify.h" has symbol "inotify_init1" : NO 
+Header "linux/blkzoned.h" has symbol "BLKOPENZONE" : NO 
+Header "sys/epoll.h" has symbol "epoll_create1" : NO 
+Header "linux/falloc.h" has symbol "FALLOC_FL_PUNCH_HOLE" : NO 
+Header "linux/falloc.h" has symbol "FALLOC_FL_ZERO_RANGE" : NO 
+Has header "linux/fiemap.h" : NO 
+Header "sched.h" has symbol "getcpu" : NO 
+Checking for function "getrandom" : NO 
+Header "sys/prctl.h" has symbol "PR_SET_TIMERSLACK" : NO 
+Header "linux/rtnetlink.h" has symbol "IFLA_PROTO_DOWN" : NO 
+Header "sys/sysmacros.h" has symbol "makedev" : NO 
+Header "getopt.h" has symbol "optreset" : NO 
+Header "netinet/in.h" has symbol "IPPROTO_MPTCP" : NO 
+Header "netinet/tcp.h" has symbol "TCP_KEEPCNT" : NO 
+Checking if "Win32 TCP_KEEPCNT" compiles: YES 
+Header "netinet/tcp.h" has symbol "TCP_KEEPIDLE" : NO 
+Header "netinet/tcp.h" has symbol "TCP_KEEPALIVE" : NO 
+Checking if "Win32 TCP_KEEPIDLE" compiles: YES 
+Header "netinet/tcp.h" has symbol "TCP_KEEPINTVL" : NO 
+Checking if "Win32 TCP_KEEPINTVL" compiles: YES 
+Checking whether type "struct sigevent" has member "sigev_notify_thread_id" : NO 
+Checking whether type "struct stat" has member "st_atim" : NO 
+Checking whether type "struct blk_zone" has member "capacity" : NO 
+Checking for type "struct iovec" : NO 
+Checking for type "struct utmpx" : NO 
+Header "asm/hwprobe.h" has symbol "RISCV_HWPROBE_EXT_ZBA" : NO 
+Header "linux/vm_sockets.h" has symbol "AF_VSOCK" : NO 
+Has header "vscoordint.h" : NO 
+Checking if "_lock_file and _unlock_file" links: YES 
+Checking if "mingw setjmp and longjmp" links: NO 
+Checking for size of "void *" : 8 
+Program scripts/minikconf.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/minikconf.py)
+Configuring i386-softmmu-config-target.h using configuration
+Configuring i386-softmmu-config-devices.mak with command
+Reading depfile: D:/a/xemu/xemu/build-uwp-embed/meson-private/i386-softmmu-config-devices.mak.d
+Configuring i386-softmmu-config-devices.h using configuration
+Program scripts/make-config-poison.sh found: YES (sh D:/a/xemu/xemu/scripts/make-config-poison.sh)
+Run-time dependency tomlplusplus found: NO  (tried pkg-config and cmake)
+Looking for a fallback subproject for the dependency tomlplusplus
+
+Executing subproject tomlplusplus for machine: host 
+
+tomlplusplus| Project name: tomlplusplus
+tomlplusplus| Project version: 3.4.0
+tomlplusplus| C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+tomlplusplus| C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+tomlplusplus| Message: target cpu_family: x86_64
+tomlplusplus| Message: target cpu: x86_64
+tomlplusplus| Message: target system: windows
+tomlplusplus| Message: target endian: little
+tomlplusplus| Compiler for C++ supports arguments -ferror-limit=5: NO
+tomlplusplus| Compiler for C++ supports arguments -fmax-errors=5: YES
+tomlplusplus| Compiler for C++ supports arguments -Wno-unused-command-line-argument: NO
+tomlplusplus| Compiler for C++ supports arguments -Wno-reserved-macro-identifier: NO
+tomlplusplus| Compiler for C++ supports arguments -Wno-init-list-lifetime: YES
+tomlplusplus| Compiler for C++ supports arguments -fchar8_t: YES
+tomlplusplus| Compiler for C++ supports arguments /bigobj: NO
+tomlplusplus| Compiler for C++ supports arguments /Gy: NO
+tomlplusplus| Compiler for C++ supports arguments /GF: NO
+tomlplusplus| Compiler for C++ supports arguments /openmp-: NO
+tomlplusplus| Compiler for C++ supports arguments /permissive-: NO
+tomlplusplus| Compiler for C++ supports arguments /utf-8: NO
+tomlplusplus| Compiler for C++ supports arguments /volatile:iso: NO
+tomlplusplus| Compiler for C++ supports arguments /Zc:__cplusplus: NO
+tomlplusplus| Compiler for C++ supports arguments /Zc:inline: NO
+tomlplusplus| Compiler for C++ supports arguments /Zc:externConstexpr: NO
+tomlplusplus| Compiler for C++ supports arguments /Zc:preprocessor: NO
+tomlplusplus| Compiler for C++ supports arguments /Zc:throwingNew: NO
+tomlplusplus| Compiler for C++ supports arguments -D_HAS_EXCEPTIONS=1: YES
+tomlplusplus| Compiler for C++ supports arguments -Wno-c++98-compat: NO
+tomlplusplus| Compiler for C++ supports arguments -Wno-c++98-compat-pedantic: NO
+tomlplusplus| Compiler for C++ supports arguments -Wno-documentation: NO
+tomlplusplus| Compiler for C++ supports arguments -Wno-documentation-unknown-command: NO
+tomlplusplus| Compiler for C++ supports arguments -Wno-switch-enum: YES
+tomlplusplus| Compiler for C++ supports arguments -Wno-covered-switch-default: NO
+tomlplusplus| Compiler for C++ supports arguments -Wno-padded: YES
+tomlplusplus| Compiler for C++ supports arguments -Wno-float-equal: YES
+tomlplusplus| Compiler for C++ supports link arguments /OPT:REF,ICF=3: NO
+tomlplusplus| Compiler for C++ supports link arguments /INCREMENTAL:NO: NO
+tomlplusplus| Compiler for C++ supports arguments -DTOML_HEADER_ONLY=0: YES
+tomlplusplus| Build targets in project: 12
+tomlplusplus| Subproject tomlplusplus finished.
+
+Dependency tomlplusplus for host machine found: YES 3.4.0 (overridden)
+Run-time dependency libxxhash found: YES 0.8.4
+Configuring config-host.h using configuration
+Program scripts/hxtool found: YES (sh D:/a/xemu/xemu/scripts/hxtool)
+Program scripts/shaderinclude.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/shaderinclude.py)
+Program scripts/qapi-gen.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/qapi-gen.py)
+Program scripts/pack-file.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/pack-file.py)
+Program scripts/qemu-version.sh found: YES (sh D:/a/xemu/xemu/scripts/qemu-version.sh)
+Run-time dependency nlohmann_json found: NO  (tried pkg-config and cmake)
+Looking for a fallback subproject for the dependency nlohmann_json
+
+Executing subproject nlohmann_json for machine: host 
+
+nlohmann_json| Project name: nlohmann_json
+nlohmann_json| Project version: 3.12.0
+nlohmann_json| C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+nlohmann_json| C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+nlohmann_json| Build targets in project: 451
+nlohmann_json| Subproject nlohmann_json finished.
+
+Dependency nlohmann_json for host machine from subproject subprojects/nlohmann_json found: YES 3.12.0
+Library d3d11 found: YES
+Library dxgi found: YES
+
+Executing subproject keycodemapdb for machine: host 
+
+keycodemapdb| Project name: keycodemapdb
+keycodemapdb| Project version: undefined
+keycodemapdb| Program tools/keymap-gen found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/subprojects/keycodemapdb/tools/keymap-gen)
+keycodemapdb| Build targets in project: 452
+keycodemapdb| Subproject keycodemapdb finished.
+
+
+Executing subproject nv2a_vsh_cpu method cmake for machine: host 
+
+
+| Configuring the build directory with CMake version 4.4.4
+| Running CMake with: -G Ninja -DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe -DCMAKE_INSTALL_PREFIX=/qemu -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_OSX_ARCHITECTURES=x86_64 -Dnv2a_vsh_cpu_UNIT_TEST=OFF -DCMAKE_BUILD_TYPE=Debug
+| - build directory:          D:/a/xemu/xemu/build-uwp-embed/subprojects/nv2a_vsh_cpu/__CMake_build
+| - source directory:         D:/a/xemu/xemu/subprojects/nv2a_vsh_cpu
+| - toolchain file:           D:/a/xemu/xemu/build-uwp-embed/subprojects/nv2a_vsh_cpu/__CMake_build/CMakeMesonToolchainFile.cmake
+| - preload file:             D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake
+| - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+| - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+| Put cmake in trace mode, but with variables expanded.
+| Put cmake in trace mode and sets the trace output format.
+| The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+| Put cmake in trace mode and redirect trace output to a file instead of stderr.
+| Trace will be written to cmake_trace.txt
+| -- The C compiler identification is GNU 16.2.0
+| -- The CXX compiler identification is GNU 16.2.0
+| CMake Warning (policy) at D:/a/_temp/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program):
+| Policy CMP0126 is not set: set(CACHE) does not remove a normal variable of
+| the same name.  Run "cmake --help-policy CMP0126" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| For compatibility with older versions of CMake, normal variable
+| "CMAKE_TAPI" will be removed from the current scope.
+| Call Stack (most recent call first):
+| D:/a/_temp/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)
+| CMakeLists.txt:3 (project)
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Detecting C compiler ABI info
+| -- Detecting C compiler ABI info - done
+| -- Check for working C compiler: D:/a/_temp/msys64/ucrt64/bin/cc.EXE - skipped
+| -- Detecting C compile features
+| -- Detecting C compile features - done
+| -- Detecting CXX compiler ABI info
+| -- Detecting CXX compiler ABI info - done
+| -- Check for working CXX compiler: D:/a/_temp/msys64/ucrt64/bin/c++.EXE - skipped
+| -- Detecting CXX compile features
+| -- Detecting CXX compile features - done
+| -- Configuring done (1.0s)
+| CMake Warning (policy) at CMakeLists.txt:32 (add_library):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:44 (add_library):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:56 (add_library):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Generating done (0.0s)
+| -- Build files have been written to: D:/a/xemu/xemu/build-uwp-embed/subprojects/nv2a_vsh_cpu/__CMake_build
+
+nv2a_vsh_cpu| CMake configuration: SUCCEEDED
+nv2a_vsh_cpu| CMake project nv2a_vsh_cpu  has 3 build targets.
+nv2a_vsh_cpu| Generated Meson AST: D:/a/xemu/xemu/build-uwp-embed/subprojects/nv2a_vsh_cpu/meson.build
+nv2a_vsh_cpu| Project name: nv2a_vsh_cpu
+nv2a_vsh_cpu| Project version: undefined
+nv2a_vsh_cpu| C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+nv2a_vsh_cpu| C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+nv2a_vsh_cpu| Build targets in project: 486
+nv2a_vsh_cpu| Subproject nv2a_vsh_cpu finished.
+
+Library d3d12 found: YES
+Library dxgi found: YES
+Library dxguid found: YES
+Library d3d11 found: YES
+Library dxgi found: YES
+Library d3dcompiler found: YES
+Program scripts/decodetree.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/decodetree.py)
+Program ../scripts/modules/module_block.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/block/../scripts/modules/module_block.py)
+Program ../scripts/block-coroutine-wrapper.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/block/../scripts/block-coroutine-wrapper.py)
+Program scripts/modinfo-collect.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/modinfo-collect.py)
+Program scripts/modinfo-generate.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/modinfo-generate.py)
+Program nm found: YES
+Program scripts/undefsym.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/undefsym.py)
+Program scripts/feature_to_c.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/feature_to_c.py)
+Program scripts/rust/rust_root_crate.sh found: YES (sh D:/a/xemu/xemu/scripts/rust/rust_root_crate.sh)
+Configuring 50-edk2-i386-secure.json using configuration
+Configuring 50-edk2-x86_64-secure.json using configuration
+Configuring 60-edk2-aarch64.json using configuration
+Configuring 60-edk2-arm.json using configuration
+Configuring 60-edk2-i386.json using configuration
+Configuring 60-edk2-x86_64.json using configuration
+Configuring 60-edk2-loongarch64.json using configuration
+Configuring 60-edk2-riscv64.json using configuration
+Program dtc found: NO
+Program qemu-keymap found: NO
+Program D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/sphinx-build skipped: feature docs disabled
+Program D:/a/xemu/xemu/scripts/decodetree.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/decodetree.py)
+Program diff found: YES (D:\a\_temp\msys64\usr\bin/diff.exe)
+Program dbus-daemon found: NO
+Run-time dependency sysprof-capture-4 found: NO  (tried pkg-config)
+Run-time dependency glib-2.0 found: YES 2.90.1
+Program initrd-stress.sh found: YES (sh D:/a/xemu/xemu/tests/migration-stress/initrd-stress.sh)
+Program scripts/nsis.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/nsis.py)
+Build targets in project: 697
+
+qemu 10.2.0
+
+  Build environment
+    Build directory                 : D:/a/xemu/xemu/build-uwp-embed
+    Source path                     : D:/a/xemu/xemu
+    Download dependencies           : YES
+
+  Directories
+    Build directory                 : D:/a/xemu/xemu/build-uwp-embed
+    Source path                     : D:/a/xemu/xemu
+    Download dependencies           : YES
+    Install prefix                  : /qemu
+    BIOS directory                  : share/
+    firmware path                   : share/qemu-firmware
+    binary directory                : /qemu/.
+    library directory               : /qemu/lib
+    module directory                : lib/
+    libexec directory               : /qemu/libexec
+    include directory               : /qemu/include
+    config directory                : /qemu/etc
+    local state directory           : queried at runtime
+    Doc directory                   : /qemu/share/doc
+
+  Host binaries
+    python                          : D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe (version: 3.14)
+    sphinx-build                    : NO
+    gdb                             : 
+    iasl                            : NO
+    genisoimage                     : 
+    smbd                            : NO
+
+  Configurable features
+    Documentation                   : NO
+    system-mode emulation           : YES
+    user-mode emulation             : NO
+    block layer                     : YES
+    Install blobs                   : YES
+    module support                  : NO
+    fuzzing support                 : NO
+    Audio drivers                   : sdl
+    Trace backends                  : log
+    QOM debugging                   : YES
+    Relocatable install             : YES
+    vhost-kernel support            : NO
+    vhost-net support               : NO
+    vhost-user support              : NO
+    vhost-user-crypto support       : NO
+    vhost-user-blk server support   : NO
+    vhost-vdpa support              : NO
+    build guest agent               : NO
+
+  Compilation
+    host CPU                        : x86_64
+    host endianness                 : little
+    C compiler                      : cc -m64
+    Host C compiler                 : cc -m64
+    C++ compiler                    : c++ -m64
+    Objective-C compiler            : NO
+    Rust support                    : NO
+    CFLAGS                          : -g -O2
+    CXXFLAGS                        : -g -O2
+    QEMU_CFLAGS                     : -mcx16 -msse2 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fno-common -fwrapv -fno-pie -no-pie -ftrivial-auto-var-init=zero -fzero-call-used-regs=used-gpr
+    QEMU_CXXFLAGS                   : -mcx16 -msse2 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fno-common -fwrapv -fno-pie -no-pie -ftrivial-auto-var-init=zero -fzero-call-used-regs=used-gpr -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS
+    QEMU_LDFLAGS                    : -Wl,--no-seh -Wl,--nxcompat -Wl,--dynamicbase -Wl,--high-entropy-va
+    link-time optimization (LTO)    : NO
+    PIE                             : NO
+    static build                    : NO
+    malloc trim support             : NO
+    membarrier                      : NO
+    debug graph lock                : NO
+    debug stack usage               : NO
+    mutex debugging                 : NO
+    memory allocator                : system
+    avx2 optimization               : YES
+    avx512bw optimization           : YES
+    gcov                            : NO
+    thread sanitizer                : NO
+    CFI support                     : NO
+    strip binaries                  : NO
+    sparse                          : NO
+    mingw32 support                 : YES
+
+  Targets and accelerators
+    KVM support                     : NO
+    HVF support                     : NO
+    WHPX support                    : NO
+    NVMM support                    : NO
+    MSHV support                    : NO
+    Xen support                     : NO
+    Xen emulation                   : NO
+    TCG support                     : YES
+    TCG backend                     : native (x86_64)
+    TCG plugins                     : NO
+    TCG debug enabled               : NO
+    target list                     : i386-softmmu
+    default devices                 : YES
+    out of process emulation        : NO
+    vfio-user server                : NO
+
+  Block layer support
+    coroutine backend               : windows
+    coroutine pool                  : YES
+    Block whitelist (rw)            : 
+    Block whitelist (ro)            : 
+    Use block whitelist in tools    : NO
+    VirtFS (9P) support             : NO
+    replication support             : NO
+    bochs support                   : NO
+    cloop support                   : NO
+    dmg support                     : NO
+    qcow v1 support                 : NO
+    vdi support                     : NO
+    vhdx support                    : NO
+    vmdk support                    : NO
+    vpc support                     : NO
+    vvfat support                   : NO
+    qed support                     : NO
+    parallels support               : NO
+    FUSE exports                    : NO
+    VDUSE block exports             : NO
+
+  Crypto
+    TLS priority                    : NORMAL
+    GNUTLS support                  : NO
+    libgcrypt                       : NO
+    nettle                          : NO
+    SM4 ALG support                 : NO
+    SM3 ALG support                 : NO
+    AF_ALG support                  : NO
+    rng-none                        : NO
+    Linux keyring                   : NO
+    Linux keyutils                  : NO
+
+  User interface
+    D-Bus display                   : NO
+    SDL support                     : YES 3.4.18
+    SDL image support               : NO
+    GTK support                     : NO
+    pixman                          : NO
+    VTE support                     : NO
+    PNG support                     : NO
+    VNC support                     : NO
+    spice protocol support          : NO
+    curses support                  : NO
+    brlapi support                  : NO
+
+  Graphics backends
+    VirGL support                   : NO
+    Rutabaga support                : NO
+
+  Audio backends
+    DirectSound support             : NO
+    PipeWire support                : NO
+    JACK support                    : NO
+
+  Network backends
+    AF_XDP support                  : NO
+    passt support                   : NO
+    slirp support                   : YES 4.9.3
+    vde support                     : NO
+    netmap support                  : NO
+    l2tpv3 support                  : NO
+
+  Dependencies
+    libtasn1                        : NO
+    PAM                             : NO
+    iconv support                   : NO
+    blkio support                   : NO
+    curl support                    : YES 8.22.0
+    Multipath support               : NO
+    Linux AIO support               : NO
+    Linux io_uring support          : NO
+    ATTR/XATTR support              : NO
+    RDMA support                    : NO
+    fdt support                     : NO
+    libcap-ng support               : NO
+    bpf support                     : NO
+    rbd support                     : NO
+    smartcard support               : NO
+    U2F support                     : NO
+    libusb                          : YES 1.0.30
+    usb net redir                   : NO
+    OpenGL support (epoxy)          : YES
+    Vulkan support                  : YES
+    GBM                             : NO
+    libiscsi support                : NO
+    libnfs support                  : NO
+    seccomp support                 : NO
+    GlusterFS support               : NO
+    hv-balloon support              : NO
+    TPM support                     : NO
+    IGVM support                    : NO
+    libssh support                  : NO
+    lzo support                     : NO
+    snappy support                  : NO
+    bzip2 support                   : NO
+    lzfse support                   : NO
+    zstd support                    : NO
+    Query Processing Library support: NO
+    UADK Library support            : NO
+    qatzip support                  : NO
+    NUMA host support               : NO
+    capstone                        : NO
+    libpmem support                 : NO
+    libdaxctl support               : NO
+    libcbor support                 : NO
+    libudev                         : NO
+    FUSE lseek                      : NO
+    selinux                         : NO
+    vtune                           : NO
+    libdw                           : NO
+    valgrind                        : NO
+
+  Subprojects (for host machine)
+    SPIRV-Reflect                   : YES
+    VulkanMemoryAllocator           : YES
+    genconfig                       : YES
+    imgui                           : YES
+    implot                          : YES
+    keycodemapdb                    : YES
+    nlohmann_json                   : YES
+    nv2a_vsh_cpu                    : YES
+    tomlplusplus                    : YES
+    volk                            : YES
+
+  User defined options
+    Native files                    : config-meson.cross
+                                      D:/a/xemu/xemu/configs/meson/windows.txt
+    audio_drv_list                  : sdl
+    auto_features                   : disabled
+    b_pie                           : false
+    docs                            : disabled
+    opengl                          : enabled
+    sdl                             : enabled
+    slirp                           : enabled
+    uwp                             : true
+    werror                          : false
+
+Found ninja-1.13.2 at D:/a/_temp/msys64/ucrt64/bin/ninja.exe
+Running postconf script 'D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/symlink-install-tree.py'

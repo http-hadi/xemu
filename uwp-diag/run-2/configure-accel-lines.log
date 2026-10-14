@@ -1,0 +1,10 @@
+890:  Targets and accelerators
+891:    KVM support                     : NO
+892:    HVF support                     : NO
+893:    WHPX support                    : NO
+894:    NVMM support                    : NO
+895:    MSHV support                    : NO
+898:    TCG support                     : YES
+899:    TCG backend                     : native (x86_64)
+900:    TCG plugins                     : NO
+901:    TCG debug enabled               : NO

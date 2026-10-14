@@ -1,0 +1,12 @@
+230:[229/1576] Generating trace/trace-qapi_commands_error_trace_events.c with a custom command
+231:[230/1576] Generating trace/trace-qapi_commands_error_trace_events.h with a custom command
+458:[388/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-error.c.obj
+459:[389/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-error.c.obj
+460:[390/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-error.c.obj
+461:[391/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-error.c.obj
+700:[630/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_error_trace_events.c.obj
+780:[710/1576] Compiling C object libqemuutil.a.p/util_error.c.obj
+784:[714/1576] Compiling C object libqemuutil.a.p/util_error-report.c.obj
+858:[780/1576] Compiling C object libqemuutil.a.p/stubs_error-printf.c.obj
+2081:FAILED: [code=1] libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_renderer.c.obj 
+2083:../hw/xbox/nv2a/pgraph/d3d11/renderer.c:753:13: error: 'CONFIG_DISPLAY_RENDERER_D3D11' undeclared here (not in a function); did you mean 'CONFIG_DISPLAY_RENDERER_D3D12'?

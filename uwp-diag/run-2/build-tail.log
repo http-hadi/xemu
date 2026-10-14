@@ -1,0 +1,2092 @@
+ninja: Entering directory `build-uwp-embed'
+[1/1576] Generating xemu-config.h with a custom command
+[2/1576] Generating config-poison.h with a custom command (wrapped by meson to capture output)
+[3/1576] Generating xemu-version-macro.h with a custom command (wrapped by meson to capture output)
+[4/1576] Generating qemu-img-cmds.h with a custom command (wrapped by meson to capture output)
+[5/1576] Generating qemu-options.def with a custom command (wrapped by meson to capture output)
+[6/1576] Generating trace/trace-root.h with a custom command
+[7/1576] Generating trace/trace-root.c with a custom command
+[8/1576] Generating trace/trace-crypto.h with a custom command
+[9/1576] Generating trace/trace-crypto.c with a custom command
+[10/1576] Generating hmp-commands.h with a custom command (wrapped by meson to capture output)
+[11/1576] Generating trace/trace-qapi.h with a custom command
+[12/1576] Generating trace/trace-qapi.c with a custom command
+[13/1576] Generating hmp-commands-info.h with a custom command (wrapped by meson to capture output)
+[14/1576] Generating trace/trace-qom.h with a custom command
+[15/1576] Generating trace/trace-qom.c with a custom command
+[16/1576] Generating trace/trace-monitor.c with a custom command
+[17/1576] Generating trace/trace-monitor.h with a custom command
+[18/1576] Generating trace/trace-util.h with a custom command
+[19/1576] Generating trace/trace-util.c with a custom command
+[20/1576] Generating trace/trace-gdbstub.h with a custom command
+[21/1576] Generating trace/trace-gdbstub.c with a custom command
+[22/1576] Generating trace/trace-authz.h with a custom command
+[23/1576] Generating trace/trace-authz.c with a custom command
+[24/1576] Generating trace/trace-block.h with a custom command
+[25/1576] Generating trace/trace-block.c with a custom command
+[26/1576] Generating trace/trace-chardev.h with a custom command
+[27/1576] Generating qapi/shared QAPI source files with a custom command
+[28/1576] Generating trace/trace-chardev.c with a custom command
+[29/1576] Generating trace/trace-io.c with a custom command
+[30/1576] Generating trace/trace-io.h with a custom command
+[31/1576] Generating trace/trace-nbd.h with a custom command
+[32/1576] Generating trace/trace-scsi.c with a custom command
+[33/1576] Generating trace/trace-nbd.c with a custom command
+[34/1576] Generating trace/trace-scsi.h with a custom command
+[35/1576] Generating trace/trace-accel_hvf.h with a custom command
+[36/1576] Generating trace/trace-accel_hvf.c with a custom command
+[37/1576] Generating trace/trace-accel_kvm.c with a custom command
+[38/1576] Generating trace/trace-accel_kvm.h with a custom command
+[39/1576] Generating trace/trace-accel_mshv.h with a custom command
+[40/1576] Generating trace/trace-accel_mshv.c with a custom command
+[41/1576] Generating trace/trace-audio.c with a custom command
+[42/1576] Generating trace/trace-audio.h with a custom command
+[43/1576] Generating trace/trace-backends.h with a custom command
+[44/1576] Generating trace/trace-backends.c with a custom command
+[45/1576] Generating trace/trace-ebpf.h with a custom command
+[46/1576] Generating trace/trace-backends_tpm.h with a custom command
+[47/1576] Generating trace/trace-backends_tpm.c with a custom command
+[48/1576] Generating trace/trace-ebpf.c with a custom command
+[49/1576] Generating trace/trace-hw_9pfs.c with a custom command
+[50/1576] Generating trace/trace-hw_9pfs.h with a custom command
+[51/1576] Generating trace/trace-hw_acpi.h with a custom command
+[52/1576] Generating trace/trace-hw_acpi.c with a custom command
+[53/1576] Generating trace/trace-hw_adc.h with a custom command
+[54/1576] Generating trace/trace-hw_alpha.h with a custom command
+[55/1576] Generating trace/trace-hw_alpha.c with a custom command
+[56/1576] Generating trace/trace-hw_adc.c with a custom command
+[57/1576] Generating trace/trace-hw_arm.h with a custom command
+[58/1576] Generating trace/trace-hw_audio.h with a custom command
+[59/1576] Generating trace/trace-hw_audio.c with a custom command
+[60/1576] Generating trace/trace-hw_arm.c with a custom command
+[61/1576] Generating trace/trace-hw_block.h with a custom command
+[62/1576] Generating trace/trace-hw_block.c with a custom command
+[63/1576] Generating trace/trace-hw_char.h with a custom command
+[64/1576] Generating trace/trace-hw_char.c with a custom command
+[65/1576] Generating trace/trace-hw_display.h with a custom command
+[66/1576] Generating trace/trace-hw_dma.c with a custom command
+[67/1576] Generating trace/trace-hw_display.c with a custom command
+[68/1576] Generating trace/trace-hw_dma.h with a custom command
+[69/1576] Generating trace/trace-hw_fsi.h with a custom command
+[70/1576] Generating trace/trace-hw_fsi.c with a custom command
+[71/1576] Generating trace/trace-hw_hyperv.c with a custom command
+[72/1576] Generating trace/trace-hw_i2c.h with a custom command
+[73/1576] Generating trace/trace-hw_hyperv.h with a custom command
+[74/1576] Generating trace/trace-hw_i2c.c with a custom command
+[75/1576] Generating trace/trace-hw_i386_xen.h with a custom command
+[76/1576] Generating trace/trace-hw_i386.c with a custom command
+[77/1576] Generating trace/trace-hw_i386.h with a custom command
+[78/1576] Generating trace/trace-hw_i386_xen.c with a custom command
+[79/1576] Generating trace/trace-hw_i386_kvm.c with a custom command
+[80/1576] Generating trace/trace-hw_i386_kvm.h with a custom command
+[81/1576] Generating trace/trace-hw_ide.c with a custom command
+[82/1576] Generating trace/trace-hw_ide.h with a custom command
+[83/1576] Generating trace/trace-hw_input.h with a custom command
+[84/1576] Generating trace/trace-hw_input.c with a custom command
+[85/1576] Generating trace/trace-hw_isa.h with a custom command
+[86/1576] Generating trace/trace-hw_intc.c with a custom command
+[87/1576] Generating trace/trace-hw_intc.h with a custom command
+[88/1576] Generating trace/trace-hw_isa.c with a custom command
+[89/1576] Generating trace/trace-hw_mem.h with a custom command
+[90/1576] Generating trace/trace-hw_mem.c with a custom command
+[91/1576] Generating trace/trace-hw_mips.h with a custom command
+[92/1576] Generating trace/trace-hw_mips.c with a custom command
+[93/1576] Generating trace/trace-hw_misc_macio.h with a custom command
+[94/1576] Generating trace/trace-hw_misc.c with a custom command
+[95/1576] Generating trace/trace-hw_misc.h with a custom command
+[96/1576] Generating trace/trace-hw_misc_macio.c with a custom command
+[97/1576] Generating trace/trace-hw_net_can.h with a custom command
+[98/1576] Generating trace/trace-hw_net_can.c with a custom command
+[99/1576] Generating trace/trace-hw_net.c with a custom command
+[100/1576] Generating trace/trace-hw_net.h with a custom command
+[101/1576] Generating trace/trace-hw_nubus.h with a custom command
+[102/1576] Generating trace/trace-hw_nubus.c with a custom command
+[103/1576] Generating trace/trace-hw_nvme.h with a custom command
+[104/1576] Generating trace/trace-hw_nvme.c with a custom command
+[105/1576] Generating trace/trace-hw_nvram.h with a custom command
+[106/1576] Generating trace/trace-hw_nvram.c with a custom command
+[107/1576] Generating trace/trace-hw_pci.c with a custom command
+[108/1576] Generating trace/trace-hw_pci.h with a custom command
+[109/1576] Generating trace/trace-hw_pci_host.h with a custom command
+[110/1576] Generating trace/trace-hw_pci_host.c with a custom command
+[111/1576] Generating trace/trace-hw_ppc.h with a custom command
+[112/1576] Generating trace/trace-hw_rtc.h with a custom command
+[113/1576] Generating trace/trace-hw_ppc.c with a custom command
+[114/1576] Generating trace/trace-hw_rtc.c with a custom command
+[115/1576] Generating trace/trace-hw_s390x.h with a custom command
+[116/1576] Generating trace/trace-hw_riscv.c with a custom command
+[117/1576] Generating trace/trace-hw_riscv.h with a custom command
+[118/1576] Generating trace/trace-hw_s390x.c with a custom command
+[119/1576] Generating trace/trace-hw_scsi.c with a custom command
+[120/1576] Generating trace/trace-hw_sd.c with a custom command
+[121/1576] Generating trace/trace-hw_sensor.h with a custom command
+[122/1576] Generating trace/trace-hw_sd.h with a custom command
+[123/1576] Generating trace/trace-hw_scsi.h with a custom command
+[124/1576] Generating trace/trace-hw_sh4.h with a custom command
+[125/1576] Generating trace/trace-hw_sparc.h with a custom command
+[126/1576] Generating trace/trace-hw_sensor.c with a custom command
+[127/1576] Generating trace/trace-hw_sh4.c with a custom command
+[128/1576] Generating trace/trace-hw_sparc64.h with a custom command
+[129/1576] Generating trace/trace-hw_sparc64.c with a custom command
+[130/1576] Generating trace/trace-hw_sparc.c with a custom command
+[131/1576] Generating trace/trace-hw_ssi.c with a custom command
+[132/1576] Generating trace/trace-hw_ssi.h with a custom command
+[133/1576] Generating trace/trace-hw_tpm.h with a custom command
+[134/1576] Generating trace/trace-hw_timer.h with a custom command
+[135/1576] Generating trace/trace-hw_timer.c with a custom command
+[136/1576] Generating trace/trace-hw_tpm.c with a custom command
+[137/1576] Generating trace/trace-hw_uefi.h with a custom command
+[138/1576] Generating trace/trace-hw_uefi.c with a custom command
+[139/1576] Generating trace/trace-hw_ufs.h with a custom command
+[140/1576] Generating trace/trace-hw_ufs.c with a custom command
+[141/1576] Generating trace/trace-hw_vfio.c with a custom command
+[142/1576] Generating trace/trace-hw_vfio_user.h with a custom command
+[143/1576] Generating trace/trace-hw_usb.c with a custom command
+[144/1576] Generating trace/trace-hw_usb.h with a custom command
+[145/1576] Generating trace/trace-hw_vfio.h with a custom command
+[146/1576] Generating trace/trace-hw_vfio_user.c with a custom command
+[147/1576] Generating trace/trace-hw_vmapple.h with a custom command
+[148/1576] Generating trace/trace-hw_virtio.c with a custom command
+[149/1576] Generating trace/trace-hw_virtio.h with a custom command
+[150/1576] Generating trace/trace-hw_vmapple.c with a custom command
+[151/1576] Generating trace/trace-hw_watchdog.c with a custom command
+[152/1576] Generating trace/trace-hw_watchdog.h with a custom command
+[153/1576] Generating trace/trace-hw_xen.h with a custom command
+[154/1576] Generating trace/trace-hw_xen.c with a custom command
+[155/1576] Generating trace/trace-hw_gpio.h with a custom command
+[156/1576] Generating trace/trace-hw_gpio.c with a custom command
+[157/1576] Generating trace/trace-migration.c with a custom command
+[158/1576] Generating trace/trace-migration.h with a custom command
+[159/1576] Generating trace/trace-net.h with a custom command
+[160/1576] Generating trace/trace-replay.h with a custom command
+[161/1576] Generating trace/trace-net.c with a custom command
+[162/1576] Generating trace/trace-replay.c with a custom command
+[163/1576] Generating trace/trace-system.h with a custom command
+[164/1576] Generating trace/trace-system.c with a custom command
+[165/1576] Generating trace/trace-ui.h with a custom command
+[166/1576] Generating trace/trace-ui.c with a custom command
+[167/1576] Generating trace/trace-hw_remote.h with a custom command
+[168/1576] Generating trace/trace-hw_remote.c with a custom command
+[169/1576] Generating trace/trace-hw_xbox_nv2a.h with a custom command
+[170/1576] Generating trace/trace-hw_xbox_nv2a.c with a custom command
+[171/1576] Generating trace/trace-hw_xbox_mcpx_apu.h with a custom command
+[172/1576] Generating trace/trace-hw_xbox_mcpx_apu_dsp.h with a custom command
+[173/1576] Generating trace/trace-hw_xbox_mcpx_apu.c with a custom command
+[174/1576] Generating trace/trace-hw_xbox_mcpx_nvnet.c with a custom command
+[175/1576] Generating trace/trace-hw_xbox_mcpx_apu_dsp.c with a custom command
+[176/1576] Generating trace/trace-hw_xbox_mcpx_nvnet.h with a custom command
+[177/1576] Generating trace/trace-accel_tcg.h with a custom command
+[178/1576] Generating trace/trace-hw_core.h with a custom command
+[179/1576] Generating trace/trace-accel_tcg.c with a custom command
+[180/1576] Generating trace/trace-hw_core.c with a custom command
+[181/1576] Generating trace/trace-target_arm.c with a custom command
+[182/1576] Generating trace/trace-target_arm.h with a custom command
+[183/1576] Generating trace/trace-target_hppa.h with a custom command
+[184/1576] Generating trace/trace-target_arm_hvf.h with a custom command
+[185/1576] Generating trace/trace-target_arm_hvf.c with a custom command
+[186/1576] Generating trace/trace-target_i386.h with a custom command
+[187/1576] Generating trace/trace-target_hppa.c with a custom command
+[188/1576] Generating trace/trace-target_i386.c with a custom command
+[189/1576] Generating trace/trace-target_i386_kvm.h with a custom command
+[190/1576] Generating trace/trace-target_i386_kvm.c with a custom command
+[191/1576] Generating trace/trace-target_mips_tcg.h with a custom command
+[192/1576] Generating trace/trace-target_loongarch.c with a custom command
+[193/1576] Generating trace/trace-target_loongarch.h with a custom command
+[194/1576] Generating trace/trace-target_mips_tcg.c with a custom command
+[195/1576] Generating trace/trace-target_ppc.h with a custom command
+[196/1576] Generating trace/trace-target_ppc.c with a custom command
+[197/1576] Generating trace/trace-target_riscv.h with a custom command
+[198/1576] Generating trace/trace-target_riscv.c with a custom command
+[199/1576] Generating trace/trace-target_s390x.h with a custom command
+[200/1576] Generating trace/trace-target_s390x.c with a custom command
+[201/1576] Generating trace/trace-target_s390x_kvm.h with a custom command
+[202/1576] Generating trace/trace-target_s390x_kvm.c with a custom command
+[203/1576] Generating trace/trace-target_sparc.h with a custom command
+[204/1576] Generating trace/trace-target_sparc.c with a custom command
+[205/1576] Generating trace/trace-qapi_commands_authz_trace_events.h with a custom command
+[206/1576] Generating trace/trace-qapi_commands_block_trace_events.h with a custom command
+[207/1576] Generating trace/trace-qapi_commands_authz_trace_events.c with a custom command
+[208/1576] Generating trace/trace-qapi_commands_block_trace_events.c with a custom command
+[209/1576] Generating trace/trace-qapi_commands_block_core_trace_events.h with a custom command
+[210/1576] Generating trace/trace-qapi_commands_block_core_trace_events.c with a custom command
+[211/1576] Generating trace/trace-qapi_commands_block_export_trace_events.c with a custom command
+[212/1576] Generating trace/trace-qapi_commands_block_export_trace_events.h with a custom command
+[213/1576] Generating trace/trace-qapi_commands_char_trace_events.h with a custom command
+[214/1576] Generating trace/trace-qapi_commands_char_trace_events.c with a custom command
+[215/1576] Generating trace/trace-qapi_commands_common_trace_events.h with a custom command
+[216/1576] Generating trace/trace-qapi_commands_common_trace_events.c with a custom command
+[217/1576] Generating trace/trace-qapi_commands_compat_trace_events.h with a custom command
+[218/1576] Generating trace/trace-qapi_commands_compat_trace_events.c with a custom command
+[219/1576] Generating trace/trace-qapi_commands_control_trace_events.h with a custom command
+[220/1576] Generating trace/trace-qapi_commands_control_trace_events.c with a custom command
+[221/1576] Generating trace/trace-qapi_commands_crypto_trace_events.h with a custom command
+[222/1576] Generating trace/trace-qapi_commands_crypto_trace_events.c with a custom command
+[223/1576] Generating trace/trace-qapi_commands_cxl_trace_events.h with a custom command
+[224/1576] Generating trace/trace-qapi_commands_dump_trace_events.h with a custom command
+[225/1576] Generating trace/trace-qapi_commands_cxl_trace_events.c with a custom command
+[226/1576] Generating trace/trace-qapi_commands_dump_trace_events.c with a custom command
+[227/1576] Generating trace/trace-qapi_commands_ebpf_trace_events.h with a custom command
+[228/1576] Generating trace/trace-qapi_commands_ebpf_trace_events.c with a custom command
+[229/1576] Generating trace/trace-qapi_commands_error_trace_events.c with a custom command
+[230/1576] Generating trace/trace-qapi_commands_error_trace_events.h with a custom command
+[231/1576] Generating trace/trace-qapi_commands_introspect_trace_events.h with a custom command
+[232/1576] Generating trace/trace-qapi_commands_introspect_trace_events.c with a custom command
+[233/1576] Generating trace/trace-qapi_commands_job_trace_events.h with a custom command
+[234/1576] Generating trace/trace-qapi_commands_job_trace_events.c with a custom command
+[235/1576] Generating trace/trace-qapi_commands_machine_common_trace_events.h with a custom command
+[236/1576] Generating trace/trace-qapi_commands_machine_common_trace_events.c with a custom command
+[237/1576] Generating trace/trace-qapi_commands_machine_trace_events.h with a custom command
+[238/1576] Generating trace/trace-qapi_commands_machine_trace_events.c with a custom command
+[239/1576] Generating trace/trace-qapi_commands_machine_s390x_trace_events.h with a custom command
+[240/1576] Generating trace/trace-qapi_commands_machine_s390x_trace_events.c with a custom command
+[241/1576] Generating trace/trace-qapi_commands_migration_trace_events.c with a custom command
+[242/1576] Generating trace/trace-qapi_commands_migration_trace_events.h with a custom command
+[243/1576] Generating trace/trace-qapi_commands_misc_trace_events.h with a custom command
+[244/1576] Generating trace/trace-qapi_commands_misc_trace_events.c with a custom command
+[245/1576] Generating trace/trace-qapi_commands_net_trace_events.h with a custom command
+[246/1576] Generating trace/trace-qapi_commands_net_trace_events.c with a custom command
+[247/1576] Generating trace/trace-qapi_commands_pragma_trace_events.h with a custom command
+[248/1576] Generating trace/trace-qapi_commands_pragma_trace_events.c with a custom command
+[249/1576] Generating trace/trace-qapi_commands_qom_trace_events.h with a custom command
+[250/1576] Generating trace/trace-qapi_commands_qom_trace_events.c with a custom command
+[251/1576] Generating trace/trace-qapi_commands_replay_trace_events.h with a custom command
+[252/1576] Generating trace/trace-qapi_commands_replay_trace_events.c with a custom command
+[253/1576] Generating trace/trace-qapi_commands_run_state_trace_events.h with a custom command
+[254/1576] Generating trace/trace-qapi_commands_run_state_trace_events.c with a custom command
+[255/1576] Generating trace/trace-qapi_commands_sockets_trace_events.h with a custom command
+[256/1576] Generating trace/trace-qapi_commands_sockets_trace_events.c with a custom command
+[257/1576] Generating trace/trace-qapi_commands_stats_trace_events.c with a custom command
+[258/1576] Generating trace/trace-qapi_commands_stats_trace_events.h with a custom command
+[259/1576] Generating trace/trace-qapi_commands_trace_trace_events.h with a custom command
+[260/1576] Generating trace/trace-qapi_commands_trace_trace_events.c with a custom command
+[261/1576] Generating trace/trace-qapi_commands_transaction_trace_events.h with a custom command
+[262/1576] Generating trace/trace-qapi_commands_vfio_trace_events.h with a custom command
+[263/1576] Generating trace/trace-qapi_commands_vfio_trace_events.c with a custom command
+[264/1576] Generating trace/trace-qapi_commands_transaction_trace_events.c with a custom command
+[265/1576] Generating trace/trace-qapi_commands_virtio_trace_events.h with a custom command
+[266/1576] Generating trace/trace-qapi_commands_virtio_trace_events.c with a custom command
+[267/1576] Generating trace/trace-qapi_commands_yank_trace_events.c with a custom command
+[268/1576] Generating trace/trace-qapi_commands_yank_trace_events.h with a custom command
+[269/1576] Generating trace/trace-qapi_commands_accelerator_trace_events.h with a custom command
+[270/1576] Generating trace/trace-qapi_commands_accelerator_trace_events.c with a custom command
+[271/1576] Generating trace/trace-qapi_commands_acpi_trace_events.h with a custom command
+[272/1576] Generating trace/trace-qapi_commands_acpi_trace_events.c with a custom command
+[273/1576] Generating trace/trace-qapi_commands_acpi_hest_trace_events.h with a custom command
+[274/1576] Generating trace/trace-qapi_commands_acpi_hest_trace_events.c with a custom command
+[275/1576] Generating trace/trace-qapi_commands_audio_trace_events.c with a custom command
+[276/1576] Generating trace/trace-qapi_commands_audio_trace_events.h with a custom command
+[277/1576] Generating trace/trace-qapi_commands_cryptodev_trace_events.h with a custom command
+[278/1576] Generating trace/trace-qapi_commands_cryptodev_trace_events.c with a custom command
+[279/1576] Generating trace/trace-qapi_commands_qdev_trace_events.h with a custom command
+[280/1576] Generating trace/trace-qapi_commands_qdev_trace_events.c with a custom command
+[281/1576] Generating trace/trace-qapi_commands_pci_trace_events.c with a custom command
+[282/1576] Generating trace/trace-qapi_commands_pci_trace_events.h with a custom command
+[283/1576] Generating trace/trace-qapi_commands_rocker_trace_events.h with a custom command
+[284/1576] Generating trace/trace-qapi_commands_misc_arm_trace_events.h with a custom command
+[285/1576] Generating trace/trace-qapi_commands_rocker_trace_events.c with a custom command
+[286/1576] Generating trace/trace-qapi_commands_misc_arm_trace_events.c with a custom command
+[287/1576] Generating trace/trace-qapi_commands_misc_i386_trace_events.h with a custom command
+[288/1576] Generating trace/trace-qapi_commands_misc_i386_trace_events.c with a custom command
+[289/1576] Generating trace/trace-qapi_commands_tpm_trace_events.h with a custom command
+[290/1576] Generating trace/trace-qapi_commands_tpm_trace_events.c with a custom command
+[291/1576] Generating trace/trace-qapi_commands_uefi_trace_events.h with a custom command
+[292/1576] Generating trace/trace-qapi_commands_uefi_trace_events.c with a custom command
+[293/1576] Generating trace/trace-qapi_commands_ui_trace_events.h with a custom command
+[294/1576] Generating trace/trace-qapi_commands_ui_trace_events.c with a custom command
+[295/1576] Generating ui/input-keymap-qcode-to-atset2.c.inc with a custom command (wrapped by meson to capture output)
+[296/1576] Generating ui/input-keymap-qcode-to-atset1.c.inc with a custom command (wrapped by meson to capture output)
+[297/1576] Generating ui/input-keymap-linux-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[298/1576] Generating ui/input-keymap-atset1-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[299/1576] Generating ui/input-keymap-qcode-to-atset3.c.inc with a custom command (wrapped by meson to capture output)
+[300/1576] Generating ui/input-keymap-qcode-to-qnum.c.inc with a custom command (wrapped by meson to capture output)
+[301/1576] Generating ui/input-keymap-qcode-to-linux.c.inc with a custom command (wrapped by meson to capture output)
+[302/1576] Generating ui/input-keymap-qnum-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[303/1576] Generating ui/input-keymap-qcode-to-sun.c.inc with a custom command (wrapped by meson to capture output)
+[304/1576] Generating ui/input-keymap-usb-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[305/1576] Generating ui/input-keymap-win32-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[306/1576] Generating ui/input-keymap-xorgevdev-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[307/1576] Generating ui/input-keymap-x11-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[308/1576] Generating ui/input-keymap-xorgkbd-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[309/1576] Generating ui/input-keymap-xorgxquartz-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[310/1576] Generating ui/shader/texture-blit-frag.h with a custom command (wrapped by meson to capture output)
+[311/1576] Generating ui/input-keymap-xorgxwin-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[312/1576] Generating ui/input-keymap-osx-to-qcode.c.inc with a custom command (wrapped by meson to capture output)
+[313/1576] Generating data/controller_mask.png.[ch] with a custom command
+[314/1576] Generating data/controller_mask_s.png.[ch] with a custom command
+[315/1576] Generating ui/shader/texture-blit-vert.h with a custom command (wrapped by meson to capture output)
+[316/1576] Generating data/xmu_mask.png.[ch] with a custom command
+[317/1576] Generating ui/shader/texture-blit-flip-vert.h with a custom command (wrapped by meson to capture output)
+[318/1576] Generating data/logo_sdf.png.[ch] with a custom command
+[319/1576] Generating data/xemu_64x64.png.[ch] with a custom command
+[320/1576] Generating data/abxy.ttf.[ch] with a custom command
+[321/1576] Generating ui/shader/xemu-logo-frag.h with a custom command (wrapped by meson to capture output)
+[322/1576] Generating data/RobotoCondensed-Regular.ttf.[ch] with a custom command
+[323/1576] Generating data/Roboto-Medium.ttf.[ch] with a custom command
+[324/1576] Generating data/font_awesome_6_1_1_solid.min.otf.[ch] with a custom command
+[325/1576] Generating qemu-version.h with a custom command (wrapped by meson to capture output)
+[326/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/misc_cpp_imgui_stdlib.cpp.obj
+[327/1576] Compiling C object subprojects/volk/libvolk.a.p/volk.c.obj
+[328/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-introspect.c.obj
+[329/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types.c.obj
+[330/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit.c.obj
+[331/1576] Compiling C object subprojects/SPIRV-Reflect/libspirv_reflect_static.a.p/spirv_reflect.c.obj
+[332/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands.c.obj
+[333/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-init-commands.c.obj
+[334/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events.c.obj
+[335/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-emit-events.c.obj
+[336/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-builtin-types.c.obj
+[337/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-builtin-visit.c.obj
+[338/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-authz.c.obj
+[339/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-authz.c.obj
+[340/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-authz.c.obj
+[341/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-authz.c.obj
+[342/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-block.c.obj
+[343/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/imgui_demo.cpp.obj
+[344/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-block.c.obj
+[345/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-block.c.obj
+[346/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-block.c.obj
+[347/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-block-core.c.obj
+[348/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-block-core.c.obj
+[349/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-block-export.c.obj
+[350/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-block-core.c.obj
+[351/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-block-export.c.obj
+[352/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-block-export.c.obj
+[353/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-char.c.obj
+[354/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-block-export.c.obj
+[355/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-char.c.obj
+[356/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-char.c.obj
+[357/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-block-core.c.obj
+[358/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-char.c.obj
+[359/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-common.c.obj
+[360/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-common.c.obj
+[361/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-common.c.obj
+[362/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-common.c.obj
+[363/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-compat.c.obj
+[364/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-compat.c.obj
+[365/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-compat.c.obj
+[366/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-compat.c.obj
+[367/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-control.c.obj
+[368/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-control.c.obj
+[369/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-control.c.obj
+[370/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-control.c.obj
+[371/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-crypto.c.obj
+[372/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/imgui.cpp.obj
+../subprojects/imgui/imgui.cpp: In function 'bool ImGui::IsMouseDragging(ImGuiMouseButton, float)':
+../subprojects/imgui/imgui.cpp:9298:31: warning: array subscript [0, 4] is outside array bounds of 'bool [5]' [-Warray-bounds=]
+ 9298 |     if (!g.IO.MouseDown[button])
+      |          ~~~~~~~~~~~~~~~~~~~~~^
+In file included from ../subprojects/imgui/imgui.cpp:1074:
+../subprojects/imgui/imgui.h:2398:17: note: while referencing 'ImGuiIO::MouseDown'
+ 2398 |     bool        MouseDown[5];                       // Mouse buttons: 0=left, 1=right, 2=middle + extras (ImGuiMouseButton_COUNT == 5). Dear ImGui mostly uses left and right buttons. Other buttons allow us to track if the mouse is being used by your application + available to user as a convenience via IsMouse** API.
+      |                 ^~~~~~~~~
+../subprojects/imgui/imgui.cpp: In function 'bool ImGui::IsMouseDown(ImGuiMouseButton)':
+../subprojects/imgui/imgui.cpp:9182:33: warning: array subscript [0, 4] is outside array bounds of 'bool [5]' [-Warray-bounds=]
+ 9182 |     return g.IO.MouseDown[button] && TestKeyOwner(MouseButtonToKey(button), ImGuiKeyOwner_Any); // should be same as IsKeyDown(MouseButtonToKey(button), ImGuiKeyOwner_Any), but this allows legacy code hijacking the io.Mousedown[] array.
+      |            ~~~~~~~~~~~~~~~~~~~~~^
+../subprojects/imgui/imgui.h:2398:17: note: while referencing 'ImGuiIO::MouseDown'
+ 2398 |     bool        MouseDown[5];                       // Mouse buttons: 0=left, 1=right, 2=middle + extras (ImGuiMouseButton_COUNT == 5). Dear ImGui mostly uses left and right buttons. Other buttons allow us to track if the mouse is being used by your application + available to user as a convenience via IsMouse** API.
+      |                 ^~~~~~~~~
+../subprojects/imgui/imgui.cpp: In function 'bool ImGui::IsMouseDown(ImGuiMouseButton, ImGuiID)':
+../subprojects/imgui/imgui.cpp:9189:33: warning: array subscript [0, 4] is outside array bounds of 'bool [5]' [-Warray-bounds=]
+ 9189 |     return g.IO.MouseDown[button] && TestKeyOwner(MouseButtonToKey(button), owner_id); // Should be same as IsKeyDown(MouseButtonToKey(button), owner_id), but this allows legacy code hijacking the io.Mousedown[] array.
+      |            ~~~~~~~~~~~~~~~~~~~~~^
+../subprojects/imgui/imgui.h:2398:17: note: while referencing 'ImGuiIO::MouseDown'
+ 2398 |     bool        MouseDown[5];                       // Mouse buttons: 0=left, 1=right, 2=middle + extras (ImGuiMouseButton_COUNT == 5). Dear ImGui mostly uses left and right buttons. Other buttons allow us to track if the mouse is being used by your application + available to user as a convenience via IsMouse** API.
+      |                 ^~~~~~~~~
+../subprojects/imgui/imgui.cpp: In function 'bool ImGui::IsMouseReleased(ImGuiMouseButton)':
+../subprojects/imgui/imgui.cpp:9223:37: warning: array subscript [0, 4] is outside array bounds of 'bool [5]' [-Warray-bounds=]
+ 9223 |     return g.IO.MouseReleased[button] && TestKeyOwner(MouseButtonToKey(button), ImGuiKeyOwner_Any); // Should be same as IsKeyReleased(MouseButtonToKey(button), ImGuiKeyOwner_Any)
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~^
+../subprojects/imgui/imgui.h:2418:17: note: while referencing 'ImGuiIO::MouseReleased'
+ 2418 |     bool        MouseReleased[5];                   // Mouse button went from Down to !Down
+      |                 ^~~~~~~~~~~~~
+../subprojects/imgui/imgui.cpp: In function 'bool ImGui::IsMouseReleased(ImGuiMouseButton, ImGuiID)':
+../subprojects/imgui/imgui.cpp:9230:37: warning: array subscript [0, 4] is outside array bounds of 'bool [5]' [-Warray-bounds=]
+ 9230 |     return g.IO.MouseReleased[button] && TestKeyOwner(MouseButtonToKey(button), owner_id); // Should be same as IsKeyReleased(MouseButtonToKey(button), owner_id)
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~^
+../subprojects/imgui/imgui.h:2418:17: note: while referencing 'ImGuiIO::MouseReleased'
+ 2418 |     bool        MouseReleased[5];                   // Mouse button went from Down to !Down
+      |                 ^~~~~~~~~~~~~
+../subprojects/imgui/imgui.cpp: In function 'bool ImGui::IsMouseDoubleClicked(ImGuiMouseButton)':
+../subprojects/imgui/imgui.cpp:9248:41: warning: array subscript [0, 4] is outside array bounds of 'ImU16 [5]' {aka 'short unsigned int [5]'} [-Warray-bounds=]
+ 9248 |     return g.IO.MouseClickedCount[button] == 2 && TestKeyOwner(MouseButtonToKey(button), ImGuiKeyOwner_Any);
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+../subprojects/imgui/imgui.h:2416:17: note: while referencing 'ImGuiIO::MouseClickedCount'
+ 2416 |     ImU16       MouseClickedCount[5];               // == 0 (not clicked), == 1 (same as MouseClicked[]), == 2 (double-clicked), == 3 (triple-clicked) etc. when going from !Down to Down
+      |                 ^~~~~~~~~~~~~~~~~
+../subprojects/imgui/imgui.cpp: In function 'bool ImGui::IsMouseDoubleClicked(ImGuiMouseButton, ImGuiID)':
+../subprojects/imgui/imgui.cpp:9255:41: warning: array subscript [0, 4] is outside array bounds of 'ImU16 [5]' {aka 'short unsigned int [5]'} [-Warray-bounds=]
+ 9255 |     return g.IO.MouseClickedCount[button] == 2 && TestKeyOwner(MouseButtonToKey(button), owner_id);
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+../subprojects/imgui/imgui.h:2416:17: note: while referencing 'ImGuiIO::MouseClickedCount'
+ 2416 |     ImU16       MouseClickedCount[5];               // == 0 (not clicked), == 1 (same as MouseClicked[]), == 2 (double-clicked), == 3 (triple-clicked) etc. when going from !Down to Down
+      |                 ^~~~~~~~~~~~~~~~~
+In file included from ../subprojects/imgui/imgui.cpp:1076:
+In function 'ImGuiKeyOwnerData* ImGui::GetKeyOwnerData(ImGuiContext*, ImGuiKey)',
+    inlined from 'void ImGui::ShowMetricsWindow(bool*)' at ../subprojects/imgui/imgui.cpp:15824:68:
+../subprojects/imgui/imgui_internal.h:3226:239: warning: array subscript 154 is above array bounds of 'ImGuiKeyOwnerData [154]' [-Warray-bounds=]
+ 3226 |     inline ImGuiKeyOwnerData* GetKeyOwnerData(ImGuiContext* ctx, ImGuiKey key)          { if (key & ImGuiMod_Mask_) key = ConvertSingleModFlagToKey(key); IM_ASSERT(IsNamedKey(key)); return &ctx->KeysOwnerData[key - ImGuiKey_NamedKey_BEGIN]; }
+      |                                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+../subprojects/imgui/imgui_internal.h: In function 'void ImGui::ShowMetricsWindow(bool*)':
+../subprojects/imgui/imgui_internal.h:2140:29: note: while referencing 'ImGuiContext::KeysOwnerData'
+ 2140 |     ImGuiKeyOwnerData       KeysOwnerData[ImGuiKey_NamedKey_COUNT];
+      |                             ^~~~~~~~~~~~~
+In function 'ImGuiKeyOwnerData* ImGui::GetKeyOwnerData(ImGuiContext*, ImGuiKey)',
+    inlined from 'void ImGui::ShowMetricsWindow(bool*)' at ../subprojects/imgui/imgui.cpp:15824:68:
+../subprojects/imgui/imgui_internal.h:3226:239: warning: array subscript 154 is above array bounds of 'ImGuiKeyOwnerData [154]' [-Warray-bounds=]
+ 3226 |     inline ImGuiKeyOwnerData* GetKeyOwnerData(ImGuiContext* ctx, ImGuiKey key)          { if (key & ImGuiMod_Mask_) key = ConvertSingleModFlagToKey(key); IM_ASSERT(IsNamedKey(key)); return &ctx->KeysOwnerData[key - ImGuiKey_NamedKey_BEGIN]; }
+      |                                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+../subprojects/imgui/imgui_internal.h: In function 'void ImGui::ShowMetricsWindow(bool*)':
+../subprojects/imgui/imgui_internal.h:2140:29: note: while referencing 'ImGuiContext::KeysOwnerData'
+ 2140 |     ImGuiKeyOwnerData       KeysOwnerData[ImGuiKey_NamedKey_COUNT];
+      |                             ^~~~~~~~~~~~~
+[373/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-crypto.c.obj
+[374/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-crypto.c.obj
+[375/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-cxl.c.obj
+[376/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-cxl.c.obj
+[377/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-crypto.c.obj
+[378/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-cxl.c.obj
+[379/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-dump.c.obj
+[380/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-dump.c.obj
+[381/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-dump.c.obj
+[382/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-cxl.c.obj
+[383/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-dump.c.obj
+[384/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-ebpf.c.obj
+[385/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-ebpf.c.obj
+[386/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-ebpf.c.obj
+[387/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-ebpf.c.obj
+[388/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-error.c.obj
+[389/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-error.c.obj
+[390/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-error.c.obj
+[391/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-error.c.obj
+[392/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-introspect.c.obj
+[393/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-introspect.c.obj
+[394/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-introspect.c.obj
+[395/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-job.c.obj
+[396/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-introspect.c.obj
+[397/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-job.c.obj
+[398/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-job.c.obj
+[399/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-machine-common.c.obj
+[400/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-machine-common.c.obj
+[401/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-job.c.obj
+[402/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-machine-common.c.obj
+[403/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-machine-common.c.obj
+[404/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-machine.c.obj
+[405/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-machine.c.obj
+[406/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-machine-s390x.c.obj
+[407/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-machine.c.obj
+[408/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-machine-s390x.c.obj
+[409/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-machine.c.obj
+[410/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-machine-s390x.c.obj
+[411/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-machine-s390x.c.obj
+[412/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-migration.c.obj
+[413/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-migration.c.obj
+[414/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-misc.c.obj
+[415/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-migration.c.obj
+[416/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-misc.c.obj
+[417/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-migration.c.obj
+[418/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-misc.c.obj
+[419/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-net.c.obj
+[420/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-misc.c.obj
+[421/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-net.c.obj
+[422/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-net.c.obj
+[423/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-pragma.c.obj
+[424/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-net.c.obj
+[425/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-pragma.c.obj
+[426/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-pragma.c.obj
+[427/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-pragma.c.obj
+[428/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-qom.c.obj
+[429/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-qom.c.obj
+[430/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-replay.c.obj
+[431/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-qom.c.obj
+[432/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-replay.c.obj
+[433/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-qom.c.obj
+[434/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-replay.c.obj
+[435/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-replay.c.obj
+[436/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-run-state.c.obj
+[437/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-run-state.c.obj
+[438/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-run-state.c.obj
+[439/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-run-state.c.obj
+[440/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-sockets.c.obj
+[441/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-sockets.c.obj
+[442/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-sockets.c.obj
+[443/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-stats.c.obj
+[444/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-sockets.c.obj
+[445/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-stats.c.obj
+[446/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-stats.c.obj
+[447/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-stats.c.obj
+[448/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-trace.c.obj
+[449/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-trace.c.obj
+[450/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-trace.c.obj
+[451/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-trace.c.obj
+[452/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-transaction.c.obj
+[453/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-transaction.c.obj
+[454/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-transaction.c.obj
+[455/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-vfio.c.obj
+[456/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-transaction.c.obj
+[457/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-vfio.c.obj
+[458/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-vfio.c.obj
+[459/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-vfio.c.obj
+[460/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-virtio.c.obj
+[461/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-virtio.c.obj
+[462/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-virtio.c.obj
+[463/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-virtio.c.obj
+[464/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-yank.c.obj
+[465/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-yank.c.obj
+[466/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-yank.c.obj
+[467/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-accelerator.c.obj
+[468/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-yank.c.obj
+[469/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-accelerator.c.obj
+[470/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-accelerator.c.obj
+[471/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-accelerator.c.obj
+[472/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-acpi.c.obj
+[473/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-acpi.c.obj
+[474/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-acpi.c.obj
+[475/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-acpi.c.obj
+[476/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-acpi-hest.c.obj
+[477/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-acpi-hest.c.obj
+[478/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-acpi-hest.c.obj
+[479/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-acpi-hest.c.obj
+[480/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-audio.c.obj
+[481/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-audio.c.obj
+[482/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-audio.c.obj
+[483/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-audio.c.obj
+[484/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-cryptodev.c.obj
+[485/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-cryptodev.c.obj
+[486/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-cryptodev.c.obj
+[487/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-cryptodev.c.obj
+[488/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-qdev.c.obj
+[489/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-qdev.c.obj
+[490/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-qdev.c.obj
+[491/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-qdev.c.obj
+[492/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-pci.c.obj
+[493/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-pci.c.obj
+[494/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-pci.c.obj
+[495/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-pci.c.obj
+[496/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-rocker.c.obj
+[497/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-rocker.c.obj
+[498/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-rocker.c.obj
+[499/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-rocker.c.obj
+[500/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-misc-arm.c.obj
+[501/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-misc-arm.c.obj
+[502/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-misc-arm.c.obj
+[503/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-misc-arm.c.obj
+[504/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-misc-i386.c.obj
+[505/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-tpm.c.obj
+[506/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-misc-i386.c.obj
+[507/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-misc-i386.c.obj
+[508/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-misc-i386.c.obj
+[509/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-tpm.c.obj
+[510/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-tpm.c.obj
+[511/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-tpm.c.obj
+[512/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-uefi.c.obj
+[513/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-uefi.c.obj
+[514/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-uefi.c.obj
+[515/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-uefi.c.obj
+[516/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-types-ui.c.obj
+[517/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-events-ui.c.obj
+[518/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-root.c.obj
+[519/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-visit-ui.c.obj
+[520/1576] Compiling C object libqemuutil.a.p/meson-generated_.._qapi_qapi-commands-ui.c.obj
+[521/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-crypto.c.obj
+[522/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi.c.obj
+[523/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qom.c.obj
+[524/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-monitor.c.obj
+[525/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-util.c.obj
+[526/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-gdbstub.c.obj
+[527/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-authz.c.obj
+[528/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-block.c.obj
+[529/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-chardev.c.obj
+[530/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-io.c.obj
+[531/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-scsi.c.obj
+[532/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-nbd.c.obj
+[533/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-accel_hvf.c.obj
+[534/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-accel_mshv.c.obj
+[535/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-accel_kvm.c.obj
+[536/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-audio.c.obj
+[537/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-backends.c.obj
+[538/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-backends_tpm.c.obj
+[539/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-ebpf.c.obj
+[540/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_9pfs.c.obj
+[541/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_acpi.c.obj
+[542/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_adc.c.obj
+[543/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_arm.c.obj
+[544/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_alpha.c.obj
+[545/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_audio.c.obj
+[546/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_char.c.obj
+[547/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_block.c.obj
+[548/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_fsi.c.obj
+[549/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_display.c.obj
+[550/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_dma.c.obj
+[551/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_hyperv.c.obj
+[552/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_i2c.c.obj
+[553/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_i386.c.obj
+[554/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_i386_xen.c.obj
+[555/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_i386_kvm.c.obj
+[556/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_ide.c.obj
+[557/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_input.c.obj
+[558/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_isa.c.obj
+[559/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_intc.c.obj
+[560/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_mem.c.obj
+[561/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_mips.c.obj
+[562/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_misc.c.obj
+[563/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_misc_macio.c.obj
+[564/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_net.c.obj
+[565/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_net_can.c.obj
+[566/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_nubus.c.obj
+[567/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_nvme.c.obj
+[568/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_nvram.c.obj
+[569/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_pci.c.obj
+[570/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_ppc.c.obj
+[571/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_pci_host.c.obj
+[572/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_rtc.c.obj
+[573/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_riscv.c.obj
+[574/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_s390x.c.obj
+[575/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_scsi.c.obj
+[576/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_sd.c.obj
+[577/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_sensor.c.obj
+[578/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_sh4.c.obj
+[579/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_sparc.c.obj
+[580/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_sparc64.c.obj
+[581/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_ssi.c.obj
+[582/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_timer.c.obj
+[583/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_uefi.c.obj
+[584/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_tpm.c.obj
+[585/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_ufs.c.obj
+[586/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_usb.c.obj
+[587/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_vfio.c.obj
+[588/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_vfio_user.c.obj
+[589/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_virtio.c.obj
+[590/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_vmapple.c.obj
+[591/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_watchdog.c.obj
+[592/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_xen.c.obj
+[593/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_gpio.c.obj
+[594/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-migration.c.obj
+[595/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-net.c.obj
+[596/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-replay.c.obj
+[597/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-system.c.obj
+[598/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-ui.c.obj
+[599/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_remote.c.obj
+[600/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_xbox_nv2a.c.obj
+[601/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_xbox_mcpx_apu.c.obj
+[602/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_xbox_mcpx_apu_dsp.c.obj
+[603/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_xbox_mcpx_nvnet.c.obj
+[604/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-hw_core.c.obj
+[605/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-accel_tcg.c.obj
+[606/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_arm_hvf.c.obj
+[607/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_arm.c.obj
+[608/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_hppa.c.obj
+[609/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_i386.c.obj
+[610/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_i386_kvm.c.obj
+[611/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_loongarch.c.obj
+[612/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_mips_tcg.c.obj
+[613/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_ppc.c.obj
+[614/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_riscv.c.obj
+[615/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_s390x.c.obj
+[616/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_s390x_kvm.c.obj
+[617/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-target_sparc.c.obj
+[618/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_authz_trace_events.c.obj
+[619/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_block_trace_events.c.obj
+[620/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_block_core_trace_events.c.obj
+[621/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_block_export_trace_events.c.obj
+[622/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_common_trace_events.c.obj
+[623/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_compat_trace_events.c.obj
+[624/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_char_trace_events.c.obj
+[625/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_control_trace_events.c.obj
+[626/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_crypto_trace_events.c.obj
+[627/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_cxl_trace_events.c.obj
+[628/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_dump_trace_events.c.obj
+[629/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_ebpf_trace_events.c.obj
+[630/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_error_trace_events.c.obj
+[631/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_job_trace_events.c.obj
+[632/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_introspect_trace_events.c.obj
+[633/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_machine_common_trace_events.c.obj
+[634/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_machine_trace_events.c.obj
+[635/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_machine_s390x_trace_events.c.obj
+[636/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_migration_trace_events.c.obj
+[637/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_misc_trace_events.c.obj
+[638/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_net_trace_events.c.obj
+[639/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_pragma_trace_events.c.obj
+[640/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_qom_trace_events.c.obj
+[641/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_replay_trace_events.c.obj
+[642/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_sockets_trace_events.c.obj
+[643/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_run_state_trace_events.c.obj
+[644/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_trace_trace_events.c.obj
+[645/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_stats_trace_events.c.obj
+[646/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_transaction_trace_events.c.obj
+[647/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_vfio_trace_events.c.obj
+[648/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_virtio_trace_events.c.obj
+[649/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_yank_trace_events.c.obj
+[650/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_accelerator_trace_events.c.obj
+[651/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_acpi_trace_events.c.obj
+[652/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_acpi_hest_trace_events.c.obj
+[653/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_audio_trace_events.c.obj
+[654/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_cryptodev_trace_events.c.obj
+[655/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_pci_trace_events.c.obj
+[656/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_qdev_trace_events.c.obj
+[657/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_misc_arm_trace_events.c.obj
+[658/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_rocker_trace_events.c.obj
+[659/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_misc_i386_trace_events.c.obj
+[660/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_ui_trace_events.c.obj
+[661/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_tpm_trace_events.c.obj
+[662/1576] Compiling C object libqemuutil.a.p/meson-generated_.._trace_trace-qapi_commands_uefi_trace_events.c.obj
+[663/1576] Compiling C object libqemuutil.a.p/qapi_opts-visitor.c.obj
+[664/1576] Compiling C object libqemuutil.a.p/qapi_qapi-clone-visitor.c.obj
+[665/1576] Compiling C object libqemuutil.a.p/qapi_qapi-util.c.obj
+[666/1576] Compiling C object libqemuutil.a.p/qapi_qapi-forward-visitor.c.obj
+[667/1576] Compiling C object libqemuutil.a.p/qapi_qapi-dealloc-visitor.c.obj
+[668/1576] Compiling C object libqemuutil.a.p/qapi_qobject-output-visitor.c.obj
+[669/1576] Compiling C object libqemuutil.a.p/qapi_qapi-visit-core.c.obj
+[670/1576] Compiling C object libqemuutil.a.p/qapi_qobject-input-visitor.c.obj
+[671/1576] Compiling C object libqemuutil.a.p/qapi_qapi-type-helpers.c.obj
+[672/1576] Compiling C object libqemuutil.a.p/qapi_string-output-visitor.c.obj
+[673/1576] Compiling C object libqemuutil.a.p/qapi_string-input-visitor.c.obj
+[674/1576] Compiling C object libqemuutil.a.p/qapi_qmp-event.c.obj
+[675/1576] Compiling C object libqemuutil.a.p/qobject_qnull.c.obj
+[676/1576] Compiling C object libqemuutil.a.p/qapi_qmp-dispatch.c.obj
+[677/1576] Compiling C object libqemuutil.a.p/qapi_qmp-registry.c.obj
+[678/1576] Compiling C object libqemuutil.a.p/qobject_qnum.c.obj
+[679/1576] Compiling C object libqemuutil.a.p/qobject_qstring.c.obj
+[680/1576] Compiling C object libqemuutil.a.p/qobject_qlist.c.obj
+[681/1576] Compiling C object libqemuutil.a.p/qobject_qjson.c.obj
+[682/1576] Compiling C object libqemuutil.a.p/qobject_qbool.c.obj
+[683/1576] Compiling C object libqemuutil.a.p/qobject_qobject.c.obj
+[684/1576] Compiling C object libqemuutil.a.p/qobject_qlit.c.obj
+[685/1576] Compiling C object libqemuutil.a.p/qobject_qdict.c.obj
+[686/1576] Compiling C object libqemuutil.a.p/qobject_json-streamer.c.obj
+[687/1576] Compiling C object libqemuutil.a.p/qobject_json-lexer.c.obj
+[688/1576] Compiling C object libqemuutil.a.p/qobject_json-parser.c.obj
+[689/1576] Compiling C object libqemuutil.a.p/qobject_json-writer.c.obj
+[690/1576] Compiling C object libqemuutil.a.p/qobject_block-qdict.c.obj
+[691/1576] Compiling C object libqemuutil.a.p/util_osdep.c.obj
+[692/1576] Compiling C object libqemuutil.a.p/util_unicode.c.obj
+[693/1576] Compiling C object libqemuutil.a.p/util_qemu-timer-common.c.obj
+[694/1576] Compiling C object libqemuutil.a.p/util_thread-context.c.obj
+[695/1576] Compiling C object libqemuutil.a.p/util_aio-win32.c.obj
+[696/1576] Compiling C object libqemuutil.a.p/util_cutils.c.obj
+[697/1576] Compiling C object libqemuutil.a.p/util_event_notifier-win32.c.obj
+[698/1576] Compiling C object libqemuutil.a.p/util_defer-call.c.obj
+[699/1576] Compiling C object libqemuutil.a.p/util_qemu-thread-win32.c.obj
+[700/1576] Compiling C object libqemuutil.a.p/util_path.c.obj
+[701/1576] Compiling C object libqemuutil.a.p/util_oslib-win32.c.obj
+[702/1576] Compiling C object libqemuutil.a.p/util_envlist.c.obj
+[703/1576] Compiling C object libqemuutil.a.p/util_module.c.obj
+[704/1576] Compiling C object libqemuutil.a.p/util_event.c.obj
+[705/1576] Compiling C object libqemuutil.a.p/util_bitops.c.obj
+[706/1576] Compiling C object libqemuutil.a.p/util_fifo8.c.obj
+[707/1576] Compiling C object libqemuutil.a.p/util_host-utils.c.obj
+[708/1576] Compiling C object libqemuutil.a.p/util_cacheflush.c.obj
+[709/1576] Compiling C object libqemuutil.a.p/util_bitmap.c.obj
+[710/1576] Compiling C object libqemuutil.a.p/util_error.c.obj
+[711/1576] Compiling C object libqemuutil.a.p/util_id.c.obj
+[712/1576] Compiling C object libqemuutil.a.p/util_qemu-print.c.obj
+[713/1576] Compiling C object libqemuutil.a.p/util_notify.c.obj
+[714/1576] Compiling C object libqemuutil.a.p/util_error-report.c.obj
+[715/1576] Compiling C object libqemuutil.a.p/util_qemu-config.c.obj
+[716/1576] Compiling C object libqemuutil.a.p/util_qemu-progress.c.obj
+[717/1576] Compiling C object libqemuutil.a.p/util_getauxval.c.obj
+[718/1576] Compiling C object libqemuutil.a.p/util_crc32c.c.obj
+[719/1576] Compiling C object libqemuutil.a.p/util_uuid.c.obj
+[720/1576] Compiling C object libqemuutil.a.p/util_keyval.c.obj
+[721/1576] Compiling C object libqemuutil.a.p/util_qemu-option.c.obj
+[722/1576] Compiling C object libqemuutil.a.p/util_rcu.c.obj
+[723/1576] Compiling C object libqemuutil.a.p/util_qdist.c.obj
+[724/1576] Compiling C object libqemuutil.a.p/util_range.c.obj
+[725/1576] Compiling C object libqemuutil.a.p/util_log.c.obj
+[726/1576] Compiling C object libqemuutil.a.p/util_qsp.c.obj
+[727/1576] Compiling C object libqemuutil.a.p/util_qht.c.obj
+[728/1576] Compiling C object libqemuutil.a.p/util_reserved-region.c.obj
+[729/1576] Compiling C object libqemuutil.a.p/util_stats64.c.obj
+[730/1576] Compiling C object libqemuutil.a.p/util_systemd.c.obj
+[731/1576] Compiling C object libqemuutil.a.p/util_transactions.c.obj
+[732/1576] Compiling C object libqemuutil.a.p/util_int128.c.obj
+[733/1576] Compiling C object libqemuutil.a.p/util_guest-random.c.obj
+[734/1576] Compiling C object libqemuutil.a.p/util_fast-hash.c.obj
+[735/1576] Compiling C object libqemuutil.a.p/util_memalign.c.obj
+[736/1576] Compiling C object libqemuutil.a.p/util_lockcnt.c.obj
+[737/1576] Compiling C object libqemuutil.a.p/util_interval-tree.c.obj
+[738/1576] Compiling C object libqemuutil.a.p/util_crc-ccitt.c.obj
+[739/1576] Compiling C object libqemuutil.a.p/util_aiocb.c.obj
+[740/1576] Compiling C object libqemuutil.a.p/util_base64.c.obj
+[741/1576] Compiling C object libqemuutil.a.p/util_main-loop.c.obj
+[742/1576] Compiling C object libqemuutil.a.p/util_async.c.obj
+[743/1576] Compiling C object libqemuutil.a.p/util_qemu-coroutine.c.obj
+[744/1576] Compiling C object libqemuutil.a.p/util_qemu-coroutine-lock.c.obj
+[745/1576] Compiling C object libqemuutil.a.p/util_qemu-coroutine-io.c.obj
+[746/1576] Compiling C object libqemuutil.a.p/util_miniz_miniz.c.obj
+../util/miniz/miniz.c: In function 'tdefl_compressor_alloc':
+../util/miniz/miniz.c:2190:19: warning: old-style function definition [-Wold-style-definition]
+ 2190 | tdefl_compressor *tdefl_compressor_alloc()
+      |                   ^~~~~~~~~~~~~~~~~~~~~~
+../util/miniz/miniz.c: In function 'tinfl_decompressor_alloc':
+../util/miniz/miniz.c:2931:21: warning: old-style function definition [-Wold-style-definition]
+ 2931 | tinfl_decompressor *tinfl_decompressor_alloc()
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~
+[747/1576] Compiling C object libqemuutil.a.p/util_coroutine-windows.c.obj
+[748/1576] Compiling C object libqemuutil.a.p/util_thread-pool.c.obj
+[749/1576] Compiling C object libqemuutil.a.p/util_qemu-timer.c.obj
+[750/1576] Compiling C object libqemuutil.a.p/util_aio-wait.c.obj
+[751/1576] Compiling C object libqemuutil.a.p/util_qemu-sockets.c.obj
+[752/1576] Compiling C object libqemuutil.a.p/util_buffer.c.obj
+[753/1576] Compiling C object libqemuutil.a.p/util_bufferiszero.c.obj
+[754/1576] Compiling C object libqemuutil.a.p/util_hexdump.c.obj
+[755/1576] Compiling C object libqemuutil.a.p/util_hbitmap.c.obj
+[756/1576] Compiling C object libqemuutil.a.p/util_iova-tree.c.obj
+[757/1576] Compiling C object libqemuutil.a.p/util_nvdimm-utils.c.obj
+[758/1576] Compiling C object libqemuutil.a.p/util_block-helpers.c.obj
+[759/1576] Compiling C object libqemuutil.a.p/util_iov.c.obj
+[760/1576] Compiling C object libqemuutil.a.p/util_qemu-co-shared-resource.c.obj
+[761/1576] Compiling C object libqemuutil.a.p/util_qemu-coroutine-sleep.c.obj
+[762/1576] Compiling C object libqemuutil.a.p/util_qemu-co-timeout.c.obj
+[763/1576] Compiling C object libqemuutil.a.p/util_timed-average.c.obj
+[764/1576] Compiling C object libqemuutil.a.p/util_readline.c.obj
+[765/1576] Compiling C object libqemuutil.a.p/util_throttle.c.obj
+[766/1576] Compiling C object libqemuutil.a.p/util_rc4.c.obj
+[767/1576] Compiling C object libqemuutil.a.p/util_cpuinfo-i386.c.obj
+[768/1576] Compiling C object libqemuutil.a.p/util_filemonitor-stub.c.obj
+[769/1576] Compiling C object libqemuutil.a.p/util_yank.c.obj
+[770/1576] Compiling C object libqemuutil.a.p/util_sha1.c.obj
+[771/1576] Compiling C object libqemuutil.a.p/util_http.c.obj
+[772/1576] Compiling C object libqemuutil.a.p/crypto_init.c.obj
+[773/1576] Compiling C object libqemuutil.a.p/crypto_sm4.c.obj
+[774/1576] Compiling C object libqemuutil.a.p/crypto_clmul.c.obj
+[775/1576] Compiling C object libqemuutil.a.p/crypto_aes.c.obj
+[776/1576] Compiling C object libqemuutil.a.p/crypto_random-platform.c.obj
+[777/1576] Compiling C object libqemuutil.a.p/trace_control.c.obj
+[778/1576] Compiling C object libqemuutil.a.p/stubs_cpu-get-clock.c.obj
+[779/1576] Compiling C object libqemuutil.a.p/trace_qmp.c.obj
+[780/1576] Compiling C object libqemuutil.a.p/stubs_error-printf.c.obj
+[781/1576] Compiling C object libqemuutil.a.p/stubs_fdset.c.obj
+[782/1576] Compiling C object libqemuutil.a.p/stubs_iothread-lock.c.obj
+[783/1576] Compiling C object libqemuutil.a.p/stubs_is-daemonized.c.obj
+[784/1576] Compiling C object libqemuutil.a.p/stubs_replay-mode.c.obj
+[785/1576] Compiling C object libqemuutil.a.p/stubs_monitor-core.c.obj
+[786/1576] Compiling C object libqemuutil.a.p/stubs_trace-control.c.obj
+[787/1576] Compiling C object libqemuutil.a.p/stubs_blk-commit-all.c.obj
+[788/1576] Compiling C object libqemuutil.a.p/stubs_bdrv-next-monitor-owned.c.obj
+[789/1576] Compiling C object libqemuutil.a.p/stubs_blk-exp-close-all.c.obj
+[790/1576] Compiling C object libqemuutil.a.p/stubs_blockdev-close-all-bdrv-states.c.obj
+[791/1576] Compiling C object libqemuutil.a.p/stubs_change-state-handler.c.obj
+[792/1576] Compiling C object libqemuutil.a.p/stubs_get-vm-name.c.obj
+[793/1576] Compiling C object libqemuutil.a.p/stubs_migr-blocker.c.obj
+[794/1576] Compiling C object libqemuutil.a.p/stubs_iothread-lock-block.c.obj
+[795/1576] Compiling C object libqemuutil.a.p/stubs_physmem.c.obj
+[796/1576] Compiling C object libqemuutil.a.p/stubs_ram-block.c.obj
+[797/1576] Compiling C object libqemuutil.a.p/stubs_runstate-check.c.obj
+[798/1576] Compiling C object libqemuutil.a.p/stubs_uuid.c.obj
+[799/1576] Compiling C object libqemuutil.a.p/stubs_icount.c.obj
+[800/1576] Compiling C object libqemuutil.a.p/stubs_replay-tools.c.obj
+[801/1576] Compiling C object libqemuutil.a.p/stubs_cpus-virtual-clock.c.obj
+[802/1576] Compiling C object libqemuutil.a.p/stubs_graph-lock.c.obj
+[803/1576] Compiling C object libqemuutil.a.p/stubs_qemu-timer-notify-cb.c.obj
+[804/1576] Compiling C object libqemuutil.a.p/stubs_monitor-internal.c.obj
+[805/1576] Compiling C object libqemuutil.a.p/stubs_qmp-command-available.c.obj
+[806/1576] Compiling C object libqemuutil.a.p/stubs_qtest.c.obj
+[807/1576] Compiling C object libqemuutil.a.p/stubs_qmp-quit.c.obj
+[808/1576] Compiling C object libqemuutil.a.p/stubs_vmstate.c.obj
+[809/1576] Compiling C object libqemuutil.a.p/stubs_dump.c.obj
+[810/1576] Compiling C object libqemuutil.a.p/stubs_vm-stop.c.obj
+[811/1576] Compiling C object libqemuutil.a.p/stubs_cmos.c.obj
+[812/1576] Compiling C object libqemuutil.a.p/stubs_igvm.c.obj
+[813/1576] Compiling C object libqemuutil.a.p/stubs_fw_cfg.c.obj
+[814/1576] Compiling C object libqemuutil.a.p/stubs_win32-kbd-hook.c.obj
+[815/1576] Compiling C object libqemuutil.a.p/stubs_target-get-monitor-def.c.obj
+[816/1576] Compiling C object libqemuutil.a.p/stubs_target-monitor-defs.c.obj
+[817/1576] Compiling C object libqemuutil.a.p/stubs_monitor-arm-gic.c.obj
+[818/1576] Compiling C object libqemuutil.a.p/stubs_xen-hw-stub.c.obj
+[819/1576] Compiling C object libqemuutil.a.p/stubs_monitor-i386-rtc.c.obj
+[820/1576] Compiling C object libqemuutil.a.p/stubs_monitor-i386-sev.c.obj
+[821/1576] Compiling C object libqemuutil.a.p/stubs_monitor-i386-sgx.c.obj
+[822/1576] Compiling C object libqemuutil.a.p/stubs_monitor-i386-xen.c.obj
+[823/1576] Compiling C object libqemuutil.a.p/stubs_monitor-cpu-s390x-kvm.c.obj
+[824/1576] Compiling C object libqemuutil.a.p/stubs_monitor-cpu.c.obj
+[825/1576] Compiling C object libqemuutil.a.p/stubs_monitor-cpu-s390x.c.obj
+[826/1576] Compiling C object libqemuutil.a.p/stubs_gdbstub.c.obj
+[827/1576] Compiling C object libqemuutil.a.p/stubs_replay.c.obj
+[828/1576] Compiling C object libqemuutil.a.p/stubs_hotplug-stubs.c.obj
+[829/1576] Compiling C object libqemuutil.a.p/stubs_sysbus.c.obj
+[830/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/backends_imgui_impl_opengl3.cpp.obj
+[831/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/backends_imgui_impl_dx12.cpp.obj
+[832/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/backends_imgui_impl_sdl3.cpp.obj
+[833/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/imgui_tables.cpp.obj
+[834/1576] Compiling C object thirdparty/nvapi/libnvapi.a.p/nvapi.c.obj
+../thirdparty/nvapi/nvapi.c:37:13: warning: 'init_nvapi_func' defined but not used [-Wunused-function]
+   37 | static bool init_nvapi_func(const char *name, unsigned int interface_id,
+      |             ^~~~~~~~~~~~~~~
+../thirdparty/nvapi/nvapi_defs.h:227:10: warning: 'NvAPI_Initialize' defined but not used [-Wunused-variable]
+  227 |     FUNC(NvAPI_Initialize, 0x0150E828)             \
+      |          ^~~~~~~~~~~~~~~~
+../thirdparty/nvapi/nvapi.c:34:51: note: in definition of macro 'DECL_NVAPI_FUNC'
+   34 | #define DECL_NVAPI_FUNC(name, id) static name##_t name;
+      |                                                   ^~~~
+../thirdparty/nvapi/nvapi.c:35:1: note: in expansion of macro 'NVAPI_FUNCS_X'
+   35 | NVAPI_FUNCS_X(DECL_NVAPI_FUNC)
+      | ^~~~~~~~~~~~~
+[835/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/imgui_draw.cpp.obj
+[836/1576] Compiling C++ object subprojects/imgui/libimgui.a.p/imgui_widgets.cpp.obj
+[837/1576] Compiling C++ object subprojects/implot/libimplot.a.p/implot.cpp.obj
+[838/1576] Compiling C++ object thirdparty/libvma.a.p/vma.cc.obj
+In file included from ../thirdparty/vma.cc:3:
+../subprojects/VulkanMemoryAllocator/include/vk_mem_alloc.h: In member function 'void VmaBlockMetadata::DebugLogAllocation(VkDeviceSize, VkDeviceSize, void*) const':
+../subprojects/VulkanMemoryAllocator/include/vk_mem_alloc.h:7104:21: warning: unused variable 'name' [-Wunused-variable]
+ 7104 |         const char* name = allocation->GetName();
+      |                     ^~~~
+[839/1576] Compiling C object ui/thirdparty/libstb_image.a.p/stb_image_stb_image_impl.c.obj
+In file included from ../ui/thirdparty/stb_image/stb_image_impl.c:2:
+../ui/thirdparty/stb_image/stb_image.h:4958:14: warning: no previous prototype for 'stbi__unpremultiply_on_load_thread' [-Wmissing-prototypes]
+ 4958 | STBIDEF void stbi__unpremultiply_on_load_thread(int flag_true_if_should_unpremultiply)
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[840/1576] Compiling C object ui/thirdparty/libfatx.a.p/fatx_fatx.c.obj
+[841/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._controller_mask.png.c.obj
+[842/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._controller_mask_s.png.c.obj
+[843/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._xmu_mask.png.c.obj
+[844/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._logo_sdf.png.c.obj
+[845/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._xemu_64x64.png.c.obj
+[846/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._abxy.ttf.c.obj
+[847/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._Roboto-Medium.ttf.c.obj
+[848/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._RobotoCondensed-Regular.ttf.c.obj
+[849/1576] Compiling C object data/libpdata.fa.p/meson-generated_.._font_awesome_6_1_1_solid.min.otf.c.obj
+[850/1576] Compiling C++ object ui/thirdparty/libfpng.a.p/fpng_fpng.cpp.obj
+In file included from ../ui/thirdparty/fpng/fpng.cpp:17:
+../ui/thirdparty/fpng/fpng.cpp: In function 'uint32_t fpng::pixel_deflate_dyn_3_rle(const uint8_t*, uint32_t, uint32_t, uint8_t*, uint32_t)':
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1002:17: note: in expansion of macro 'PUT_BITS'
+ 1002 |                 PUT_BITS(0x78, 8);
+      |                 ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1003:17: note: in expansion of macro 'PUT_BITS'
+ 1003 |                 PUT_BITS(0x01, 8);
+      |                 ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1006:17: note: in expansion of macro 'PUT_BITS'
+ 1006 |                 PUT_BITS(1, 1);
+      |                 ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1135:33: note: in expansion of macro 'PUT_BITS'
+ 1135 |                                 PUT_BITS(adj_match_len & g_bitmasks[g_defl_len_extra[adj_match_len]], g_defl_len_extra[adj_match_len] + 1); // up to 6 bits, +1 for the match distance Huff code which is always 0
+      |                                 ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp: In function 'uint32_t fpng::pixel_deflate_dyn_3_rle_one_pass(const uint8_t*, uint32_t, uint32_t, uint8_t*, uint32_t)':
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1224:41: note: in expansion of macro 'PUT_BITS'
+ 1224 |                                         PUT_BITS(adj_match_len & g_bitmasks[g_defl_len_extra[adj_match_len]], g_defl_len_extra[adj_match_len] + 1); // up to 6 bits, +1 for the match distance Huff code which is always 0
+      |                                         ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp: In function 'uint32_t fpng::pixel_deflate_dyn_4_rle(const uint8_t*, uint32_t, uint32_t, uint8_t*, uint32_t)':
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1279:17: note: in expansion of macro 'PUT_BITS'
+ 1279 |                 PUT_BITS(0x78, 8);
+      |                 ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1280:17: note: in expansion of macro 'PUT_BITS'
+ 1280 |                 PUT_BITS(0x01, 8);
+      |                 ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1283:17: note: in expansion of macro 'PUT_BITS'
+ 1283 |                 PUT_BITS(1, 1);
+      |                 ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1422:33: note: in expansion of macro 'PUT_BITS'
+ 1422 |                                 PUT_BITS(adj_match_len & g_bitmasks[g_defl_len_extra[adj_match_len]], g_defl_len_extra[adj_match_len] + 1); // up to 6 bits, +1 for the match distance Huff code which is always 0
+      |                                 ^~~~~~~~
+../ui/thirdparty/fpng/fpng.cpp: In function 'uint32_t fpng::pixel_deflate_dyn_4_rle_one_pass(const uint8_t*, uint32_t, uint32_t, uint8_t*, uint32_t)':
+../ui/thirdparty/fpng/fpng.cpp:564:67: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  564 | #define PUT_BITS(bb, ll) do { uint32_t b = bb, l = ll; assert((l) >= 0 && (l) <= 16); assert((b) < (1ULL << (l))); bit_buf |= (((uint64_t)(b)) << bit_buf_size); bit_buf_size += (l); assert(bit_buf_size <= 64); } while(0)
+      |                                                               ~~~~^~~~
+../ui/thirdparty/fpng/fpng.cpp:1531:41: note: in expansion of macro 'PUT_BITS'
+ 1531 |                                         PUT_BITS(adj_match_len & g_bitmasks[g_defl_len_extra[adj_match_len]], len_extra_bits + 1); // up to 6 bits, +1 for the match distance Huff code which is always 0
+      |                                         ^~~~~~~~
+[851/1576] Compiling C object subprojects/nv2a_vsh_cpu/libnv2a_vsh_cpu.a.p/src_nv2a_vsh_cpu.c.obj
+[852/1576] Compiling C object subprojects/nv2a_vsh_cpu/libnv2a_vsh_disassembler.a.p/src_nv2a_vsh_disassembler.c.obj
+[853/1576] Compiling C object subprojects/nv2a_vsh_cpu/libnv2a_vsh_emulator.a.p/src_nv2a_vsh_emulator.c.obj
+[854/1576] Compiling C object subprojects/nv2a_vsh_cpu/libnv2a_vsh_emulator.a.p/src_nv2a_vsh_emulator_execution_state.c.obj
+[855/1576] Compiling C object hw/xbox/nv2a/pgraph/thirdparty/liblibgloffscreen.a.p/gloffscreen_common.c.obj
+[856/1576] Generating block/module_block.h with a custom command
+[857/1576] Generating block/block-gen.c with a custom command
+[858/1576] Generating 'libcommon.a.p/decode-insns.c.inc'
+[859/1576] Linking static target libqemuutil.a
+[860/1576] Linking static target subprojects/volk/libvolk.a
+[861/1576] Linking static target subprojects/SPIRV-Reflect/libspirv_reflect_static.a
+[862/1576] Compiling C++ object subprojects/tomlplusplus/src/libtomlplusplus.a.p/toml.cpp.obj
+[863/1576] Compiling C object hw/xbox/nv2a/pgraph/thirdparty/liblibgloffscreen.a.p/gloffscreen_sdl.c.obj
+[864/1576] Linking static target subprojects/imgui/libimgui.a
+[865/1576] Linking static target thirdparty/libvma.a
+[866/1576] Compiling Windows resource version.rc
+[867/1576] Linking static target thirdparty/nvapi/libnvapi.a
+[868/1576] Linking static target ui/thirdparty/libstb_image.a
+[869/1576] Linking static target subprojects/tomlplusplus/src/libtomlplusplus.a
+[870/1576] Linking static target ui/thirdparty/libfpng.a
+[871/1576] Linking static target ui/thirdparty/libfatx.a
+[872/1576] Linking static target data/libpdata.fa
+[873/1576] Linking static target subprojects/nv2a_vsh_cpu/libnv2a_vsh_cpu.a
+[874/1576] Linking static target subprojects/nv2a_vsh_cpu/libnv2a_vsh_disassembler.a
+[875/1576] Linking static target subprojects/nv2a_vsh_cpu/libnv2a_vsh_emulator.a
+[876/1576] Linking static target hw/xbox/nv2a/pgraph/thirdparty/liblibgloffscreen.a
+[877/1576] Generating i386-softmmu-gdbstub-xml.c with a custom command (wrapped by meson to capture output)
+D:/a/xemu/xemu/scripts/feature_to_c.py:28: SyntaxWarning: "\{" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\{"? A raw string is also an option.
+  sys.stdout.write(f'\{c:03o}')
+
+[878/1576] Compiling C object hw/xbox/mcpx/apu/dsp/interp/libdsp_cpu_interp.a.p/debug.c.obj
+[879/1576] Compiling C object hw/xbox/mcpx/apu/dsp/libdsp.a.p/dsp.c.obj
+[880/1576] Compiling C object hw/xbox/mcpx/apu/dsp/libdsp.a.p/dsp_c.c.obj
+[881/1576] Compiling C object libqom.a.p/qom_container.c.obj
+[882/1576] Compiling C object hw/xbox/mcpx/apu/dsp/libdsp.a.p/dsp_dma.c.obj
+[883/1576] Compiling C object libqom.a.p/qom_qom-qobject.c.obj
+[884/1576] Compiling C object libevent-loop-base.a.p/event-loop-base.c.obj
+[885/1576] Compiling C object libqom.a.p/qom_object_interfaces.c.obj
+[886/1576] Generating block.syms with a custom command (wrapped by meson to set PATH, to capture output)
+[887/1576] Generating qemu.syms with a custom command (wrapped by meson to set PATH, to capture output)
+[888/1576] Compiling C object libqom.a.p/qom_object.c.obj
+[889/1576] Compiling C object libauthz.a.p/authz_base.c.obj
+[890/1576] Compiling C object hw/xbox/mcpx/apu/dsp/interp/libdsp_cpu_interp.a.p/dsp_cpu.c.obj
+[891/1576] Compiling C object libauthz.a.p/authz_list.c.obj
+[892/1576] Compiling C object libauthz.a.p/authz_simple.c.obj
+[893/1576] Compiling C object libcrypto.a.p/crypto_afsplit.c.obj
+[894/1576] Compiling C object libauthz.a.p/authz_listfile.c.obj
+[895/1576] Compiling C object libcrypto.a.p/crypto_akcipher.c.obj
+[896/1576] Compiling C object libcrypto.a.p/crypto_block-luks.c.obj
+[897/1576] Compiling C object libcrypto.a.p/crypto_block-qcow.c.obj
+[898/1576] Compiling C object libcrypto.a.p/crypto_cipher.c.obj
+[899/1576] Compiling C object libcrypto.a.p/crypto_block.c.obj
+[900/1576] Compiling C object libcrypto.a.p/crypto_der.c.obj
+[901/1576] Compiling C object libcrypto.a.p/crypto_hash.c.obj
+[902/1576] Compiling C object libcrypto.a.p/crypto_hmac.c.obj
+[903/1576] Compiling C object libcrypto.a.p/crypto_ivgen-essiv.c.obj
+[904/1576] Compiling C object libcrypto.a.p/crypto_ivgen-plain.c.obj
+[905/1576] Compiling C object libcrypto.a.p/crypto_ivgen-plain64.c.obj
+[906/1576] Compiling C object libcrypto.a.p/crypto_ivgen.c.obj
+[907/1576] Compiling C object libcrypto.a.p/crypto_pbkdf.c.obj
+[908/1576] Compiling C object libcrypto.a.p/crypto_secret.c.obj
+[909/1576] Compiling C object libcrypto.a.p/crypto_secret_common.c.obj
+[910/1576] Compiling C object libcrypto.a.p/crypto_tlscreds.c.obj
+[911/1576] Compiling C object libcrypto.a.p/crypto_tlscredsanon.c.obj
+[912/1576] Compiling C object libcrypto.a.p/crypto_tlscredspsk.c.obj
+[913/1576] Compiling C object libcrypto.a.p/crypto_tlscredsx509.c.obj
+[914/1576] Compiling C object libcrypto.a.p/crypto_tlssession.c.obj
+[915/1576] Compiling C object libcrypto.a.p/crypto_rsakey.c.obj
+[916/1576] Compiling C object libcrypto.a.p/crypto_hmac-glib.c.obj
+[917/1576] Compiling C object libcrypto.a.p/crypto_hash-glib.c.obj
+[918/1576] Compiling C object libcrypto.a.p/crypto_pbkdf-stub.c.obj
+[919/1576] Compiling C object libio.a.p/io_channel-buffer.c.obj
+[920/1576] Compiling C object libio.a.p/io_channel-command.c.obj
+[921/1576] Compiling C object libio.a.p/io_channel-file.c.obj
+[922/1576] Compiling C object libio.a.p/io_channel-null.c.obj
+[923/1576] Compiling C object libio.a.p/io_channel-socket.c.obj
+[924/1576] Compiling C object libio.a.p/io_channel-util.c.obj
+[925/1576] Compiling C object libio.a.p/io_channel-watch.c.obj
+[926/1576] Compiling C object libio.a.p/io_channel-tls.c.obj
+[927/1576] Compiling C object libio.a.p/io_channel-websock.c.obj
+[928/1576] Compiling C object libio.a.p/io_channel.c.obj
+[929/1576] Compiling C object libio.a.p/io_dns-resolver.c.obj
+[930/1576] Compiling C object libio.a.p/io_task.c.obj
+[931/1576] Compiling C object libio.a.p/io_net-listener.c.obj
+[932/1576] Compiling C object libmigration.a.p/migration_migration-stats.c.obj
+[933/1576] Compiling C object libmigration.a.p/migration_page_cache.c.obj
+[934/1576] Compiling C object libmigration.a.p/migration_xbzrle.c.obj
+[935/1576] Compiling C object libmigration.a.p/migration_vmstate-types.c.obj
+[936/1576] Compiling C object libmigration.a.p/migration_vmstate.c.obj
+[937/1576] Compiling C object libmigration.a.p/migration_qemu-file.c.obj
+[938/1576] Compiling C object libmigration.a.p/migration_yank_functions.c.obj
+[939/1576] Compiling C object libblock.a.p/blockjob.c.obj
+[940/1576] Compiling C object libblock.a.p/meson-generated_.._block_block-gen.c.obj
+[941/1576] Compiling C object libblock.a.p/job.c.obj
+[942/1576] Compiling C object libblock.a.p/qemu-io-cmds.c.obj
+In function 'tsub',
+    inlined from 'writev_f' at ../qemu-io-cmds.c:1353:10:
+../qemu-io-cmds.c:285:15: warning: 't1.tv_sec' may be used uninitialized [-Wmaybe-uninitialized]
+  285 |     t1.tv_sec -= t2.tv_sec;
+      |               ^~
+../qemu-io-cmds.c: In function 'writev_f':
+../qemu-io-cmds.c:1279:21: note: 't1.tv_sec' was declared here
+ 1279 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'writev_f' at ../qemu-io-cmds.c:1353:10:
+../qemu-io-cmds.c:280:16: warning: 't1.tv_nsec' may be used uninitialized [-Wmaybe-uninitialized]
+  280 |     t1.tv_nsec -= t2.tv_nsec;
+      |                ^~
+../qemu-io-cmds.c: In function 'writev_f':
+../qemu-io-cmds.c:1279:21: note: 't1.tv_nsec' was declared here
+ 1279 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'readv_f' at ../qemu-io-cmds.c:1015:10:
+../qemu-io-cmds.c:285:15: warning: 't1.tv_sec' may be used uninitialized [-Wmaybe-uninitialized]
+  285 |     t1.tv_sec -= t2.tv_sec;
+      |               ^~
+../qemu-io-cmds.c: In function 'readv_f':
+../qemu-io-cmds.c:923:21: note: 't1.tv_sec' was declared here
+  923 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'readv_f' at ../qemu-io-cmds.c:1015:10:
+../qemu-io-cmds.c:280:16: warning: 't1.tv_nsec' may be used uninitialized [-Wmaybe-uninitialized]
+  280 |     t1.tv_nsec -= t2.tv_nsec;
+      |                ^~
+../qemu-io-cmds.c: In function 'readv_f':
+../qemu-io-cmds.c:923:21: note: 't1.tv_nsec' was declared here
+  923 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'discard_f' at ../qemu-io-cmds.c:2230:14:
+../qemu-io-cmds.c:285:15: warning: 't1.tv_sec' may be used uninitialized [-Wmaybe-uninitialized]
+  285 |     t1.tv_sec -= t2.tv_sec;
+      |               ^~
+../qemu-io-cmds.c: In function 'discard_f':
+../qemu-io-cmds.c:2178:21: note: 't1.tv_sec' was declared here
+ 2178 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'discard_f' at ../qemu-io-cmds.c:2230:14:
+../qemu-io-cmds.c:280:16: warning: 't1.tv_nsec' may be used uninitialized [-Wmaybe-uninitialized]
+  280 |     t1.tv_nsec -= t2.tv_nsec;
+      |                ^~
+../qemu-io-cmds.c: In function 'discard_f':
+../qemu-io-cmds.c:2178:21: note: 't1.tv_nsec' was declared here
+ 2178 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'write_f' at ../qemu-io-cmds.c:1234:10:
+../qemu-io-cmds.c:280:16: warning: 't1.tv_nsec' may be used uninitialized [-Wmaybe-uninitialized]
+  280 |     t1.tv_nsec -= t2.tv_nsec;
+      |                ^~
+../qemu-io-cmds.c: In function 'write_f':
+../qemu-io-cmds.c:1066:21: note: 't1.tv_nsec' was declared here
+ 1066 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'write_f' at ../qemu-io-cmds.c:1234:10:
+../qemu-io-cmds.c:285:15: warning: 't1.tv_sec' may be used uninitialized [-Wmaybe-uninitialized]
+  285 |     t1.tv_sec -= t2.tv_sec;
+      |               ^~
+../qemu-io-cmds.c: In function 'write_f':
+../qemu-io-cmds.c:1066:21: note: 't1.tv_sec' was declared here
+ 1066 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'read_f' at ../qemu-io-cmds.c:881:10:
+../qemu-io-cmds.c:280:16: warning: 't1.tv_nsec' may be used uninitialized [-Wmaybe-uninitialized]
+  280 |     t1.tv_nsec -= t2.tv_nsec;
+      |                ^~
+../qemu-io-cmds.c: In function 'read_f':
+../qemu-io-cmds.c:726:21: note: 't1.tv_nsec' was declared here
+  726 |     struct timespec t1, t2;
+      |                     ^~
+In function 'tsub',
+    inlined from 'read_f' at ../qemu-io-cmds.c:881:10:
+../qemu-io-cmds.c:285:15: warning: 't1.tv_sec' may be used uninitialized [-Wmaybe-uninitialized]
+  285 |     t1.tv_sec -= t2.tv_sec;
+      |               ^~
+../qemu-io-cmds.c: In function 'read_f':
+../qemu-io-cmds.c:726:21: note: 't1.tv_sec' was declared here
+  726 |     struct timespec t1, t2;
+      |                     ^~
+[943/1576] Compiling C object libblock.a.p/nbd_client-connection.c.obj
+[944/1576] Compiling C object libblock.a.p/nbd_client.c.obj
+[945/1576] Compiling C object libblock.a.p/nbd_common.c.obj
+[946/1576] Compiling C object libblock.a.p/scsi_utils.c.obj
+[947/1576] Compiling C object libblock.a.p/block.c.obj
+[948/1576] Compiling C object libblock.a.p/scsi_pr-manager-stub.c.obj
+[949/1576] Compiling C object libblock.a.p/block_accounting.c.obj
+[950/1576] Compiling C object libblock.a.p/block_aio_task.c.obj
+[951/1576] Compiling C object libblock.a.p/block_amend.c.obj
+[952/1576] Compiling C object libblock.a.p/block_backup.c.obj
+[953/1576] Compiling C object libblock.a.p/block_blkdebug.c.obj
+[954/1576] Compiling C object libblock.a.p/block_blkverify.c.obj
+[955/1576] Compiling C object libblock.a.p/block_blklogwrites.c.obj
+[956/1576] Compiling C object libblock.a.p/block_commit.c.obj
+[957/1576] Compiling C object libblock.a.p/block_block-copy.c.obj
+[958/1576] Compiling C object libblock.a.p/block_copy-before-write.c.obj
+[959/1576] Compiling C object libblock.a.p/block_copy-on-read.c.obj
+[960/1576] Compiling C object libblock.a.p/block_block-backend.c.obj
+[961/1576] Compiling C object libblock.a.p/block_create.c.obj
+[962/1576] Compiling C object libblock.a.p/block_filter-compress.c.obj
+[963/1576] Compiling C object libblock.a.p/block_crypto.c.obj
+[964/1576] Compiling C object libblock.a.p/block_dirty-bitmap.c.obj
+[965/1576] Compiling C object libblock.a.p/block_graph-lock.c.obj
+[966/1576] Compiling C object libblock.a.p/block_null.c.obj
+[967/1576] Compiling C object libblock.a.p/block_preallocate.c.obj
+[968/1576] Compiling C object libblock.a.p/block_mirror.c.obj
+[969/1576] Compiling C object libblock.a.p/block_nbd.c.obj
+[970/1576] Compiling C object libblock.a.p/block_io.c.obj
+[971/1576] Compiling C object libblock.a.p/block_progress_meter.c.obj
+[972/1576] Compiling C object libblock.a.p/block_qapi.c.obj
+[973/1576] Compiling C object libblock.a.p/block_qcow2-cache.c.obj
+[974/1576] Compiling C object libblock.a.p/block_qcow2-bitmap.c.obj
+[975/1576] Compiling C object libblock.a.p/block_qcow2-threads.c.obj
+[976/1576] Compiling C object libblock.a.p/block_qcow2-cluster.c.obj
+[977/1576] Compiling C object libblock.a.p/block_qcow2-snapshot.c.obj
+[978/1576] Compiling C object libblock.a.p/block_qcow2.c.obj
+[979/1576] Compiling C object libblock.a.p/block_qcow2-refcount.c.obj
+[980/1576] Compiling C object libblock.a.p/block_quorum.c.obj
+[981/1576] Compiling C object libblock.a.p/block_reqlist.c.obj
+[982/1576] Compiling C object libblock.a.p/block_raw-format.c.obj
+[983/1576] Compiling C object libblock.a.p/block_snapshot.c.obj
+[984/1576] Compiling C object libblock.a.p/block_snapshot-access.c.obj
+[985/1576] Compiling C object libblock.a.p/block_throttle.c.obj
+[986/1576] Compiling C object libblock.a.p/block_throttle-groups.c.obj
+[987/1576] Compiling C object libblock.a.p/block_write-threshold.c.obj
+[988/1576] Compiling C object libblock.a.p/block_file-win32.c.obj
+[989/1576] Compiling C object libblock.a.p/block_win32-aio.c.obj
+[990/1576] Compiling C object libblock.a.p/block_stream.c.obj
+[991/1576] Compiling C object libblock.a.p/block_monitor_bitmap-qmp-cmds.c.obj
+[992/1576] Compiling C object libblock.a.p/block_curl.c.obj
+[993/1576] Compiling C object libblockdev.a.p/block_export_export.c.obj
+[994/1576] Compiling C object libblockdev.a.p/blockdev-nbd.c.obj
+[995/1576] Compiling C object libblockdev.a.p/nbd_server.c.obj
+[996/1576] Compiling C object libblockdev.a.p/iothread.c.obj
+[997/1576] Compiling C object libblockdev.a.p/job-qmp.c.obj
+[998/1576] Compiling C object libblockdev.a.p/blockdev.c.obj
+[999/1576] Compiling C object libqmp.a.p/qom_qom-qmp-cmds.c.obj
+[1000/1576] Compiling C object libqmp.a.p/monitor_qmp.c.obj
+[1001/1576] Compiling C object libqmp.a.p/monitor_monitor.c.obj
+[1002/1576] Compiling C object libqmp.a.p/monitor_qmp-cmds-control.c.obj
+[1003/1576] Compiling C object libchardev.a.p/chardev_char-fe.c.obj
+[1004/1576] Compiling C object libchardev.a.p/chardev_char-file.c.obj
+[1005/1576] Compiling C object libchardev.a.p/chardev_char-io.c.obj
+[1006/1576] Compiling C object libchardev.a.p/chardev_char-null.c.obj
+[1007/1576] Compiling C object libchardev.a.p/chardev_char-hub.c.obj
+[1008/1576] Compiling C object libchardev.a.p/chardev_char-mux.c.obj
+[1009/1576] Compiling C object libchardev.a.p/chardev_char-pipe.c.obj
+[1010/1576] Compiling C object libchardev.a.p/chardev_char-serial.c.obj
+[1011/1576] Compiling C object libchardev.a.p/chardev_char-ringbuf.c.obj
+[1012/1576] Compiling C object libchardev.a.p/chardev_char-stdio.c.obj
+[1013/1576] Compiling C object libchardev.a.p/chardev_char-socket.c.obj
+[1014/1576] Compiling C object libchardev.a.p/chardev_char-udp.c.obj
+[1015/1576] Compiling C object libhwcore.a.p/hw_core_bus.c.obj
+[1016/1576] Compiling C object libchardev.a.p/chardev_char.c.obj
+[1017/1576] Compiling C object libhwcore.a.p/hw_core_qdev-properties.c.obj
+[1018/1576] Compiling C object libhwcore.a.p/hw_core_resetcontainer.c.obj
+[1019/1576] Compiling C object libhwcore.a.p/hw_core_qdev.c.obj
+[1020/1576] Compiling C object libhwcore.a.p/hw_core_resettable.c.obj
+[1021/1576] Compiling C object libhwcore.a.p/hw_core_vmstate-if.c.obj
+[1022/1576] Compiling C object libhwcore.a.p/hw_core_irq.c.obj
+[1023/1576] Compiling C object libhwcore.a.p/hw_core_clock.c.obj
+[1024/1576] Compiling C object libhwcore.a.p/hw_core_qdev-clock.c.obj
+[1025/1576] Compiling C object libsystem.a.p/trace_control-target.c.obj
+[1026/1576] Compiling C object libsystem.a.p/trace_trace-hmp-cmds.c.obj
+[1027/1576] Compiling C object libsystem.a.p/qom_qom-hmp-cmds.c.obj
+[1028/1576] Compiling C object libsystem.a.p/ui_clipboard.c.obj
+[1029/1576] Compiling C object libsystem.a.p/ui_cursor.c.obj
+[1030/1576] Compiling C object libsystem.a.p/ui_console.c.obj
+[1031/1576] Compiling C object libsystem.a.p/ui_dmabuf.c.obj
+[1032/1576] Compiling C object libsystem.a.p/ui_input-keymap.c.obj
+[1033/1576] Compiling C object libsystem.a.p/ui_input-legacy.c.obj
+[1034/1576] Compiling C object libsystem.a.p/ui_input-barrier.c.obj
+[1035/1576] Compiling C object libsystem.a.p/ui_kbd-state.c.obj
+[1036/1576] Compiling C object libsystem.a.p/ui_input.c.obj
+[1037/1576] Compiling C object libsystem.a.p/ui_keymaps.c.obj
+[1038/1576] Compiling C object libsystem.a.p/ui_qemu-pixman.c.obj
+[1039/1576] Compiling C object libsystem.a.p/ui_ui-hmp-cmds.c.obj
+[1040/1576] Compiling C object libsystem.a.p/ui_ui-qmp-cmds.c.obj
+[1041/1576] Compiling C object libsystem.a.p/ui_util.c.obj
+[1042/1576] Compiling C object libsystem.a.p/ui_xemu-input.c.obj
+[1043/1576] Compiling C object libsystem.a.p/ui_xemu-monitor.c.obj
+[1044/1576] Compiling C object libsystem.a.p/ui_xemu-net.c.obj
+[1045/1576] Compiling C++ object libsystem.a.p/ui_xemu-controllers.cc.obj
+[1046/1576] Compiling C object libsystem.a.p/ui_xemu-data.c.obj
+[1047/1576] Compiling C object libsystem.a.p/ui_xemu-widescreen.c.obj
+[1048/1576] Compiling C object libsystem.a.p/ui_xemu.c.obj
+[1049/1576] Compiling C object libsystem.a.p/ui_xemu-snapshots.c.obj
+[1050/1576] Compiling C++ object libsystem.a.p/ui_xemu-thumbnail.cc.obj
+[1051/1576] Compiling C++ object libsystem.a.p/ui_xui_animation.cc.obj
+[1052/1576] Compiling C++ object libsystem.a.p/ui_xui_actions.cc.obj
+[1053/1576] Compiling C++ object libsystem.a.p/ui_xui_compat.cc.obj
+[1054/1576] Compiling C++ object libsystem.a.p/ui_xui_debug.cc.obj
+[1055/1576] Compiling C++ object libsystem.a.p/ui_xui_font-manager.cc.obj
+[1056/1576] Compiling C++ object libsystem.a.p/ui_xui_input-manager.cc.obj
+[1057/1576] Compiling C++ object libsystem.a.p/ui_xui_gl-helpers.cc.obj
+[1058/1576] Compiling C++ object libsystem.a.p/ui_xemu-settings.cc.obj
+[1059/1576] Compiling C++ object libsystem.a.p/ui_xui_main-menu.cc.obj
+[1060/1576] Compiling C++ object libsystem.a.p/ui_xui_main.cc.obj
+[1061/1576] Compiling C++ object libsystem.a.p/ui_xui_monitor.cc.obj
+[1062/1576] Compiling C++ object libsystem.a.p/ui_xui_menubar.cc.obj
+[1063/1576] Compiling C++ object subprojects/implot/libimplot.a.p/implot_items.cpp.obj
+[1064/1576] Linking static target subprojects/implot/libimplot.a
+[1065/1576] Compiling C++ object libsystem.a.p/ui_xui_misc.cc.obj
+[1066/1576] Compiling C++ object libsystem.a.p/ui_xui_scene-manager.cc.obj
+[1067/1576] Compiling C++ object libsystem.a.p/ui_xui_scene.cc.obj
+[1068/1576] Compiling C++ object libsystem.a.p/ui_xui_notifications.cc.obj
+[1069/1576] Compiling C++ object libsystem.a.p/ui_xui_scene-components.cc.obj
+[1070/1576] Compiling C++ object libsystem.a.p/ui_xui_viewport-manager.cc.obj
+[1071/1576] Compiling C++ object libsystem.a.p/ui_xui_snapshot-manager.cc.obj
+[1072/1576] Compiling C++ object libsystem.a.p/ui_xui_welcome.cc.obj
+[1073/1576] Compiling C++ object libsystem.a.p/ui_xui_popup-menu.cc.obj
+[1074/1576] Compiling C++ object libsystem.a.p/ui_xui_win32-dxgi-present.cc.obj
+[1075/1576] Compiling C object libsystem.a.p/ui_xemu-os-utils-windows.c.obj
+[1076/1576] Compiling C object libsystem.a.p/ui_console-vc-stubs.c.obj
+[1077/1576] Compiling C object libsystem.a.p/ui_spice-module.c.obj
+[1078/1576] Compiling C++ object libsystem.a.p/ui_xui_reporting.cc.obj
+[1079/1576] Compiling C object libsystem.a.p/ui_vnc-stubs.c.obj
+[1080/1576] Compiling C++ object libsystem.a.p/ui_xui_widgets.cc.obj
+[1081/1576] Compiling C object libsystem.a.p/gdbstub_syscalls.c.obj
+[1082/1576] Compiling C object libsystem.a.p/gdbstub_gdbstub.c.obj
+[1083/1576] Compiling C object libsystem.a.p/hw_acpi_ghes-stub.c.obj
+[1084/1576] Compiling C object libsystem.a.p/hw_acpi_acpi_interface.c.obj
+[1085/1576] Compiling C object libsystem.a.p/gdbstub_system.c.obj
+[1086/1576] Compiling C object libsystem.a.p/hw_acpi_bios-linker-loader.c.obj
+[1087/1576] Compiling C object libsystem.a.p/hw_acpi_utils.c.obj
+[1088/1576] Compiling C object libsystem.a.p/hw_acpi_aml-build.c.obj
+[1089/1576] Compiling C object libsystem.a.p/hw_acpi_core.c.obj
+[1090/1576] Compiling C object libsystem.a.p/hw_acpi_cpu.c.obj
+[1091/1576] Compiling C object libsystem.a.p/hw_acpi_cpu_hotplug.c.obj
+[1092/1576] Compiling C object libsystem.a.p/hw_acpi_cxl-stub.c.obj
+[1093/1576] Compiling C object libsystem.a.p/hw_acpi_memory_hotplug.c.obj
+[1094/1576] Compiling C object libsystem.a.p/hw_acpi_pci.c.obj
+[1095/1576] Compiling C object libsystem.a.p/hw_acpi_nvdimm.c.obj
+[1096/1576] Compiling C++ object libsystem.a.p/ui_xui_update.cc.obj
+[1097/1576] Compiling C object libsystem.a.p/hw_acpi_vmgenid.c.obj
+[1098/1576] Compiling C object libsystem.a.p/hw_acpi_vmclock.c.obj
+[1099/1576] Compiling C object libsystem.a.p/hw_acpi_hmat.c.obj
+[1100/1576] Compiling C object libsystem.a.p/hw_acpi_piix4.c.obj
+[1101/1576] Compiling C object libsystem.a.p/hw_acpi_pci-bridge.c.obj
+[1102/1576] Compiling C object libsystem.a.p/hw_acpi_viot.c.obj
+[1103/1576] Compiling C object libsystem.a.p/hw_acpi_ipmi-stub.c.obj
+[1104/1576] Compiling C object libsystem.a.p/hw_acpi_pcihp.c.obj
+[1105/1576] Compiling C object libsystem.a.p/hw_acpi_erst.c.obj
+[1106/1576] Compiling C object libsystem.a.p/hw_acpi_ghes_cper_stub.c.obj
+[1107/1576] Compiling C object libsystem.a.p/hw_acpi_acpi-qmp-cmds.c.obj
+[1108/1576] Compiling C object libsystem.a.p/hw_audio_model.c.obj
+[1109/1576] Compiling C object libsystem.a.p/hw_block_block.c.obj
+[1110/1576] Compiling C object libsystem.a.p/hw_audio_pcspk.c.obj
+[1111/1576] Compiling C object libsystem.a.p/hw_audio_ac97.c.obj
+[1112/1576] Compiling C object libsystem.a.p/hw_block_cdrom.c.obj
+[1113/1576] Compiling C object libsystem.a.p/hw_block_hd-geometry.c.obj
+[1114/1576] Compiling C object libsystem.a.p/hw_char_parallel-isa.c.obj
+[1115/1576] Compiling C object libsystem.a.p/hw_char_serial-isa.c.obj
+[1116/1576] Compiling C object libsystem.a.p/hw_block_pflash_cfi01.c.obj
+[1117/1576] Compiling C object libsystem.a.p/hw_char_serial.c.obj
+[1118/1576] Compiling C object libsystem.a.p/hw_core_generic-loader.c.obj
+[1119/1576] Compiling C object libsystem.a.p/hw_core_cpu-system.c.obj
+[1120/1576] Compiling C object libsystem.a.p/hw_core_hotplug.c.obj
+[1121/1576] Compiling C object libsystem.a.p/hw_core_fw-path-provider.c.obj
+[1122/1576] Compiling C object libsystem.a.p/hw_core_gpio.c.obj
+[1123/1576] Compiling C object libsystem.a.p/hw_core_machine-qmp-cmds.c.obj
+[1124/1576] Compiling C object libsystem.a.p/hw_core_machine-hmp-cmds.c.obj
+[1125/1576] Compiling C object libsystem.a.p/hw_core_nmi.c.obj
+[1126/1576] Compiling C object libsystem.a.p/hw_core_loader.c.obj
+[1127/1576] Compiling C object libsystem.a.p/hw_core_null-machine.c.obj
+[1128/1576] Compiling C object libsystem.a.p/hw_core_qdev-fw.c.obj
+[1129/1576] Compiling C object libsystem.a.p/hw_core_numa.c.obj
+[1130/1576] Compiling C object libsystem.a.p/hw_core_machine.c.obj
+[1131/1576] Compiling C object libsystem.a.p/hw_core_qdev-hotplug.c.obj
+[1132/1576] Compiling C object libsystem.a.p/hw_core_reset.c.obj
+[1133/1576] Compiling C object libsystem.a.p/hw_core_vm-change-state-handler.c.obj
+[1134/1576] Compiling C object libsystem.a.p/hw_core_clock-vmstate.c.obj
+[1135/1576] Compiling C object libsystem.a.p/hw_core_sysbus.c.obj
+[1136/1576] Compiling C object libsystem.a.p/hw_core_qdev-properties-system.c.obj
+[1137/1576] Compiling C object libsystem.a.p/hw_cpu_core.c.obj
+[1138/1576] Compiling C object libsystem.a.p/hw_display_ramfb-stubs.c.obj
+[1139/1576] Compiling C object libsystem.a.p/hw_cxl_cxl-host-stubs.c.obj
+[1140/1576] Compiling C object libsystem.a.p/hw_display_edid-generate.c.obj
+[1141/1576] Compiling C object libsystem.a.p/hw_display_edid-region.c.obj
+[1142/1576] Compiling C object libsystem.a.p/hw_display_vga-pci.c.obj
+[1143/1576] Compiling C object libsystem.a.p/hw_hyperv_hv-balloon-stub.c.obj
+[1144/1576] Compiling C object libsystem.a.p/hw_dma_i8257.c.obj
+[1145/1576] Compiling C object libsystem.a.p/hw_display_acpi-vga.c.obj
+[1146/1576] Compiling C object libsystem.a.p/hw_i2c_core.c.obj
+[1147/1576] Compiling C object libsystem.a.p/hw_i2c_smbus_slave.c.obj
+[1148/1576] Compiling C object libsystem.a.p/hw_display_vga.c.obj
+[1149/1576] Compiling C object libsystem.a.p/hw_i2c_smbus_master.c.obj
+[1150/1576] Compiling C object libsystem.a.p/hw_i2c_pm_smbus.c.obj
+[1151/1576] Compiling C object libsystem.a.p/hw_ide_ide-bus.c.obj
+[1152/1576] Compiling C object libsystem.a.p/hw_i2c_smbus_eeprom.c.obj
+[1153/1576] Compiling C object libsystem.a.p/hw_ide_cf.c.obj
+[1154/1576] Compiling C object libsystem.a.p/hw_ide_atapi.c.obj
+[1155/1576] Compiling C object libsystem.a.p/hw_ide_ioport.c.obj
+[1156/1576] Compiling C object libsystem.a.p/hw_ide_piix.c.obj
+[1157/1576] Compiling C object libsystem.a.p/hw_ide_ide-dev.c.obj
+[1158/1576] Compiling C object libsystem.a.p/hw_ide_pci.c.obj
+[1159/1576] Compiling C object libsystem.a.p/hw_ide_core.c.obj
+[1160/1576] Compiling C object libsystem.a.p/hw_input_hid.c.obj
+[1161/1576] Compiling C object libsystem.a.p/hw_intc_intc.c.obj
+[1162/1576] Compiling C object libsystem.a.p/hw_intc_i8259_common.c.obj
+[1163/1576] Compiling C object libsystem.a.p/hw_input_pckbd.c.obj
+[1164/1576] Compiling C object libsystem.a.p/hw_intc_i8259.c.obj
+[1165/1576] Compiling C object libsystem.a.p/hw_input_ps2.c.obj
+[1166/1576] Compiling C object libsystem.a.p/hw_intc_ioapic_common.c.obj
+[1167/1576] Compiling C object libsystem.a.p/hw_intc_kvm_irqcount.c.obj
+[1168/1576] Compiling C object libsystem.a.p/hw_isa_apm.c.obj
+[1169/1576] Compiling C object libsystem.a.p/hw_isa_isa-bus.c.obj
+[1170/1576] Compiling C object libsystem.a.p/hw_mem_cxl_type3_stubs.c.obj
+[1171/1576] Compiling C object libsystem.a.p/hw_isa_piix.c.obj
+[1172/1576] Compiling C object libsystem.a.p/hw_mem_memory-device.c.obj
+[1173/1576] Compiling C object libsystem.a.p/hw_net_rocker_qmp-norocker.c.obj
+[1174/1576] Compiling C object libsystem.a.p/hw_misc_pci-testdev.c.obj
+[1175/1576] Compiling C object libsystem.a.p/hw_net_vhost_net-stub.c.obj
+[1176/1576] Compiling C object libsystem.a.p/hw_mem_pc-dimm.c.obj
+[1177/1576] Compiling C object libsystem.a.p/hw_net_rocker_rocker-hmp-cmds.c.obj
+[1178/1576] Compiling C object libsystem.a.p/hw_nvram_fw_cfg-interface.c.obj
+[1179/1576] Compiling C object libsystem.a.p/hw_pci_msi.c.obj
+[1180/1576] Compiling C object libsystem.a.p/hw_pci_msix.c.obj
+[1181/1576] Compiling C object libsystem.a.p/hw_nvram_fw_cfg.c.obj
+[1182/1576] Compiling C object libsystem.a.p/hw_pci_pci_bridge.c.obj
+[1183/1576] Compiling C object libsystem.a.p/hw_pci_pci.c.obj
+[1184/1576] Compiling C object libsystem.a.p/hw_pci_pci_host.c.obj
+[1185/1576] Compiling C object libsystem.a.p/hw_pci_pci-hmp-cmds.c.obj
+[1186/1576] Compiling C object libsystem.a.p/hw_pci_pcie_sriov.c.obj
+[1187/1576] Compiling C object libsystem.a.p/hw_pci_pci-qmp-cmds.c.obj
+[1188/1576] Compiling C object libsystem.a.p/hw_pci_shpc.c.obj
+[1189/1576] Compiling C object libsystem.a.p/hw_pci_slotid_cap.c.obj
+[1190/1576] Compiling C object libsystem.a.p/hw_pci_pcie.c.obj
+[1191/1576] Compiling C object libsystem.a.p/hw_pci_pcie_aer.c.obj
+[1192/1576] Compiling C object libsystem.a.p/hw_pci-bridge_pci_expander_bridge_stubs.c.obj
+[1193/1576] Compiling C object libsystem.a.p/hw_pci_pcie_doe.c.obj
+[1194/1576] Compiling C object libsystem.a.p/hw_pci-host_pam.c.obj
+[1195/1576] Compiling C object libsystem.a.p/hw_pci-host_i440fx.c.obj
+[1196/1576] Compiling C object libsystem.a.p/hw_scsi_emulation.c.obj
+[1197/1576] Compiling C object libsystem.a.p/hw_rtc_mc146818rtc.c.obj
+[1198/1576] Compiling C object libsystem.a.p/hw_scsi_scsi-generic.c.obj
+[1199/1576] Compiling C object libsystem.a.p/hw_smbios_smbios-stub.c.obj
+[1200/1576] Compiling C object libsystem.a.p/hw_scsi_scsi-bus.c.obj
+[1201/1576] Compiling C object libsystem.a.p/hw_scsi_scsi-disk.c.obj
+[1202/1576] Compiling C object libsystem.a.p/hw_timer_i8254_common.c.obj
+[1203/1576] Compiling C object libsystem.a.p/hw_timer_i8254.c.obj
+[1204/1576] Compiling C object libsystem.a.p/hw_uefi_hardware-info.c.obj
+[1205/1576] Compiling C object libsystem.a.p/hw_uefi_ovmf-log.c.obj
+[1206/1576] Compiling C object libsystem.a.p/hw_usb_combined-packet.c.obj
+[1207/1576] Compiling C object libsystem.a.p/hw_usb_bus.c.obj
+[1208/1576] Compiling C object libsystem.a.p/hw_usb_core.c.obj
+[1209/1576] Compiling C object libsystem.a.p/hw_usb_desc-msos.c.obj
+[1210/1576] Compiling C object libsystem.a.p/hw_usb_desc.c.obj
+[1211/1576] Compiling C object libsystem.a.p/hw_usb_libhw.c.obj
+[1212/1576] Compiling C object libsystem.a.p/hw_usb_pcap.c.obj
+[1213/1576] Compiling C object libsystem.a.p/hw_usb_hcd-uhci.c.obj
+[1214/1576] Compiling C object libsystem.a.p/hw_usb_hcd-ohci-pci.c.obj
+[1215/1576] Compiling C object libsystem.a.p/hw_usb_imx-usb-phy.c.obj
+[1216/1576] Compiling C object libsystem.a.p/hw_usb_hcd-ohci.c.obj
+[1217/1576] Compiling C object libsystem.a.p/hw_usb_dev-hid.c.obj
+[1218/1576] Compiling C object libsystem.a.p/hw_usb_dev-hub.c.obj
+[1219/1576] Compiling C object libsystem.a.p/hw_usb_dev-wacom.c.obj
+[1220/1576] Compiling C object libsystem.a.p/hw_usb_dev-storage-bot.c.obj
+[1221/1576] Compiling C object libsystem.a.p/hw_usb_dev-storage.c.obj
+[1222/1576] Compiling C object libsystem.a.p/hw_usb_dev-audio.c.obj
+[1223/1576] Compiling C object libsystem.a.p/hw_usb_dev-storage-classic.c.obj
+[1224/1576] Compiling C object libsystem.a.p/hw_usb_dev-uas.c.obj
+[1225/1576] Compiling C object libsystem.a.p/hw_usb_dev-network.c.obj
+[1226/1576] Compiling C object libsystem.a.p/hw_usb_dev-serial.c.obj
+[1227/1576] Compiling C object libsystem.a.p/hw_usb_dev-smartcard-reader.c.obj
+[1228/1576] Compiling C object libsystem.a.p/hw_vfio_iommufd-stubs.c.obj
+[1229/1576] Compiling C object libsystem.a.p/hw_usb_u2f.c.obj
+[1230/1576] Compiling C object libsystem.a.p/hw_virtio_vhost-stub.c.obj
+[1231/1576] Compiling C object libsystem.a.p/hw_virtio_virtio-stub.c.obj
+[1232/1576] Compiling C object libsystem.a.p/hw_virtio_virtio-md-stubs.c.obj
+[1233/1576] Compiling C object libsystem.a.p/hw_virtio_virtio-acpi.c.obj
+[1234/1576] Compiling C object libsystem.a.p/hw_virtio_virtio-hmp-cmds.c.obj
+[1235/1576] Compiling C object libsystem.a.p/hw_watchdog_watchdog.c.obj
+[1236/1576] Compiling C object libsystem.a.p/hw_watchdog_wdt_ib700.c.obj
+[1237/1576] Compiling C object libsystem.a.p/hw_xen_xen_stubs.c.obj
+[1238/1576] Compiling C object libsystem.a.p/audio_noaudio.c.obj
+[1239/1576] Compiling C object libsystem.a.p/audio_wavaudio.c.obj
+[1240/1576] Compiling C object libsystem.a.p/audio_mixeng.c.obj
+[1241/1576] Compiling C object libsystem.a.p/audio_audio-hmp-cmds.c.obj
+[1242/1576] Compiling C object libsystem.a.p/audio_wavcapture.c.obj
+[1243/1576] Compiling C object libsystem.a.p/audio_audio.c.obj
+[1244/1576] Compiling C object libsystem.a.p/chardev_char-hmp-cmds.c.obj
+[1245/1576] Compiling C object libsystem.a.p/chardev_msmouse.c.obj
+[1246/1576] Compiling C object libsystem.a.p/chardev_wctablet.c.obj
+[1247/1576] Compiling C object libsystem.a.p/chardev_testdev.c.obj
+[1248/1576] Compiling C object libsystem.a.p/dump_dump-hmp-cmds.c.obj
+[1249/1576] Compiling C object libsystem.a.p/dump_dump.c.obj
+[1250/1576] Compiling C object libsystem.a.p/block_block-ram-registrar.c.obj
+[1251/1576] Compiling C object libsystem.a.p/block_blkreplay.c.obj
+[1252/1576] Compiling C object libsystem.a.p/block_qapi-system.c.obj
+[1253/1576] Compiling C object libsystem.a.p/block_monitor_block-hmp-cmds.c.obj
+[1254/1576] Compiling C object libsystem.a.p/os-win32.c.obj
+[1255/1576] Compiling C object libsystem.a.p/cpu-target.c.obj
+[1256/1576] Compiling C object libsystem.a.p/system_balloon.c.obj
+[1257/1576] Compiling C object libsystem.a.p/system_bootdevice.c.obj
+[1258/1576] Compiling C object libsystem.a.p/system_cpu-timers.c.obj
+[1259/1576] Compiling C object libsystem.a.p/system_cpus.c.obj
+[1260/1576] Compiling C object libsystem.a.p/system_datadir.c.obj
+[1261/1576] Compiling C object libsystem.a.p/system_vl.c.obj
+[1262/1576] Compiling C object libsystem.a.p/system_dirtylimit.c.obj
+[1263/1576] Compiling C object libsystem.a.p/system_dma-helpers.c.obj
+[1264/1576] Compiling C object libsystem.a.p/system_exit-with-parent.c.obj
+[1265/1576] Compiling C object libsystem.a.p/system_globals.c.obj
+[1266/1576] Compiling C object libsystem.a.p/system_host.c.obj
+[1267/1576] Compiling C object libsystem.a.p/system_ioport.c.obj
+[1268/1576] Compiling C object libsystem.a.p/system_memory_mapping.c.obj
+[1269/1576] Compiling C object libsystem.a.p/system_ram-block-attributes.c.obj
+[1270/1576] Compiling C object libsystem.a.p/system_qdev-monitor.c.obj
+[1271/1576] Compiling C object libsystem.a.p/system_rtc.c.obj
+[1272/1576] Compiling C object libsystem.a.p/system_runstate-action.c.obj
+[1273/1576] Compiling C object libsystem.a.p/system_qtest.c.obj
+[1274/1576] Compiling C object libsystem.a.p/system_memory.c.obj
+[1275/1576] Compiling C object libsystem.a.p/system_runstate-hmp-cmds.c.obj
+[1276/1576] Compiling C object libsystem.a.p/system_device_tree-stub.c.obj
+[1277/1576] Compiling C object libsystem.a.p/system_physmem.c.obj
+[1278/1576] Compiling C object libsystem.a.p/system_tpm-hmp-cmds.c.obj
+[1279/1576] Compiling C object libsystem.a.p/system_watchpoint.c.obj
+[1280/1576] Compiling C object libsystem.a.p/system_runstate.c.obj
+[1281/1576] Compiling C object libsystem.a.p/target-info-qom.c.obj
+[1282/1576] Compiling C object libsystem.a.p/backends_cryptodev-builtin.c.obj
+[1283/1576] Compiling C object libsystem.a.p/backends_cryptodev-hmp-cmds.c.obj
+[1284/1576] Compiling C object libsystem.a.p/backends_hostmem-ram.c.obj
+[1285/1576] Compiling C object libsystem.a.p/backends_cryptodev.c.obj
+[1286/1576] Compiling C object libsystem.a.p/backends_hostmem.c.obj
+[1287/1576] Compiling C object libsystem.a.p/backends_rng-builtin.c.obj
+[1288/1576] Compiling C object libsystem.a.p/backends_rng-egd.c.obj
+[1289/1576] Compiling C object libsystem.a.p/backends_rng.c.obj
+[1290/1576] Compiling C object libsystem.a.p/backends_confidential-guest-support.c.obj
+[1291/1576] Compiling C object libsystem.a.p/backends_spdm-socket.c.obj
+[1292/1576] Compiling C object libsystem.a.p/disas_disas-mon.c.obj
+[1293/1576] Compiling C object libsystem.a.p/migration_block-active.c.obj
+[1294/1576] Compiling C object libsystem.a.p/migration_channel.c.obj
+[1295/1576] Compiling C object libsystem.a.p/migration_channel-block.c.obj
+[1296/1576] Compiling C object libsystem.a.p/migration_block-dirty-bitmap.c.obj
+[1297/1576] Compiling C object libsystem.a.p/migration_cpr.c.obj
+[1298/1576] Compiling C object libsystem.a.p/migration_cpr-transfer.c.obj
+[1299/1576] Compiling C object libsystem.a.p/migration_cpr-exec.c.obj
+[1300/1576] Compiling C object libsystem.a.p/migration_cpu-throttle.c.obj
+[1301/1576] Compiling C object libsystem.a.p/migration_exec.c.obj
+[1302/1576] Compiling C object libsystem.a.p/migration_fd.c.obj
+[1303/1576] Compiling C object libsystem.a.p/migration_dirtyrate.c.obj
+[1304/1576] Compiling C object libsystem.a.p/migration_file.c.obj
+[1305/1576] Compiling C object libsystem.a.p/migration_global_state.c.obj
+[1306/1576] Compiling C object libsystem.a.p/migration_migration-hmp-cmds.c.obj
+[1307/1576] Compiling C object libsystem.a.p/migration_multifd-device-state.c.obj
+[1308/1576] Compiling C object libsystem.a.p/migration_multifd-nocomp.c.obj
+[1309/1576] Compiling C object libsystem.a.p/migration_multifd.c.obj
+[1310/1576] Compiling C object libsystem.a.p/migration_migration.c.obj
+[1311/1576] Compiling C object libsystem.a.p/migration_multifd-zlib.c.obj
+[1312/1576] Compiling C object libsystem.a.p/migration_multifd-zero-page.c.obj
+[1313/1576] Compiling C object libsystem.a.p/migration_options.c.obj
+[1314/1576] Compiling C object libsystem.a.p/migration_postcopy-ram.c.obj
+[1315/1576] Compiling C object libsystem.a.p/migration_socket.c.obj
+[1316/1576] Compiling C object libsystem.a.p/migration_tls.c.obj
+[1317/1576] Compiling C object libsystem.a.p/migration_threadinfo.c.obj
+[1318/1576] Compiling C object libsystem.a.p/migration_ram.c.obj
+[1319/1576] Compiling C object libsystem.a.p/migration_colo-stubs.c.obj
+[1320/1576] Compiling C object libsystem.a.p/migration_savevm.c.obj
+[1321/1576] Compiling C object libsystem.a.p/migration_vfio-stub.c.obj
+[1322/1576] Compiling C object libsystem.a.p/monitor_fds.c.obj
+[1323/1576] Compiling C object libsystem.a.p/monitor_hmp-cmds.c.obj
+[1324/1576] Compiling C object libsystem.a.p/monitor_qemu-config-qmp.c.obj
+[1325/1576] Compiling C object libsystem.a.p/monitor_hmp.c.obj
+[1326/1576] Compiling C object libsystem.a.p/monitor_qmp-cmds.c.obj
+[1327/1576] Compiling C object libsystem.a.p/net_announce.c.obj
+[1328/1576] Compiling C object libsystem.a.p/net_checksum.c.obj
+[1329/1576] Compiling C object libsystem.a.p/net_dgram.c.obj
+[1330/1576] Compiling C object libsystem.a.p/net_dump.c.obj
+[1331/1576] Compiling C object libsystem.a.p/net_eth.c.obj
+[1332/1576] Compiling C object libsystem.a.p/net_filter-buffer.c.obj
+[1333/1576] Compiling C object libsystem.a.p/net_filter-mirror.c.obj
+[1334/1576] Compiling C object libsystem.a.p/net_filter.c.obj
+[1335/1576] Compiling C object libsystem.a.p/net_net-hmp-cmds.c.obj
+[1336/1576] Compiling C object libsystem.a.p/net_hub.c.obj
+[1337/1576] Compiling C object libsystem.a.p/net_queue.c.obj
+[1338/1576] Compiling C object libsystem.a.p/net_net.c.obj
+[1339/1576] Compiling C object libsystem.a.p/net_stream.c.obj
+[1340/1576] Compiling C object libsystem.a.p/net_socket.c.obj
+[1341/1576] Compiling C object libsystem.a.p/net_stream_data.c.obj
+[1342/1576] Compiling C object libsystem.a.p/net_colo-stubs.c.obj
+[1343/1576] Compiling C object libsystem.a.p/net_util.c.obj
+[1344/1576] Compiling C object libsystem.a.p/net_filter-replay.c.obj
+[1345/1576] Compiling C object libsystem.a.p/net_tap-stub.c.obj
+[1346/1576] Compiling C object libsystem.a.p/net_pcap-stub.c.obj
+[1347/1576] Compiling C object libsystem.a.p/net_slirp.c.obj
+[1348/1576] Compiling C object libsystem.a.p/replay_replay.c.obj
+[1349/1576] Compiling C object libsystem.a.p/replay_replay-internal.c.obj
+[1350/1576] Compiling C object libsystem.a.p/replay_replay-events.c.obj
+[1351/1576] Compiling C object libsystem.a.p/replay_replay-time.c.obj
+[1352/1576] Compiling C object libsystem.a.p/replay_replay-input.c.obj
+[1353/1576] Compiling C object libsystem.a.p/replay_replay-net.c.obj
+[1354/1576] Compiling C object libsystem.a.p/replay_replay-char.c.obj
+[1355/1576] Compiling C object libsystem.a.p/replay_replay-snapshot.c.obj
+[1356/1576] Compiling C object libsystem.a.p/replay_replay-audio.c.obj
+[1357/1576] Compiling C object libsystem.a.p/replay_replay-random.c.obj
+[1358/1576] Compiling C object libsystem.a.p/semihosting_arm-compat-semi-stub.c.obj
+[1359/1576] Compiling C object libsystem.a.p/replay_replay-debugging.c.obj
+[1360/1576] Compiling C object libsystem.a.p/semihosting_stubs-system.c.obj
+[1361/1576] Compiling C object libsystem.a.p/stats_stats-hmp-cmds.c.obj
+[1362/1576] Compiling C object libsystem.a.p/stats_stats-qmp-cmds.c.obj
+[1363/1576] Compiling C object libsystem.a.p/tcg_region.c.obj
+[1364/1576] Compiling C object libsystem.a.p/tcg_tcg-common.c.obj
+[1365/1576] Compiling C object libsystem.a.p/tcg_optimize.c.obj
+[1366/1576] Compiling C object libsystem.a.p/tcg_tcg-op-vec.c.obj
+[1367/1576] Compiling C object libsystem.a.p/tcg_tcg-op-ldst.c.obj
+[1368/1576] Compiling C object libsystem.a.p/tcg_tcg-op-fp.c.obj
+[1369/1576] Compiling C object libsystem.a.p/tcg_tcg-op.c.obj
+[1370/1576] Compiling C object libsystem.a.p/accel_accel-system.c.obj
+[1371/1576] Compiling C object libsystem.a.p/tcg_tcg-op-gvec.c.obj
+[1372/1576] Compiling C object libsystem.a.p/accel_accel-blocker.c.obj
+[1373/1576] Compiling C object libsystem.a.p/tcg_tcg.c.obj
+[1374/1576] Compiling C object libsystem.a.p/accel_accel-qmp.c.obj
+[1375/1576] Compiling C object libsystem.a.p/accel_accel-irq.c.obj
+[1376/1576] Compiling C object libsystem.a.p/accel_tcg_cpu-exec-common.c.obj
+[1377/1576] Compiling C object libsystem.a.p/accel_tcg_tcg-runtime.c.obj
+[1378/1576] Compiling C object libsystem.a.p/accel_tcg_cpu-exec.c.obj
+[1379/1576] Compiling C object libsystem.a.p/accel_tcg_tb-maint.c.obj
+[1380/1576] Compiling C object libsystem.a.p/accel_tcg_tcg-all.c.obj
+[1381/1576] Compiling C object libsystem.a.p/accel_tcg_tcg-stats.c.obj
+[1382/1576] Compiling C object libsystem.a.p/accel_tcg_translate-all.c.obj
+[1383/1576] Compiling C object libsystem.a.p/accel_tcg_translator.c.obj
+[1384/1576] Compiling C object libsystem.a.p/accel_tcg_icount-common.c.obj
+[1385/1576] Compiling C object libsystem.a.p/accel_tcg_monitor.c.obj
+[1386/1576] Compiling C object libsystem.a.p/accel_tcg_tcg-runtime-gvec.c.obj
+[1387/1576] Compiling C object libsystem.a.p/accel_tcg_tcg-accel-ops-icount.c.obj
+[1388/1576] Compiling C object libsystem.a.p/accel_tcg_tcg-accel-ops.c.obj
+[1389/1576] Compiling C object libsystem.a.p/accel_tcg_tcg-accel-ops-mttcg.c.obj
+[1390/1576] Compiling C object libsystem.a.p/accel_tcg_tcg-accel-ops-rr.c.obj
+[1391/1576] Compiling C object libsystem.a.p/accel_tcg_watchpoint.c.obj
+[1392/1576] Compiling C object libsystem.a.p/accel_dummy-cpus.c.obj
+[1393/1576] Compiling C object libsystem.a.p/ebpf_ebpf_rss-stub.c.obj
+[1394/1576] Compiling C object libsystem.a.p/accel_tcg_cputlb.c.obj
+[1395/1576] Compiling C object libcommon.a.p/page-vary-common.c.obj
+[1396/1576] Compiling C object libsystem.a.p/hw_usb_host-libusb.c.obj
+[1397/1576] Compiling C object libcommon.a.p/hw_core_cpu-common.c.obj
+[1398/1576] Compiling C object libcommon.a.p/cpu-common.c.obj
+[1399/1576] Compiling C object libcommon.a.p/hw_core_machine-smp.c.obj
+[1400/1576] Compiling C object libcommon.a.p/target-info.c.obj
+[1401/1576] Compiling C object libcommon.a.p/disas_disas-host.c.obj
+[1402/1576] Compiling C object libcommon.a.p/disas_objdump.c.obj
+[1403/1576] Compiling C object libcommon.a.p/disas_disas-target.c.obj
+[1404/1576] Compiling C object libcommon.a.p/semihosting_stubs-all.c.obj
+[1405/1576] Compiling C object libcommon.a.p/disas_disas-common.c.obj
+[1406/1576] Compiling C object libcommon.a.p/accel_accel-common.c.obj
+[1407/1576] Compiling C object libqemu-i386-softmmu.a.p/meson-generated_.._i386-softmmu-gdbstub-xml.c.obj
+[1408/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_arch_memory_mapping.c.obj
+[1409/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_arch_dump.c.obj
+[1410/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_machine.c.obj
+[1411/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_cpu-apic.c.obj
+[1412/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_monitor.c.obj
+[1413/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_cpu-system.c.obj
+[1414/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_sev-system-stub.c.obj
+[1415/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_kvm_hyperv-stub.c.obj
+[1416/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_system_tcg-cpu.c.obj
+[1417/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_system_smm_helper.c.obj
+[1418/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_system_bpt_helper.c.obj
+[1419/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_system_excp_helper.c.obj
+[1420/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_system_misc_helper.c.obj
+[1421/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_system_fpu_helper.c.obj
+[1422/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_e820_memory_layout.c.obj
+[1423/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_system_svm_helper.c.obj
+[1424/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_system_seg_helper.c.obj
+[1425/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_fw_cfg.c.obj
+[1426/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_monitor.c.obj
+[1427/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_multiboot.c.obj
+[1428/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_x86-cpu.c.obj
+[1429/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_x86.c.obj
+[1430/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_vapic.c.obj
+[1431/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_x86-iommu-stub.c.obj
+[1432/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_amd_iommu-stub.c.obj
+[1433/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_sgx-stub.c.obj
+[1434/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_acpi-common.c.obj
+[1435/1576] Compiling C object libcommon.a.p/fpu_softfloat.c.obj
+[1436/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_x86-common.c.obj
+[1437/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_pc_sysfw.c.obj
+[1438/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_pc_sysfw_ovmf-stubs.c.obj
+[1439/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_pc.c.obj
+[1440/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_port92.c.obj
+[1441/1576] Compiling C object libqemu-i386-softmmu.a.p/target-info-stub.c.obj
+[1442/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_gdbstub.c.obj
+[1443/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_cpu-dump.c.obj
+[1444/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_xsave_helper.c.obj
+[1445/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_helper.c.obj
+[1446/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_cpu.c.obj
+[1447/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_access.c.obj
+[1448/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_bpt_helper.c.obj
+[1449/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_excp_helper.c.obj
+[1450/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_cc_helper.c.obj
+[1451/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_int_helper.c.obj
+[1452/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_mem_helper.c.obj
+[1453/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_misc_helper.c.obj
+[1454/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_fpu_helper_hard.c.obj
+[1455/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_mpx_helper.c.obj
+[1456/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_tcg-cpu.c.obj
+[1457/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_i386_kvm_xen-stubs.c.obj
+[1458/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_seg_helper.c.obj
+[1459/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_intc_apic.c.obj
+[1460/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_intc_apic_common.c.obj
+[1461/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_intc_ioapic.c.obj
+[1462/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_nvram_fw_cfg-acpi.c.obj
+[1463/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_acpi_xbox.c.obj
+[1464/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_fpu_helper.c.obj
+[1465/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_amd_smbus.c.obj
+[1466/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_eeprom_generation.c.obj
+[1467/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_lpc47m157.c.obj
+[1468/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_smbus_adm1032.c.obj
+[1469/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_smbus_cx25871.c.obj
+[1470/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_smbus_fs454.c.obj
+[1471/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_smbus_xcalibur.c.obj
+[1472/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_smbus_storage.c.obj
+[1473/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_smbus_xbox_smc.c.obj
+[1474/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_xbox.c.obj
+[1475/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_xbox_pci.c.obj
+[1476/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_xid.c.obj
+[1477/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_xblc.c.obj
+[1478/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_xid-gamepad.c.obj
+[1479/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_nv2a.c.obj
+[1480/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pbus.c.obj
+[1481/1576] Compiling C object libqemu-i386-softmmu.a.p/target_i386_tcg_translate.c.obj
+[1482/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pfb.c.obj
+[1483/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pcrtc.c.obj
+[1484/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pmc.c.obj
+[1485/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pfifo.c.obj
+[1486/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pramdac.c.obj
+[1487/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_prmdio.c.obj
+[1488/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_prmcio.c.obj
+[1489/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_prmvio.c.obj
+[1490/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pvideo.c.obj
+[1491/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_ptimer.c.obj
+[1492/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_stubs.c.obj
+[1493/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_swizzle.c.obj
+[1494/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_user.c.obj
+[1495/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_profile.c.obj
+[1496/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_s3tc.c.obj
+[1497/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_rdi.c.obj
+[1498/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_texture.c.obj
+[1499/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vertex.c.obj
+[1500/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_blit.c.obj
+../hw/xbox/nv2a/pgraph/gl/blit.c: In function 'pgraph_gl_image_blit':
+../hw/xbox/nv2a/pgraph/gl/blit.c:180:18: warning: declaration of 'dest' shadows a previous local [-Wshadow=compatible-local]
+  180 |         uint8_t *dest =
+      |                  ^~~~
+../hw/xbox/nv2a/pgraph/gl/blit.c:112:14: note: shadowed declaration is here
+  112 |     uint8_t *dest = (uint8_t *)nv_dma_map(d, context_surfaces->dma_image_dest,
+      |              ^~~~
+../hw/xbox/nv2a/pgraph/gl/blit.c:212:22: warning: declaration of 'dest' shadows a previous local [-Wshadow=compatible-local]
+  212 |             uint8_t *dest =
+      |                      ^~~~
+../hw/xbox/nv2a/pgraph/gl/blit.c:112:14: note: shadowed declaration is here
+  112 |     uint8_t *dest = (uint8_t *)nv_dma_map(d, context_surfaces->dma_image_dest,
+      |              ^~~~
+../hw/xbox/nv2a/pgraph/gl/blit.c:138:35: warning: 'bytes_per_pixel' may be used uninitialized [-Wmaybe-uninitialized]
+  138 |     size_t row_bytes = row_pixels * bytes_per_pixel;
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/gl/blit.c:83:18: note: 'bytes_per_pixel' was declared here
+   83 |     unsigned int bytes_per_pixel;
+      |                  ^~~~~~~~~~~~~~~
+[1501/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_null_renderer.c.obj
+[1502/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_debug.c.obj
+[1503/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_pgraph.c.obj
+In file included from D:/a/xemu/xemu/hw/xbox/nv2a/pgraph/texture.h:31,
+                 from D:/a/xemu/xemu/hw/xbox/nv2a/pgraph/pgraph.h:33,
+                 from D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_int.h:51,
+                 from ../hw/xbox/nv2a/pgraph/pgraph.c:24:
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_STENCIL_OP_ZFAIL_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'op' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1592:5: note: in expansion of macro 'PG_SET_MASK'
+ 1592 |     PG_SET_MASK(NV_PGRAPH_CONTROL_2,
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1558:18: note: 'op' was declared here
+ 1558 |     unsigned int op;
+      |                  ^~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_FRONT_POLYGON_MODE_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:13: warning: 'mode' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |             ^~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1657:5: note: in expansion of macro 'PG_SET_MASK'
+ 1657 |     PG_SET_MASK(NV_PGRAPH_SETUPRASTER,
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1640:18: note: 'mode' was declared here
+ 1640 |     unsigned int mode;
+      |                  ^~~~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_BACK_POLYGON_MODE_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'mode' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1664:5: note: in expansion of macro 'PG_SET_MASK'
+ 1664 |     PG_SET_MASK(NV_PGRAPH_SETUPRASTER,
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1640:18: note: 'mode' was declared here
+ 1640 |     unsigned int mode;
+      |                  ^~~~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_CULL_FACE_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'face' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1693:5: note: in expansion of macro 'PG_SET_MASK'
+ 1693 |     PG_SET_MASK(NV_PGRAPH_SETUPRASTER, NV_PGRAPH_SETUPRASTER_CULLCTRL, face);
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1681:18: note: 'face' was declared here
+ 1681 |     unsigned int face;
+      |                  ^~~~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_FOG_GEN_MODE_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'mode' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1233:5: note: in expansion of macro 'PG_SET_MASK'
+ 1233 |     PG_SET_MASK(NV_PGRAPH_CSV0_D, NV_PGRAPH_CSV0_D_FOGGENMODE, mode);
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1217:18: note: 'mode' was declared here
+ 1217 |     unsigned int mode;
+      |                  ^~~~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_FOG_MODE_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'mode' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1211:5: note: in expansion of macro 'PG_SET_MASK'
+ 1211 |     PG_SET_MASK(NV_PGRAPH_CONTROL_3, NV_PGRAPH_CONTROL_3_FOG_MODE,
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1193:18: note: 'mode' was declared here
+ 1193 |     unsigned int mode;
+      |                  ^~~~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_STENCIL_OP_FAIL_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:13: warning: 'op' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |             ^~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1585:5: note: in expansion of macro 'PG_SET_MASK'
+ 1585 |     PG_SET_MASK(NV_PGRAPH_CONTROL_2,
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1558:18: note: 'op' was declared here
+ 1558 |     unsigned int op;
+      |                  ^~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_STENCIL_OP_ZPASS_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'op' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1599:5: note: in expansion of macro 'PG_SET_MASK'
+ 1599 |     PG_SET_MASK(NV_PGRAPH_CONTROL_2,
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1558:18: note: 'op' was declared here
+ 1558 |     unsigned int op;
+      |                  ^~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_TEXGEN_T_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'texgen' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1785:5: note: in expansion of macro 'PG_SET_MASK'
+ 1785 |     PG_SET_MASK(reg, mask, kelvin_map_texgen(parameter, 1));
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1744:18: note: 'texgen' was declared here
+ 1744 |     unsigned int texgen;
+      |                  ^~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_TEXGEN_S_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'texgen' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1775:5: note: in expansion of macro 'PG_SET_MASK'
+ 1775 |     PG_SET_MASK(reg, mask, kelvin_map_texgen(parameter, 0));
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1744:18: note: 'texgen' was declared here
+ 1744 |     unsigned int texgen;
+      |                  ^~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_TEXGEN_R_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'texgen' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1795:5: note: in expansion of macro 'PG_SET_MASK'
+ 1795 |     PG_SET_MASK(reg, mask, kelvin_map_texgen(parameter, 2));
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1744:18: note: 'texgen' was declared here
+ 1744 |     unsigned int texgen;
+      |                  ^~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c: In function 'pgraph_NV097_SET_TEXGEN_Q_handler':
+D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_regs.h:32:25: warning: 'texgen' may be used uninitialized [-Wmaybe-uninitialized]
+   32 |         (v) |= ((__val) << ctz32(__mask)) & (__mask);     \
+      |                ~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:35:9: note: in expansion of macro 'SET_MASK'
+   35 |         SET_MASK(rv, mask, value);           \
+      |         ^~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1805:5: note: in expansion of macro 'PG_SET_MASK'
+ 1805 |     PG_SET_MASK(reg, mask, kelvin_map_texgen(parameter, 3));
+      |     ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/pgraph.c:1744:18: note: 'texgen' was declared here
+ 1744 |     unsigned int texgen;
+      |                  ^~~~~~
+[1504/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_display.c.obj
+[1505/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_draw.c.obj
+[1506/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_reports.c.obj
+[1507/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_gpuprops.c.obj
+[1508/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_renderer.c.obj
+[1509/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_shaders.c.obj
+[1510/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_glsl_common.c.obj
+[1511/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_glsl_geom.c.obj
+[1512/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_surface.c.obj
+[1513/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_vertex.c.obj
+[1514/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_gl_texture.c.obj
+../hw/xbox/nv2a/pgraph/gl/texture.c: In function 'gl_internal_format_to_s3tc_enum':
+../hw/xbox/nv2a/pgraph/gl/texture.c:422:1: warning: control reaches end of non-void function [-Wreturn-type]
+  422 | }
+      | ^
+In file included from D:/a/_temp/msys64/ucrt64/include/epoxy/gl.h:92,
+                 from D:/a/xemu/xemu/include/ui/surface.h:11,
+                 from D:/a/xemu/xemu/include/ui/console.h:9,
+                 from D:/a/xemu/xemu/hw/xbox/nv2a/nv2a_int.h:36,
+                 from ../hw/xbox/nv2a/pgraph/gl/texture.c:23:
+In function 'generate_texture',
+    inlined from 'pgraph_gl_bind_textures' at ../hw/xbox/nv2a/pgraph/gl/texture.c:365:32:
+../hw/xbox/nv2a/pgraph/gl/texture.c:674:5: warning: 'gl_target' may be used uninitialized [-Wmaybe-uninitialized]
+  674 |     glBindTexture(gl_target, gl_texture);
+      |     ^
+../hw/xbox/nv2a/pgraph/gl/texture.c: In function 'pgraph_gl_bind_textures':
+../hw/xbox/nv2a/pgraph/gl/texture.c:652:12: note: 'gl_target' was declared here
+  652 |     GLenum gl_target;
+      |            ^~~~~~~~~
+[1515/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_glsl_shaders.c.obj
+[1516/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_glsl_vsh-ff.c.obj
+[1517/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_glsl_vsh-prog.c.obj
+[1518/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_glsl_vsh.c.obj
+[1519/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_glsl_psh.c.obj
+[1520/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_blit.c.obj
+../hw/xbox/nv2a/pgraph/vk/blit.c: In function 'pgraph_vk_image_blit':
+../hw/xbox/nv2a/pgraph/vk/blit.c:184:18: warning: declaration of 'dest' shadows a previous local [-Wshadow=compatible-local]
+  184 |         uint8_t *dest =
+      |                  ^~~~
+../hw/xbox/nv2a/pgraph/vk/blit.c:116:14: note: shadowed declaration is here
+  116 |     uint8_t *dest = (uint8_t *)nv_dma_map(d, context_surfaces->dma_image_dest,
+      |              ^~~~
+../hw/xbox/nv2a/pgraph/vk/blit.c:216:22: warning: declaration of 'dest' shadows a previous local [-Wshadow=compatible-local]
+  216 |             uint8_t *dest =
+      |                      ^~~~
+../hw/xbox/nv2a/pgraph/vk/blit.c:116:14: note: shadowed declaration is here
+  116 |     uint8_t *dest = (uint8_t *)nv_dma_map(d, context_surfaces->dma_image_dest,
+      |              ^~~~
+../hw/xbox/nv2a/pgraph/vk/blit.c:142:35: warning: 'bytes_per_pixel' may be used uninitialized [-Wmaybe-uninitialized]
+  142 |     size_t row_bytes = row_pixels * bytes_per_pixel;
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/vk/blit.c:87:18: note: 'bytes_per_pixel' was declared here
+   87 |     unsigned int bytes_per_pixel;
+      |                  ^~~~~~~~~~~~~~~
+[1521/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_debug.c.obj
+[1522/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_buffer.c.obj
+[1523/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_command.c.obj
+[1524/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_display.c.obj
+[1525/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_glsl.c.obj
+../hw/xbox/nv2a/pgraph/vk/glsl.c: In function 'vk_shader_stage_to_glslang_stage':
+../hw/xbox/nv2a/pgraph/vk/glsl.c:379:1: warning: control reaches end of non-void function [-Wreturn-type]
+  379 | }
+      | ^
+[1526/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_draw.c.obj
+[1527/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_image.c.obj
+../hw/xbox/nv2a/pgraph/vk/image.c: In function 'pgraph_vk_transition_image_layout':
+../hw/xbox/nv2a/pgraph/vk/image.c:239:5: warning: 'sourceStage' may be used uninitialized [-Wmaybe-uninitialized]
+  239 |     vkCmdPipelineBarrier(cmd, sourceStage, destinationStage, 0, 0,
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  240 |                          NULL, 0, NULL, 1, &barrier);
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/vk/image.c:63:26: note: 'sourceStage' was declared here
+   63 |     VkPipelineStageFlags sourceStage;
+      |                          ^~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/vk/image.c:239:5: warning: 'destinationStage' may be used uninitialized [-Wmaybe-uninitialized]
+  239 |     vkCmdPipelineBarrier(cmd, sourceStage, destinationStage, 0, 0,
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  240 |                          NULL, 0, NULL, 1, &barrier);
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../hw/xbox/nv2a/pgraph/vk/image.c:64:26: note: 'destinationStage' was declared here
+   64 |     VkPipelineStageFlags destinationStage;
+      |                          ^~~~~~~~~~~~~~~~
+[1528/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_gpuprops.c.obj
+[1529/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_instance.c.obj
+[1530/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_renderer.c.obj
+../hw/xbox/nv2a/pgraph/vk/renderer.c: In function 'pgraph_vk_get_framebuffer_surface':
+../hw/xbox/nv2a/pgraph/vk/renderer.c:219:20: warning: unused variable 'r' [-Wunused-variable]
+  219 |     PGRAPHVkState *r = pg->vk_renderer_state;
+      |                    ^
+[1531/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_reports.c.obj
+[1532/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_shaders.c.obj
+[1533/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_vertex.c.obj
+../hw/xbox/nv2a/pgraph/vk/vertex.c: In function 'pgraph_vk_bind_vertex_attributes':
+../hw/xbox/nv2a/pgraph/vk/vertex.c:254:61: warning: 'vk_format' may be used uninitialized [-Wmaybe-uninitialized]
+  253 |         r->vertex_attribute_descriptions
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                     
+  254 |             [r->num_active_vertex_attribute_descriptions++] =
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  255 |             (VkVertexInputAttributeDescription){
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             
+  256 |                 .binding = r->vertex_attribute_to_description_location[i],
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  257 |                 .location = i,
+      |                 ~~~~~~~~~~~~~~                               
+  258 |                 .format = vk_format,
+      |                 ~~~~~~~~~~~~~~~~~~~~                         
+  259 |             };
+      |             ~                                                
+../hw/xbox/nv2a/pgraph/vk/vertex.c:157:18: note: 'vk_format' was declared here
+  157 |         VkFormat vk_format;
+      |                  ^~~~~~~~~
+[1534/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_surface-compute.c.obj
+In file included from ../hw/xbox/nv2a/pgraph/vk/glsl.h:25,
+                 from ../hw/xbox/nv2a/pgraph/vk/renderer.h:42,
+                 from ../hw/xbox/nv2a/pgraph/vk/surface-compute.c:23:
+In function 'get_compute_shader_glsl',
+    inlined from 'pipeline_cache_entry_init' at ../hw/xbox/nv2a/pgraph/vk/surface-compute.c:541:19:
+../hw/xbox/nv2a/pgraph/vk/surface-compute.c:139:5: warning: 'template' may be used uninitialized [-Wmaybe-uninitialized]
+  139 |     assert(template);
+      |     ^~~~~~
+../hw/xbox/nv2a/pgraph/vk/surface-compute.c: In function 'pipeline_cache_entry_init':
+../hw/xbox/nv2a/pgraph/vk/surface-compute.c:124:17: note: 'template' was declared here
+  124 |     const char *template;
+      |                 ^~~~~~~~
+[1535/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d12_blits.c.obj
+[1536/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_texture.c.obj
+../hw/xbox/nv2a/pgraph/vk/texture.c: In function 'kelvin_format_to_s3tc_format':
+../hw/xbox/nv2a/pgraph/vk/texture.c:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+   85 | }
+      | ^
+[1537/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_vk_surface.c.obj
+[1538/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d12_draw.c.obj
+[1539/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d12_shaders.c.obj
+[1540/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d12_reports.c.obj
+[1541/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d12_renderer.c.obj
+[1542/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_blits.c.obj
+[1543/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d12_textures.c.obj
+[1544/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d12_surfaces.c.obj
+[1545/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_draw.c.obj
+[1546/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_presentation.c.obj
+[1547/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_renderer.c.obj
+FAILED: [code=1] libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_renderer.c.obj 
+"cc" "-m64" "-Ilibqemu-i386-softmmu.a.p" "-I." "-I.." "-Itarget/i386" "-I../target/i386" "-Isubprojects/genconfig" "-I../subprojects/genconfig" "-Ithirdparty/nvapi" "-I../thirdparty/nvapi" "-Isubprojects/imgui" "-I../subprojects/imgui" "-I../subprojects/imgui/backends" "-Isubprojects/implot" "-I../subprojects/implot" "-I../ui/thirdparty/stb_image" "-I../ui/thirdparty/fa" "-I../ui/thirdparty/fpng" "-I../subprojects/nlohmann_json/single_include" "-I../ui/thirdparty/fatx" "-Isubprojects/tomlplusplus/include" "-I../subprojects/tomlplusplus/include" "-I../hw/xbox/nv2a/pgraph/thirdparty/gloffscreen" "-Isubprojects/volk" "-I../subprojects/volk" "-ID:/a/_temp/msys64/ucrt64/include" "-I../subprojects/VulkanMemoryAllocator/include" "-Isubprojects/VulkanMemoryAllocator" "-I../subprojects/VulkanMemoryAllocator" "-Isubprojects/SPIRV-Reflect" "-I../subprojects/SPIRV-Reflect" "-I../thirdparty/mesa/src/microsoft/compiler" "-I../thirdparty/mesa/src/microsoft/spirv_to_dxil" "-I../subprojects/nv2a_vsh_cpu/src" "-Isubprojects/nv2a_vsh_cpu" "-I../subprojects/nv2a_vsh_cpu" "-Iqapi" "-Itrace" "-Iui" "-Iui/shader" "-Idata" "-ID:/a/_temp/msys64/ucrt64/include/slirp" "-ID:/a/_temp/msys64/ucrt64/include/glib-2.0" "-ID:/a/_temp/msys64/ucrt64/lib/glib-2.0/include" "-ID:/a/_temp/msys64/ucrt64/include/libusb-1.0" "-fdiagnostics-color=auto" "-Wall" "-Winvalid-pch" "-std=gnu11" "-O2" "-g" "-DXBOX" "-Wempty-body" "-Wendif-labels" "-Wexpansion-to-defined" "-Wformat-security" "-Wformat-y2k" "-Wignored-qualifiers" "-Wimplicit-fallthrough=2" "-Winit-self" "-Wmissing-format-attribute" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-declaration" "-Wold-style-definition" "-Wredundant-decls" "-Wshadow=local" "-Wstrict-prototypes" "-Wtype-limits" "-Wwrite-strings" "-Wno-missing-include-dirs" "-Wno-psabi" "-Wno-shift-negative-value" "-iquote" "." "-iquote" "D:/a/xemu/xemu" "-iquote" "D:/a/xemu/xemu/include" "-iquote" "D:/a/xemu/xemu/host/include/x86_64" "-iquote" "D:/a/xemu/xemu/host/include/generic" "-iquote" "D:/a/xemu/xemu/tcg/i386" "-mcx16" "-msse2" "-D_GNU_SOURCE" "-D_FILE_OFFSET_BITS=64" "-D_LARGEFILE_SOURCE" "-fno-strict-aliasing" "-fno-common" "-fwrapv" "-fno-pie" "-no-pie" "-ftrivial-auto-var-init=zero" "-fzero-call-used-regs=used-gpr" "-DGLSLANG_IS_SHARED_LIBRARY=1" "-DVK_USE_PLATFORM_WIN32_KHR" "-DVK_NO_PROTOTYPES" "-DTOML_HEADER_ONLY=0" "-DIMGUI_API=" "-DCOMPILING_PER_TARGET" "-DCONFIG_TARGET=\"i386-softmmu-config-target.h\"" "-DCONFIG_DEVICES=\"i386-softmmu-config-devices.h\"" -MD -MQ libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_renderer.c.obj -MF "libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_renderer.c.obj.d" -o libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_renderer.c.obj "-c" ../hw/xbox/nv2a/pgraph/d3d11/renderer.c
+../hw/xbox/nv2a/pgraph/d3d11/renderer.c:753:13: error: 'CONFIG_DISPLAY_RENDERER_D3D11' undeclared here (not in a function); did you mean 'CONFIG_DISPLAY_RENDERER_D3D12'?
+  753 |     .type = CONFIG_DISPLAY_RENDERER_D3D11,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             CONFIG_DISPLAY_RENDERER_D3D12
+[1548/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_reports.c.obj
+[1549/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_surfaces.c.obj
+[1550/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_shaders.c.obj
+[1551/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_mcpx_aci.c.obj
+[1552/1576] Compiling C object libqemu-i386-softmmu.a.p/hw_xbox_nv2a_pgraph_d3d11_textures.c.obj
+ninja: build stopped: subcommand failed.
