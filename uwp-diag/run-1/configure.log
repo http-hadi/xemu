@@ -1,0 +1,2456 @@
+python determined to be '/ucrt64/bin/python3'
+python version: Python 3.14.8
+mkvenv: Creating non-isolated virtual environment at 'pyvenv'
+mkvenv: checking for meson>=1.5.0
+mkvenv: checking for pycotap>=1.1.0
+mkvenv: installing pycotap==1.3.1
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/volk/.git/
+From https://github.com/zeux/volk
+ * branch            3ca312a4f38baa63d8006b6905abbeeb89c8087d -> FETCH_HEAD
+HEAD is now at 3ca312a Merge pull request #296 from zeux/update/350
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/SPIRV-Reflect/.git/
+From https://github.com/KhronosGroup/SPIRV-Reflect
+ * branch            9137a7e529e4e911a4dbd63f1ce71e4b3e8f4cfc -> FETCH_HEAD
+HEAD is now at 9137a7e Update spirv.h for next Vulkan SDK
+Initialized empty Git repository in /d/a/xemu/xemu/subprojects/imgui/.git/
+From https://github.com/xemu-project/imgui
+ * branch            b911105fca3ca1b025706dd168e5798070f143a1 -> FETCH_HEAD
+HEAD is now at b911105 Retina display fixes
+The Meson build system
+Version: 1.12.1
+Source dir: D:/a/xemu/xemu
+Build dir: D:/a/xemu/xemu/build-uwp-embed
+Build type: native build
+Project name: qemu
+Project version: 10.2.0
+C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program scripts/symlink-install-tree.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/symlink-install-tree.py)
+Program sh found: YES (D:\a\_temp\msys64\usr\bin/sh.exe)
+Program python3 found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe)
+Compiler for language rust skipped: feature rust disabled
+Program iasl found: NO
+Program bzip2 found: YES (D:\a\_temp\msys64\ucrt64\bin/bzip2.exe)
+Program python3 found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe)
+Compiler for C supports arguments -fno-pie: YES 
+Compiler for C supports arguments -no-pie: YES 
+Compiler for C supports link arguments -Wl,-z,relro: NO 
+Compiler for C supports link arguments -Wl,-z,now: NO 
+Compiler for C supports link arguments -Wl,--no-seh: YES 
+Compiler for C supports link arguments -Wl,--nxcompat: YES 
+Compiler for C supports link arguments -Wl,--dynamicbase: YES 
+Compiler for C supports link arguments -Wl,--high-entropy-va: YES 
+Checking if "-fzero-call-used-regs=used-gpr" compiles: YES 
+Compiler for C supports arguments -ftrivial-auto-var-init=zero: YES 
+Compiler for C supports arguments -fzero-call-used-regs=used-gpr: YES 
+Compiler for C supports arguments -Wempty-body: YES 
+Compiler for C supports arguments -Wendif-labels: YES 
+Compiler for C supports arguments -Wexpansion-to-defined: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wformat-y2k: YES 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough=2: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wold-style-declaration: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wshadow=local: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -Wno-gnu-variable-sized-type-not-at-end: NO 
+Compiler for C supports arguments -Wno-initializer-overrides: NO 
+Compiler for C supports arguments -Wno-missing-include-dirs: YES 
+Compiler for C supports arguments -Wno-psabi: YES 
+Compiler for C supports arguments -Wno-shift-negative-value: YES 
+Compiler for C supports arguments -Wno-string-plus-int: NO 
+Compiler for C supports arguments -Wno-tautological-type-limit-compare: NO 
+Compiler for C supports arguments -Wno-typedef-redefinition: NO 
+Compiler for C++ supports arguments -Wempty-body: YES 
+Compiler for C++ supports arguments -Wendif-labels: YES 
+Compiler for C++ supports arguments -Wexpansion-to-defined: YES 
+Compiler for C++ supports arguments -Wformat-security: YES 
+Compiler for C++ supports arguments -Wformat-y2k: YES 
+Compiler for C++ supports arguments -Wignored-qualifiers: YES 
+Compiler for C++ supports arguments -Wimplicit-fallthrough=2: YES 
+Compiler for C++ supports arguments -Winit-self: YES 
+Compiler for C++ supports arguments -Wmissing-format-attribute: YES 
+Compiler for C++ supports arguments -Wmissing-prototypes: NO 
+Compiler for C++ supports arguments -Wnested-externs: NO 
+Compiler for C++ supports arguments -Wold-style-declaration: NO 
+Compiler for C++ supports arguments -Wold-style-definition: NO 
+Compiler for C++ supports arguments -Wredundant-decls: YES 
+Compiler for C++ supports arguments -Wshadow=local: YES 
+Compiler for C++ supports arguments -Wstrict-prototypes: NO 
+Compiler for C++ supports arguments -Wtype-limits: YES 
+Compiler for C++ supports arguments -Wwrite-strings: YES 
+Compiler for C++ supports arguments -Wno-gnu-variable-sized-type-not-at-end: NO 
+Compiler for C++ supports arguments -Wno-initializer-overrides: NO 
+Compiler for C++ supports arguments -Wno-missing-include-dirs: YES 
+Compiler for C++ supports arguments -Wno-psabi: YES 
+Compiler for C++ supports arguments -Wno-shift-negative-value: YES 
+Compiler for C++ supports arguments -Wno-string-plus-int: NO 
+Compiler for C++ supports arguments -Wno-tautological-type-limit-compare: NO 
+Compiler for C++ supports arguments -Wno-typedef-redefinition: NO 
+Program cgcc skipped: feature sparse disabled
+Library m found: YES
+Library util found: NO
+Program midl found: NO
+Program widl found: NO
+Library pathcch found: YES
+Library synchronization found: YES
+Library ws2_32 found: YES
+Library crypt32 found: YES
+Windows resource compiler: GNU windres (GNU Binutils) 2.47.20260726
+Found pkg-config: YES (D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe) 3.0.8
+Run-time dependency glib-2.0 found: YES 2.90.1
+Dependency gio-2.0 for host machine skipped: feature gio disabled
+Program scripts/xml-preprocess.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/xml-preprocess.py)
+Dependency pixman-1 for host machine skipped: feature pixman disabled
+Run-time dependency zlib found: YES 1.3.2
+Library aio skipped: feature linux_aio disabled
+Dependency liburing for host machine skipped: feature linux_io_uring disabled
+Dependency libnfs for host machine skipped: feature libnfs disabled
+Dependency appleframeworks(modules: Cocoa, CoreVideo, QuartzCore) for host machine skipped: feature cocoa disabled
+Dependency appleframeworks(modules: vmnet) for host machine skipped: feature vmnet disabled
+Dependency libseccomp for host machine skipped: feature seccomp disabled
+Library cap-ng skipped: feature cap_ng disabled
+Dependency xkbcommon for host machine skipped: feature xkbcommon disabled
+Run-time dependency slirp found: YES 4.9.3
+Library vdeplug skipped: feature vde disabled
+Dependency libpulse for host machine skipped: feature pa disabled
+Dependency alsa for host machine skipped: feature alsa disabled
+Dependency jack for host machine skipped: feature jack disabled
+Dependency libpipewire-0.3 for host machine skipped: feature pipewire disabled
+Dependency sndio for host machine skipped: feature sndio disabled
+Dependency spice-protocol for host machine skipped: feature spice_protocol disabled
+Dependency libiscsi for host machine skipped: feature libiscsi disabled
+Dependency libzstd for host machine skipped: feature zstd disabled
+Dependency qpl for host machine skipped: feature qpl disabled
+Dependency libwd for host machine skipped: feature uadk disabled
+Dependency libwd_comp for host machine skipped: feature uadk disabled
+Dependency qatzip for host machine skipped: feature qatzip disabled
+Dependency virglrenderer for host machine skipped: feature virglrenderer disabled
+Dependency rutabaga_gfx_ffi for host machine skipped: feature rutabaga_gfx disabled
+Dependency blkio for host machine skipped: feature blkio disabled
+Run-time dependency libcurl found: YES 8.22.0
+Dependency igvm for host machine skipped: feature igvm disabled
+Library brlapi skipped: feature brlapi disabled
+Run-time dependency sdl3 found: YES 3.4.18
+Dependency SDL3_image for host machine skipped: feature sdl_image disabled
+Library rados skipped: feature rbd disabled
+Library rbd skipped: feature rbd disabled
+Dependency glusterfs-api for host machine skipped: feature glusterfs disabled
+Dependency libssh for host machine skipped: feature libssh disabled
+Library bz2 skipped: feature bzip2 disabled
+Library lzfse skipped: feature lzfse disabled
+Dependency appleframeworks(modules: CoreAudio) for host machine skipped: feature coreaudio disabled
+Run-time dependency epoxy found: YES 1.5.10
+Run-time dependency gbm found: NO  (tried pkg-config)
+Dependency libcbor for host machine skipped: feature libcbor disabled
+Dependency libgcrypt for host machine skipped: feature gcrypt disabled
+Dependency nettle for host machine skipped: feature nettle disabled
+Dependency capstone for host machine skipped: feature capstone disabled
+Run-time dependency gmp found: YES 6.3.0
+Library pam skipped: feature auth_pam disabled
+Library snappy skipped: feature snappy disabled
+Library lzo2 skipped: feature lzo disabled
+Library numa skipped: feature numa disabled
+Library rdmacm skipped: feature rdma disabled
+Library ibverbs skipped: feature rdma disabled
+Dependency libcacard for host machine skipped: feature smartcard disabled
+Dependency u2f-emu for host machine skipped: feature u2f disabled
+Dependency canokey-qemu for host machine skipped: feature canokey disabled
+Dependency libusbredirparser-0.5 for host machine skipped: feature usb_redir disabled
+Run-time dependency libusb-1.0 found: YES 1.0.30
+Dependency libpmem for host machine skipped: feature libpmem disabled
+Dependency libdaxctl for host machine skipped: feature libdaxctl disabled
+Dependency libkeyutils for host machine skipped: feature libkeyutils disabled
+Checking for function "gettid" : NO 
+Dependency libselinux for host machine skipped: feature selinux disabled
+Dependency fuse3 for host machine skipped: feature fuse disabled
+Dependency libbpf for host machine skipped: feature bpf disabled
+Dependency libdw for host machine skipped: feature libdw disabled
+Found CMake: D:\a\_temp\msys64\ucrt64\bin/cmake.exe (4.4.4)
+Run-time dependency glslang found: YES 16.6.0
+
+Executing subproject volk method cmake for machine: host 
+
+
+| Configuring the build directory with CMake version 4.4.4
+| Running CMake with: -G Ninja -DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe -DCMAKE_INSTALL_PREFIX=/qemu -DCMAKE_INSTALL_LIBDIR=lib -DVOLK_STATIC_DEFINES=VK_NO_PROTOTYPES -DCMAKE_BUILD_TYPE=Debug
+| - build directory:          D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build
+| - source directory:         D:/a/xemu/xemu/subprojects/volk
+| - toolchain file:           D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build/CMakeMesonToolchainFile.cmake
+| - preload file:             D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake
+| - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+| - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+| Put cmake in trace mode, but with variables expanded.
+| Put cmake in trace mode and sets the trace output format.
+| The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+| Put cmake in trace mode and redirect trace output to a file instead of stderr.
+| Trace will be written to cmake_trace.txt
+| -- The C compiler identification is GNU 16.2.0
+| -- Detecting C compiler ABI info
+| -- Detecting C compiler ABI info - done
+| -- Check for working C compiler: D:/a/_temp/msys64/ucrt64/bin/cc.EXE - skipped
+| -- Detecting C compile features
+| -- Detecting C compile features - done
+| volk: using Vulkan_INCLUDE_DIRS from FindVulkan module
+| -- Configuring done (0.9s)
+| CMake Warning (policy) at CMakeLists.txt:35 (add_library):
+| Policy CMP0179 is not set: De-duplication of static libraries on link lines
+| keeps first occurrence.  Run "cmake --help-policy CMP0179" for policy
+| details.  Use the cmake_policy command to set the policy and suppress this
+| warning.
+
+| Since the policy is not set, static libraries de-duplication will keep the
+| last occurrence of the static libraries.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Generating done (0.0s)
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::Headers" selected
+| configuration "(none)", but would select configuration "DEBUG" under the
+| NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::Vulkan" selected
+| configuration "(none)", but would select configuration "DEBUG" under the
+| NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::glslangValidator"
+| selected configuration "(none)", but would select configuration "DEBUG"
+| under the NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::glslangValidator"
+| selected configuration "(none)", but would select configuration "DEBUG"
+| under the NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) in CMakeLists.txt:
+| Policy CMP0200 is not set: Location and configuration selection for
+| imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+| policy details.  Use the cmake_policy command to set the policy and
+| suppress this warning.
+
+| Configuration selection for imported target "Vulkan::glslangValidator"
+| selected configuration "(none)", but would select configuration "DEBUG"
+| under the NEW policy.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Build files have been written to: D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build
+
+volk| CMake configuration: SUCCEEDED
+volk| CMake project volk 350 has 2 build targets.
+volk| Generated Meson AST: D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/meson.build
+volk| Project name: volk
+volk| Project version: 350
+volk| C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+volk| C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+volk| Build targets in project: 3
+volk| Subproject volk finished.
+
+
+Executing subproject SPIRV-Reflect method cmake for machine: host 
+
+
+| Configuring the build directory with CMake version 4.4.4
+| Running CMake with: -G Ninja -DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe -DCMAKE_INSTALL_PREFIX=/qemu -DCMAKE_INSTALL_LIBDIR=lib -DSPIRV_REFLECT_STATIC_LIB=ON -DCMAKE_BUILD_TYPE=Debug
+| - build directory:          D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build
+| - source directory:         D:/a/xemu/xemu/subprojects/SPIRV-Reflect
+| - toolchain file:           D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeMesonToolchainFile.cmake
+| - preload file:             D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake
+| - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+| - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+| Put cmake in trace mode, but with variables expanded.
+| Put cmake in trace mode and sets the trace output format.
+| The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+| Put cmake in trace mode and redirect trace output to a file instead of stderr.
+| Trace will be written to cmake_trace.txt
+| -- The C compiler identification is GNU 16.2.0
+| -- The CXX compiler identification is GNU 16.2.0
+| CMake Warning (policy) at D:/a/_temp/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program):
+| Policy CMP0126 is not set: set(CACHE) does not remove a normal variable of
+| the same name.  Run "cmake --help-policy CMP0126" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| For compatibility with older versions of CMake, normal variable
+| "CMAKE_TAPI" will be removed from the current scope.
+| Call Stack (most recent call first):
+| D:/a/_temp/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)
+| CMakeLists.txt:3 (project)
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Detecting C compiler ABI info
+| -- Detecting C compiler ABI info - done
+| -- Check for working C compiler: D:/a/_temp/msys64/ucrt64/bin/cc.EXE - skipped
+| -- Detecting C compile features
+| -- Detecting C compile features - done
+| -- Detecting CXX compiler ABI info
+| -- Detecting CXX compiler ABI info - done
+| -- Check for working CXX compiler: D:/a/_temp/msys64/ucrt64/bin/c++.EXE - skipped
+| -- Detecting CXX compile features
+| -- Detecting CXX compile features - done
+| -- Configuring done (1.6s)
+| CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+| Policy CMP0181 is not set: Link command-line fragment variables are parsed
+| and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, the contents of variable
+| 'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+| Policy CMP0181 is not set: Link command-line fragment variables are parsed
+| and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, the contents of variable
+| 'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:116 (add_library):
+| Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+| linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+| Use the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, legacy libraries de-duplication strategy will
+| be applied.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Generating done (0.0s)
+| CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+| Policy CMP0181 is not set: Link command-line fragment variables are parsed
+| and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, the contents of variable
+| 'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+| Policy CMP0181 is not set: Link command-line fragment variables are parsed
+| and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+| the cmake_policy command to set the policy and suppress this warning.
+
+| Since the policy is not set, the contents of variable
+| 'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+| This warning is for project developers.  Use -Wno-author or -Wno-policy to
+| suppress it.
+
+| -- Build files have been written to: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build
+
+SPIRV-Reflect| CMake configuration: SUCCEEDED
+SPIRV-Reflect| CMake project spirv-reflect  has 3 build targets.
+SPIRV-Reflect| Generated Meson AST: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/meson.build
+SPIRV-Reflect| Project name: spirv-reflect
+SPIRV-Reflect| Project version: undefined
+SPIRV-Reflect| C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+SPIRV-Reflect| C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+SPIRV-Reflect| C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+SPIRV-Reflect| C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+SPIRV-Reflect| Build targets in project: 6
+SPIRV-Reflect| Subproject SPIRV-Reflect finished.
+
+Run-time dependency samplerate found: YES 0.2.2
+Applying diff file "imgui-uwp.diff"
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file backends/imgui_impl_opengl3_loader.h
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file meson.build
+/usr/bin/patch: **** malformed patch at line 41: diff --git a/meson_options.txt b/meson_options.txt
+ERROR: Subproject imgui is buildable: NO
+
+../meson.build:2461:13: ERROR: Failed to apply diff file "imgui-uwp.diff"
+
+A full log can be found at D:/a/xemu/xemu/build-uwp-embed/meson-logs/meson-log.txt
+::group::==== CI platform detected, click here for meson-log.txt contents. ====
+Build started at 2026-10-14T00:03:46.650035
+Main binary: D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe
+Build Options: -Duwp=true -Dslirp=enabled -Dopengl=enabled -Dsdl=enabled -Dwerror=false -Daudio_drv_list=sdl -Dauto_features=disabled -Db_pie=false -Ddocs=disabled --native-file=config-meson.cross --native-file=D:/a/xemu/xemu/configs/meson/windows.txt
+Python system: Windows
+The Meson build system
+Version: 1.12.1
+Source dir: D:/a/xemu/xemu
+Build dir: D:/a/xemu/xemu/build-uwp-embed
+Build type: native build
+Project name: qemu
+Project version: 10.2.0
+-----------
+Detecting compiler via: `cc -m64 --version` -> 0
+stdout:
+cc (Rev6, Built by MSYS2 project) 16.2.0
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -m64 -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.47.20260726
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 16.2.0
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\a\_temp\msys64\tmp\ccer1vgj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/_temp/msys64/ucrt64/bin/../../ucrt64 -m i386pep -Bdynamic D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/crt2.o D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/../lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -LD:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib --version -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/default-manifest.o D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o
+-----------
+Sanity check compiler command line: cc -m64 -o sanity_check_for_c.exe sanity_check_for_c.c -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for host machine c compiler
+ -- Running test binary command:  D:/a/xemu/xemu/build-uwp-embed/meson-private/sanity_check_for_c.exe
+-----------
+Sanity check: `D:/a/xemu/xemu/build-uwp-embed/meson-private/sanity_check_for_c.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+-----------
+Detecting archiver via: `ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.47.20260726
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `c++ -m64 --version` -> 0
+stdout:
+c++ (Rev6, Built by MSYS2 project) 16.2.0
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -m64 -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.47.20260726
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 16.2.0
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\a\_temp\msys64\tmp\ccbpZ1sw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/_temp/msys64/ucrt64/bin/../../ucrt64 -m i386pep -Bdynamic D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/crt2.o D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/../lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -LD:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib --version -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/default-manifest.o D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o
+-----------
+Sanity check compiler command line: c++ -m64 -o sanity_check_for_cpp.exe sanity_check_for_cpp.cpp -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for host machine cpp compiler
+ -- Running test binary command:  D:/a/xemu/xemu/build-uwp-embed/meson-private/sanity_check_for_cpp.exe
+-----------
+Sanity check: `D:/a/xemu/xemu/build-uwp-embed/meson-private/sanity_check_for_cpp.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+-----------
+Detecting compiler via: `cc -m64 --version` -> 0
+stdout:
+cc (Rev6, Built by MSYS2 project) 16.2.0
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -m64 -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.47.20260726
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 16.2.0
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\a\_temp\msys64\tmp\ccfPkHRO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/_temp/msys64/ucrt64/bin/../../ucrt64 -m i386pep -Bdynamic D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/crt2.o D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/../lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -LD:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib --version -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/default-manifest.o D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o
+-----------
+Sanity check compiler command line: cc -m64 -o sanity_check_for_c.exe sanity_check_for_c.c -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for build machine c compiler
+ -- Running test binary command:  D:/a/xemu/xemu/build-uwp-embed/meson-private/sanity_check_for_c.exe
+-----------
+Sanity check: `D:/a/xemu/xemu/build-uwp-embed/meson-private/sanity_check_for_c.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C compiler for the build machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+C linker for the build machine: cc -m64 ld.bfd 2.47.20260726
+-----------
+Detecting compiler via: `c++ -m64 --version` -> 0
+stdout:
+c++ (Rev6, Built by MSYS2 project) 16.2.0
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -m64 -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.47.20260726
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 16.2.0
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\a\_temp\msys64\tmp\cchkVFX4.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/_temp/msys64/ucrt64/bin/../../ucrt64 -m i386pep -Bdynamic D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/crt2.o D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/../lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -LD:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib --version -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/default-manifest.o D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o
+-----------
+Sanity check compiler command line: c++ -m64 -o sanity_check_for_cpp.exe sanity_check_for_cpp.cpp -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for build machine cpp compiler
+ -- Running test binary command:  D:/a/xemu/xemu/build-uwp-embed/meson-private/sanity_check_for_cpp.exe
+-----------
+Sanity check: `D:/a/xemu/xemu/build-uwp-embed/meson-private/sanity_check_for_cpp.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C++ compiler for the build machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+C++ linker for the build machine: c++ -m64 ld.bfd 2.47.20260726
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program scripts/symlink-install-tree.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/symlink-install-tree.py)
+Program sh found: YES (D:\a\_temp\msys64\usr\bin/sh.exe)
+'utf-8' codec can't decode byte 0x90 in position 2: invalid start byte
+Unusable script 'D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe'
+Program python3 found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe)
+Compiler for language rust skipped: feature rust disabled
+Program iasl found: NO
+Program bzip2 found: YES (D:\a\_temp\msys64\ucrt64\bin/bzip2.exe)
+Program python3 found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe)
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpw0htex9l
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpw0htex9l/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpw0htex9l/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fno-pie` -> 0
+Compiler for C supports arguments -fno-pie: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpfpivxnnv
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpfpivxnnv/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpfpivxnnv/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -no-pie` -> 0
+Compiler for C supports arguments -no-pie: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpoq2_7cz0
+Code:
+
+  int main(void)
+  {
+  #if defined(__has_feature)
+  #if __has_feature(safe_stack)
+  #error SafeStack Enabled
+  #endif
+  #endif
+      return 0;
+  }
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpoq2_7cz0/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpoq2_7cz0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -std=gnu11` -> 0
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpyfe1imfk
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpyfe1imfk/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpyfe1imfk/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wl,--fatal-warnings -Wl,-z,relro` -> 1
+stderr:
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: unrecognized option '-z'
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+-----------
+Compiler for C supports link arguments -Wl,-z,relro: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1cndkdyf
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1cndkdyf/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1cndkdyf/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wl,--fatal-warnings -Wl,-z,now` -> 1
+stderr:
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: unrecognized option '-z'
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+-----------
+Compiler for C supports link arguments -Wl,-z,now: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpb6jl69og
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpb6jl69og/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpb6jl69og/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wl,--fatal-warnings -Wl,--no-seh` -> 0
+Compiler for C supports link arguments -Wl,--no-seh: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpkqo0wj2m
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpkqo0wj2m/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpkqo0wj2m/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wl,--fatal-warnings -Wl,--nxcompat` -> 0
+Compiler for C supports link arguments -Wl,--nxcompat: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpddg2c6ab
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpddg2c6ab/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpddg2c6ab/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wl,--fatal-warnings -Wl,--dynamicbase` -> 0
+Compiler for C supports link arguments -Wl,--dynamicbase: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4xzerrgx
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4xzerrgx/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4xzerrgx/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wl,--fatal-warnings -Wl,--high-entropy-va` -> 0
+Compiler for C supports link arguments -Wl,--high-entropy-va: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4zc55itu
+Code:
+extern struct { void (*cb)(void); } s; void f(void) { s.cb(); }
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4zc55itu/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4zc55itu/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -std=gnu11 -O2 -fzero-call-used-regs=used-gpr` -> 0
+Checking if "-fzero-call-used-regs=used-gpr" compiles: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpk9dmd_0_
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpk9dmd_0_/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpk9dmd_0_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -ftrivial-auto-var-init=zero` -> 0
+Compiler for C supports arguments -ftrivial-auto-var-init=zero: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmppopoc85c
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmppopoc85c/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmppopoc85c/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fzero-call-used-regs=used-gpr` -> 0
+Compiler for C supports arguments -fzero-call-used-regs=used-gpr: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7ag5anjg
+Code:
+
+    struct __attribute__((capability("mutex"))) mutex {};
+    void lock(struct mutex *m) __attribute__((acquire_capability(m)));
+    void unlock(struct mutex *m) __attribute__((release_capability(m)));
+
+    void test(void) {
+      struct mutex __attribute__((cleanup(unlock))) m;
+      lock(&m);
+    }
+  
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7ag5anjg/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7ag5anjg/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -std=gnu11 -Wthread-safety -Werror` -> 1
+stderr:
+cc: error: unrecognized command-line option '-Wthread-safety'
+-----------
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp0s4w0j7d
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp0s4w0j7d/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp0s4w0j7d/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wempty-body` -> 0
+Compiler for C supports arguments -Wempty-body: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmph8nc8jbn
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmph8nc8jbn/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmph8nc8jbn/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wendif-labels` -> 0
+Compiler for C supports arguments -Wendif-labels: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpbf3mbxbm
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpbf3mbxbm/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpbf3mbxbm/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wexpansion-to-defined` -> 0
+Compiler for C supports arguments -Wexpansion-to-defined: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpa62cc6x8
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpa62cc6x8/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpa62cc6x8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wformat-security` -> 0
+stderr:
+cc1.exe: warning: '-Wformat-security' ignored without '-Wformat' [-Wformat-security]
+-----------
+Compiler for C supports arguments -Wformat-security: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpi_dg39cj
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpi_dg39cj/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpi_dg39cj/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wformat-y2k` -> 0
+stderr:
+cc1.exe: warning: '-Wformat-y2k' ignored without '-Wformat' [-Wformat-y2k]
+-----------
+Compiler for C supports arguments -Wformat-y2k: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpx4nmjwzt
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpx4nmjwzt/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpx4nmjwzt/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wignored-qualifiers` -> 0
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpckudztno
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpckudztno/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpckudztno/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wimplicit-fallthrough=2` -> 0
+Compiler for C supports arguments -Wimplicit-fallthrough=2: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjd8zcruj
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjd8zcruj/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjd8zcruj/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Winit-self` -> 0
+Compiler for C supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp6ddtlty6
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp6ddtlty6/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp6ddtlty6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wmissing-format-attribute` -> 0
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp8bf4aoy3
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp8bf4aoy3/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp8bf4aoy3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wmissing-prototypes` -> 0
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp8slz8d3q
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp8slz8d3q/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp8slz8d3q/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wnested-externs` -> 0
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjcb8_yp6
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjcb8_yp6/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjcb8_yp6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wold-style-declaration` -> 0
+Compiler for C supports arguments -Wold-style-declaration: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp2wll6l0h
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp2wll6l0h/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp2wll6l0h/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wold-style-definition` -> 0
+Compiler for C supports arguments -Wold-style-definition: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpg_gx15wf
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpg_gx15wf/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpg_gx15wf/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wredundant-decls` -> 0
+Compiler for C supports arguments -Wredundant-decls: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpuuai_pec
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpuuai_pec/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpuuai_pec/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wshadow=local` -> 0
+Compiler for C supports arguments -Wshadow=local: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp42s3t_rk
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp42s3t_rk/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp42s3t_rk/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wstrict-prototypes` -> 0
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpb3rvu6_v
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpb3rvu6_v/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpb3rvu6_v/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wtype-limits` -> 0
+Compiler for C supports arguments -Wtype-limits: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl3tq40xq
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl3tq40xq/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl3tq40xq/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wwrite-strings` -> 0
+Compiler for C supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmptzr888s0
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmptzr888s0/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmptzr888s0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wgnu-variable-sized-type-not-at-end -Wno-gnu-variable-sized-type-not-at-end` -> 1
+stderr:
+cc: error: unrecognized command-line option '-Wgnu-variable-sized-type-not-at-end'
+-----------
+Compiler for C supports arguments -Wno-gnu-variable-sized-type-not-at-end: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpgaluj9pt
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpgaluj9pt/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpgaluj9pt/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Winitializer-overrides -Wno-initializer-overrides` -> 1
+stderr:
+cc: error: unrecognized command-line option '-Winitializer-overrides'
+-----------
+Compiler for C supports arguments -Wno-initializer-overrides: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp2z0eiry7
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp2z0eiry7/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp2z0eiry7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wmissing-include-dirs -Wno-missing-include-dirs` -> 0
+Compiler for C supports arguments -Wno-missing-include-dirs: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpmp9474jg
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpmp9474jg/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpmp9474jg/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wpsabi -Wno-psabi` -> 0
+Compiler for C supports arguments -Wno-psabi: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpirkqhwha
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpirkqhwha/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpirkqhwha/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wshift-negative-value -Wno-shift-negative-value` -> 0
+Compiler for C supports arguments -Wno-shift-negative-value: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl5c8qs_x
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl5c8qs_x/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl5c8qs_x/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wstring-plus-int -Wno-string-plus-int` -> 1
+stderr:
+cc: error: unrecognized command-line option '-Wstring-plus-int'
+-----------
+Compiler for C supports arguments -Wno-string-plus-int: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp586sstmk
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp586sstmk/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp586sstmk/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wtautological-type-limit-compare -Wno-tautological-type-limit-compare` -> 1
+stderr:
+cc: error: unrecognized command-line option '-Wtautological-type-limit-compare'; did you mean '-Wtautological-compare'?
+-----------
+Compiler for C supports arguments -Wno-tautological-type-limit-compare: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmptx1zkofv
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmptx1zkofv/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmptx1zkofv/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -Wtypedef-redefinition -Wno-typedef-redefinition` -> 1
+stderr:
+cc: error: unrecognized command-line option '-Wtypedef-redefinition'
+-----------
+Compiler for C supports arguments -Wno-typedef-redefinition: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpe49s2u34
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpe49s2u34/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpe49s2u34/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wempty-body` -> 0
+Compiler for C++ supports arguments -Wempty-body: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp9rgxr_y7
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp9rgxr_y7/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp9rgxr_y7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wendif-labels` -> 0
+Compiler for C++ supports arguments -Wendif-labels: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpv5fix3m2
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpv5fix3m2/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpv5fix3m2/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wexpansion-to-defined` -> 0
+Compiler for C++ supports arguments -Wexpansion-to-defined: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp5xrkrlup
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp5xrkrlup/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp5xrkrlup/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wformat-security` -> 0
+stderr:
+cc1plus.exe: warning: '-Wformat-security' ignored without '-Wformat' [-Wformat-security]
+-----------
+Compiler for C++ supports arguments -Wformat-security: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp99ts85x7
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp99ts85x7/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp99ts85x7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wformat-y2k` -> 0
+stderr:
+cc1plus.exe: warning: '-Wformat-y2k' ignored without '-Wformat' [-Wformat-y2k]
+-----------
+Compiler for C++ supports arguments -Wformat-y2k: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpf95iu9cc
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpf95iu9cc/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpf95iu9cc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wignored-qualifiers` -> 0
+Compiler for C++ supports arguments -Wignored-qualifiers: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjl2dcdrk
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjl2dcdrk/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpjl2dcdrk/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wimplicit-fallthrough=2` -> 0
+Compiler for C++ supports arguments -Wimplicit-fallthrough=2: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp0jsdk0k3
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp0jsdk0k3/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp0jsdk0k3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Winit-self` -> 0
+Compiler for C++ supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp40hiucsd
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp40hiucsd/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp40hiucsd/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wmissing-format-attribute` -> 0
+Compiler for C++ supports arguments -Wmissing-format-attribute: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpgkwktnfm
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpgkwktnfm/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpgkwktnfm/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wmissing-prototypes` -> 0
+stderr:
+cc1plus.exe: warning: command-line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+-----------
+Compiler for C++ supports arguments -Wmissing-prototypes: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1vpq4_tr
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1vpq4_tr/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1vpq4_tr/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wnested-externs` -> 0
+stderr:
+cc1plus.exe: warning: command-line option '-Wnested-externs' is valid for C/ObjC but not for C++
+-----------
+Compiler for C++ supports arguments -Wnested-externs: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpbef2ulp4
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpbef2ulp4/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpbef2ulp4/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wold-style-declaration` -> 0
+stderr:
+cc1plus.exe: warning: command-line option '-Wold-style-declaration' is valid for C/ObjC but not for C++
+-----------
+Compiler for C++ supports arguments -Wold-style-declaration: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmprqxxnt0e
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmprqxxnt0e/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmprqxxnt0e/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wold-style-definition` -> 0
+stderr:
+cc1plus.exe: warning: command-line option '-Wold-style-definition' is valid for C/ObjC but not for C++
+-----------
+Compiler for C++ supports arguments -Wold-style-definition: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp31wfl422
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp31wfl422/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp31wfl422/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wredundant-decls` -> 0
+Compiler for C++ supports arguments -Wredundant-decls: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1uh1advx
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1uh1advx/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp1uh1advx/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wshadow=local` -> 0
+Compiler for C++ supports arguments -Wshadow=local: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpccgb4jol
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpccgb4jol/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpccgb4jol/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wstrict-prototypes` -> 0
+stderr:
+cc1plus.exe: warning: command-line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+-----------
+Compiler for C++ supports arguments -Wstrict-prototypes: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpfvdkyz74
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpfvdkyz74/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpfvdkyz74/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wtype-limits` -> 0
+Compiler for C++ supports arguments -Wtype-limits: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp3j4b_zmx
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp3j4b_zmx/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp3j4b_zmx/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wwrite-strings` -> 0
+Compiler for C++ supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpqcfudvo0
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpqcfudvo0/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpqcfudvo0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wgnu-variable-sized-type-not-at-end -Wno-gnu-variable-sized-type-not-at-end` -> 1
+stderr:
+c++: error: unrecognized command-line option '-Wgnu-variable-sized-type-not-at-end'
+-----------
+Compiler for C++ supports arguments -Wno-gnu-variable-sized-type-not-at-end: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4s04504m
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4s04504m/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4s04504m/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Winitializer-overrides -Wno-initializer-overrides` -> 1
+stderr:
+c++: error: unrecognized command-line option '-Winitializer-overrides'
+-----------
+Compiler for C++ supports arguments -Wno-initializer-overrides: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpj01h0mr0
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpj01h0mr0/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpj01h0mr0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wmissing-include-dirs -Wno-missing-include-dirs` -> 0
+Compiler for C++ supports arguments -Wno-missing-include-dirs: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl9c2kuw9
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl9c2kuw9/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpl9c2kuw9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wpsabi -Wno-psabi` -> 0
+Compiler for C++ supports arguments -Wno-psabi: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpe4qsigg9
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpe4qsigg9/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpe4qsigg9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wshift-negative-value -Wno-shift-negative-value` -> 0
+Compiler for C++ supports arguments -Wno-shift-negative-value: YES 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmphr3n2njc
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmphr3n2njc/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmphr3n2njc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wstring-plus-int -Wno-string-plus-int` -> 1
+stderr:
+c++: error: unrecognized command-line option '-Wstring-plus-int'
+-----------
+Compiler for C++ supports arguments -Wno-string-plus-int: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmph_993zh0
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmph_993zh0/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmph_993zh0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wtautological-type-limit-compare -Wno-tautological-type-limit-compare` -> 1
+stderr:
+c++: error: unrecognized command-line option '-Wtautological-type-limit-compare'; did you mean '-Wtautological-compare'?
+-----------
+Compiler for C++ supports arguments -Wno-tautological-type-limit-compare: NO 
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpnf30fp7x
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpnf30fp7x/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpnf30fp7x/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -Wtypedef-redefinition -Wno-typedef-redefinition` -> 1
+stderr:
+c++: error: unrecognized command-line option '-Wtypedef-redefinition'
+-----------
+Compiler for C++ supports arguments -Wno-typedef-redefinition: NO 
+Program cgcc skipped: feature sparse disabled
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp83e65ke6
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp83e65ke6/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp83e65ke6/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lm -Wl,--allow-shlib-undefined` -> 0
+Library m found: YES
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7j970h1t
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7j970h1t/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7j970h1t/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lutil -Wl,--allow-shlib-undefined` -> 1
+stderr:
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lutil: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+-----------
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpadel1kjr
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpadel1kjr/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpadel1kjr/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmplal9tyrn
+Code:
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmplal9tyrn/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmplal9tyrn/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE --print-search-dirs` -> 0
+stdout:
+install: D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/
+programs: =D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/
+libraries: =D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/;D:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/../lib/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../;D:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/
+-----------
+Library util found: NO
+Program midl found: NO
+Program widl found: NO
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp20cwuigx
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp20cwuigx/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp20cwuigx/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lpathcch -Wl,--allow-shlib-undefined` -> 0
+Library pathcch found: YES
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpzdwkobq0
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpzdwkobq0/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpzdwkobq0/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lsynchronization -Wl,--allow-shlib-undefined` -> 0
+Library synchronization found: YES
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpmdzxjlht
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpmdzxjlht/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpmdzxjlht/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lws2_32 -Wl,--allow-shlib-undefined` -> 0
+Library ws2_32 found: YES
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmppwfq3zbk
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmppwfq3zbk/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmppwfq3zbk/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lcrypt32 -Wl,--allow-shlib-undefined` -> 0
+Library crypt32 found: YES
+Windows resource compiler: GNU windres (GNU Binutils) 2.47.20260726
+Pkg-config binary for host machine specified from cross file, native file, or env var as ['pkg-config']
+Found pkg-config: YES (D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe) 3.0.8
+Determining dependency 'glib-2.0' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion glib-2.0` -> 0
+stdout:
+2.90.1
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags glib-2.0` -> 0
+stdout:
+-ID:/a/_temp/msys64/ucrt64/include/glib-2.0 -ID:/a/_temp/msys64/ucrt64/lib/glib-2.0/include
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs glib-2.0` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lglib-2.0 -lintl
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs glib-2.0` -> 0
+stdout:
+-lglib-2.0 -lintl
+-----------
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4btlu6jf
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4btlu6jf/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp4btlu6jf/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpqza9cwax
+Code:
+
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpqza9cwax/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpqza9cwax/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive --print-search-dirs` -> 0
+stdout:
+install: D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/
+programs: =D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/
+libraries: =D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/;D:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/x86_64-w64-mingw32/16.2.0/;D:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/../lib/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/;D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../;D:/a/_temp/msys64/ucrt64/bin/../../ucrt64/lib/
+-----------
+Run-time dependency glib-2.0 found: YES 2.90.1
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp6o2fxukz
+Code:
+
+  #include <glib.h>
+  #include <unistd.h>
+
+  #define QEMU_BUILD_BUG_ON(x) \
+  typedef char qemu_build_bug_on[(x)?-1:1] __attribute__((unused));
+
+  int main(void) {
+     QEMU_BUILD_BUG_ON(sizeof(size_t) != GLIB_SIZEOF_SIZE_T);
+     return 0;
+  }
+-----------
+Command line: `cc -m64 -ID:/a/_temp/msys64/ucrt64/include/glib-2.0 -ID:/a/_temp/msys64/ucrt64/lib/glib-2.0/include D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp6o2fxukz/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp6o2fxukz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -std=gnu11` -> 0
+Dependency gio-2.0 for host machine skipped: feature gio disabled
+Program scripts/xml-preprocess.py found: YES (D:/a/xemu/xemu/build-uwp-embed/pyvenv/bin/python.exe D:/a/xemu/xemu/scripts/xml-preprocess.py)
+Dependency pixman-1 for host machine skipped: feature pixman disabled
+Determining dependency 'zlib' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion zlib` -> 0
+stdout:
+1.3.2
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags zlib` -> 0
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs zlib` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lz
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs zlib` -> 0
+stdout:
+-lz
+-----------
+Run-time dependency zlib found: YES 1.3.2
+Library aio skipped: feature linux_aio disabled
+Dependency liburing for host machine skipped: feature linux_io_uring disabled
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpsv2f0loi
+Code:
+
+  #include <liburing.h>
+  #include <linux/errqueue.h>
+
+  int main(void) { return 0; }
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpsv2f0loi/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpsv2f0loi/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -std=gnu11 -Wl,--start-group -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -Wl,--end-group` -> 1
+stderr:
+D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpsv2f0loi/testfile.c:2:12: fatal error: liburing.h: No such file or directory
+    2 |   #include <liburing.h>
+      |            ^~~~~~~~~~~~
+compilation terminated.
+-----------
+Dependency libnfs for host machine skipped: feature libnfs disabled
+Dependency appleframeworks(modules: Cocoa, CoreVideo, QuartzCore) for host machine skipped: feature cocoa disabled
+Dependency appleframeworks(modules: vmnet) for host machine skipped: feature vmnet disabled
+Dependency libseccomp for host machine skipped: feature seccomp disabled
+Library cap-ng skipped: feature cap_ng disabled
+Dependency xkbcommon for host machine skipped: feature xkbcommon disabled
+Determining dependency 'slirp' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion slirp` -> 0
+stdout:
+4.9.3
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags slirp` -> 0
+stdout:
+-ID:/a/_temp/msys64/ucrt64/include/slirp -ID:/a/_temp/msys64/ucrt64/include/glib-2.0 -ID:/a/_temp/msys64/ucrt64/lib/glib-2.0/include
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs slirp` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lslirp -lglib-2.0 -lintl
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs slirp` -> 0
+stdout:
+-lslirp -lglib-2.0 -lintl
+-----------
+Run-time dependency slirp found: YES 4.9.3
+Library vdeplug skipped: feature vde disabled
+Dependency libpulse for host machine skipped: feature pa disabled
+Dependency alsa for host machine skipped: feature alsa disabled
+Dependency jack for host machine skipped: feature jack disabled
+Dependency libpipewire-0.3 for host machine skipped: feature pipewire disabled
+Dependency sndio for host machine skipped: feature sndio disabled
+Dependency spice-protocol for host machine skipped: feature spice_protocol disabled
+Dependency libiscsi for host machine skipped: feature libiscsi disabled
+Dependency libzstd for host machine skipped: feature zstd disabled
+Dependency qpl for host machine skipped: feature qpl disabled
+Dependency libwd for host machine skipped: feature uadk disabled
+Dependency libwd_comp for host machine skipped: feature uadk disabled
+Dependency qatzip for host machine skipped: feature qatzip disabled
+Dependency virglrenderer for host machine skipped: feature virglrenderer disabled
+Dependency rutabaga_gfx_ffi for host machine skipped: feature rutabaga_gfx disabled
+Dependency blkio for host machine skipped: feature blkio disabled
+Determining dependency 'libcurl' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion libcurl` -> 0
+stdout:
+8.22.0
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags libcurl` -> 0
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs libcurl` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lcurl
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs libcurl` -> 0
+stdout:
+-lcurl
+-----------
+Run-time dependency libcurl found: YES 8.22.0
+Dependency igvm for host machine skipped: feature igvm disabled
+Library brlapi skipped: feature brlapi disabled
+Determining dependency 'sdl3' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion sdl3` -> 0
+stdout:
+3.4.18
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags sdl3` -> 0
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs sdl3` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lSDL3 -mwindows
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs sdl3` -> 0
+stdout:
+-lSDL3 -mwindows
+-----------
+Run-time dependency sdl3 found: YES 3.4.18
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpm9y180ov
+Code:
+
+                     #include <SDL3/SDL.h>
+                     int main(int argc, char *argv[]) { return 0; }
+                     
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpm9y180ov/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpm9y180ov/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -std=gnu11 -Werror=undef` -> 0
+Dependency SDL3_image for host machine skipped: feature sdl_image disabled
+Library rados skipped: feature rbd disabled
+Library rbd skipped: feature rbd disabled
+Dependency glusterfs-api for host machine skipped: feature glusterfs disabled
+Dependency libssh for host machine skipped: feature libssh disabled
+Library bz2 skipped: feature bzip2 disabled
+Library lzfse skipped: feature lzfse disabled
+Dependency appleframeworks(modules: CoreAudio) for host machine skipped: feature coreaudio disabled
+Determining dependency 'epoxy' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion epoxy` -> 0
+stdout:
+1.5.10
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags epoxy` -> 0
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs epoxy` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lepoxy
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs epoxy` -> 0
+stdout:
+-lepoxy
+-----------
+Run-time dependency epoxy found: YES 1.5.10
+Determining dependency 'gbm' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion gbm` -> 1
+stderr:
+Package gbm was not found in the pkg-config search path.
+Perhaps you should add the directory containing `gbm.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'gbm' not found
+-----------
+Run-time dependency gbm found: NO  (tried pkg-config)
+Dependency libcbor for host machine skipped: feature libcbor disabled
+Dependency libgcrypt for host machine skipped: feature gcrypt disabled
+Dependency nettle for host machine skipped: feature nettle disabled
+Dependency capstone for host machine skipped: feature capstone disabled
+Determining dependency 'gmp' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion gmp` -> 0
+stdout:
+6.3.0
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags gmp` -> 0
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs gmp` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lgmp
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs gmp` -> 0
+stdout:
+-lgmp
+-----------
+Run-time dependency gmp found: YES 6.3.0
+Library pam skipped: feature auth_pam disabled
+Library snappy skipped: feature snappy disabled
+Library lzo2 skipped: feature lzo disabled
+Library numa skipped: feature numa disabled
+Library rdmacm skipped: feature rdma disabled
+Library ibverbs skipped: feature rdma disabled
+Dependency libcacard for host machine skipped: feature smartcard disabled
+Dependency u2f-emu for host machine skipped: feature u2f disabled
+Dependency canokey-qemu for host machine skipped: feature canokey disabled
+Dependency libusbredirparser-0.5 for host machine skipped: feature usb_redir disabled
+Determining dependency 'libusb-1.0' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion libusb-1.0` -> 0
+stdout:
+1.0.30
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags libusb-1.0` -> 0
+stdout:
+-ID:/a/_temp/msys64/ucrt64/include/libusb-1.0
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs libusb-1.0` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lusb-1.0
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs libusb-1.0` -> 0
+stdout:
+-lusb-1.0
+-----------
+Run-time dependency libusb-1.0 found: YES 1.0.30
+Dependency libpmem for host machine skipped: feature libpmem disabled
+Dependency libdaxctl for host machine skipped: feature libdaxctl disabled
+Dependency libkeyutils for host machine skipped: feature libkeyutils disabled
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7d9yi28v
+Code:
+
+        #define gettid meson_disable_define_of_gettid
+        
+        #include <limits.h>
+        #undef gettid
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char gettid (void);
+        
+        #if defined __stub_gettid || defined __stub___gettid
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return gettid ();
+        }
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7d9yi28v/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp7d9yi28v/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -std=gnu11 -Wl,--start-group -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -Wl,--end-group` -> 1
+stderr:
+D:/a/_temp/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: D:\a\_temp\msys64\tmp\cc07treZ.o:testfile.c:(.text+0xe): undefined reference to `gettid'
+collect2.exe: error: ld returned 1 exit status
+-----------
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpudmgmrnu
+Code:
+
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(gettid) && !0
+            #error "No definition for __builtin_gettid found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_gettid)
+                #error "__builtin_gettid not found"
+            #endif
+        #elif ! defined(gettid)
+            __builtin_gettid;
+        #endif
+        return 0;
+        }
+-----------
+Command line: `cc -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpudmgmrnu/testfile.c -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpudmgmrnu/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -std=gnu11 -Wl,--start-group -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -Wl,--end-group` -> 1
+stderr:
+D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpudmgmrnu/testfile.c: In function 'main':
+D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpudmgmrnu/testfile.c:17:18: error: #error "__builtin_gettid not found"
+   17 |                 #error "__builtin_gettid not found"
+      |                  ^~~~~
+-----------
+Checking for function "gettid" : NO 
+Dependency libselinux for host machine skipped: feature selinux disabled
+Dependency fuse3 for host machine skipped: feature fuse disabled
+Dependency libbpf for host machine skipped: feature bpf disabled
+Dependency libdw for host machine skipped: feature libdw disabled
+Determining dependency 'glslang' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion glslang` -> 1
+stderr:
+Package glslang was not found in the pkg-config search path.
+Perhaps you should add the directory containing `glslang.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'glslang' not found
+-----------
+CMake binary for host machine is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Found CMake: D:\a\_temp\msys64\ucrt64\bin/cmake.exe (4.4.4)
+Extracting basic cmake information
+CMake Toolchain: Calling CMake once to generate the compiler state
+Calling CMake (['D:\\a\\_temp\\msys64\\ucrt64\\bin/cmake.exe']) in D:/a/xemu/xemu/build-uwp-embed/meson-private/__CMake_compiler_info__ with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe"
+  - "-DCMAKE_TOOLCHAIN_FILE=D:/a/xemu/xemu/build-uwp-embed/meson-private/__CMake_compiler_info__/CMakeMesonTempToolchainFile.cmake"
+  - "."
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-cw7zu0/CMakeLists.txt:24 add_executable(['cmTC_2e096'])
+CMake trace warning: target_link_libraries() TARGET cmTC_2e096 not found
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-cw7zu0/CMakeLists.txt:30 target_link_libraries(['cmTC_2e096', ''])
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-rrmyx2/CMakeLists.txt:24 add_executable(['cmTC_e6b23'])
+CMake trace warning: target_link_libraries() TARGET cmTC_e6b23 not found
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-rrmyx2/CMakeLists.txt:30 target_link_libraries(['cmTC_e6b23', ''])
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/meson-private/cmake_glslang/CMakeMesonToolchainFile.cmake"
+Try CMake generator: auto
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/meson-private/cmake_glslang/CMakeLists.txt"
+Calling CMake (['D:\\a\\_temp\\msys64\\ucrt64\\bin/cmake.exe']) in D:/a/xemu/xemu/build-uwp-embed/meson-private/cmake_glslang with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=D:/a/xemu/xemu/build-uwp-embed/meson-private/cmake_glslang/CMakeMesonToolchainFile.cmake"
+  - "."
+  -- Module search paths:    ['C:/Program Files', 'C:/Program Files (x86)', 'D:/a/_temp/msys64/ucrt64']
+  -- CMake root:             D:/a/_temp/msys64/ucrt64/share/cmake
+  -- CMake architectures:    []
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', '']
+
+Determining dependency 'glslang' with CMake executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/cmake.exe'
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/meson-private/cmake_glslang/CMakeMesonToolchainFile.cmake"
+Try CMake generator: auto
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/meson-private/cmake_glslang/CMakeLists.txt"
+Calling CMake (['D:\\a\\_temp\\msys64\\ucrt64\\bin/cmake.exe']) in D:/a/xemu/xemu/build-uwp-embed/meson-private/cmake_glslang with:
+  - "-DNAME=glslang"
+  - "-DARCHS="
+  - "-DVERSION="
+  - "-DCOMPS="
+  - "-DSTATIC=OFF"
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=D:/a/xemu/xemu/build-uwp-embed/meson-private/cmake_glslang/CMakeMesonToolchainFile.cmake"
+  - "."
+Guessed CMake target 'glslang::glslang'
+CMake TARGET:
+  -- name:      glslang::glslang
+  -- type:      SHARED
+  -- imported:  True
+  -- properties: {
+      'INTERFACE_COMPILE_DEFINITIONS': ['GLSLANG_IS_SHARED_LIBRARY=1']
+      'INTERFACE_INCLUDE_DIRECTORIES': ['D:/a/_temp/msys64/ucrt64/include']
+      'INTERFACE_LINK_LIBRARIES': ['SPIRV-Tools-opt']
+      'IMPORTED_CONFIGURATIONS': ['RELEASE']
+      'IMPORTED_IMPLIB_RELEASE': ['D:/a/_temp/msys64/ucrt64/lib/libglslang.dll.a']
+      'IMPORTED_LOCATION_RELEASE': ['D:/a/_temp/msys64/ucrt64/bin/glslang.dll']
+     }
+  -- tline: CMake TRACE: D:/a/_temp/msys64/ucrt64/lib/cmake/glslang/glslang-targets.cmake:71 add_library(['glslang::glslang', 'SHARED', 'IMPORTED'])
+CMake TARGET:
+  -- name:      SPIRV-Tools-opt
+  -- type:      SHARED
+  -- imported:  True
+  -- properties: {
+      'INTERFACE_INCLUDE_DIRECTORIES': ['D:/a/_temp/msys64/ucrt64/include']
+      'INTERFACE_LINK_LIBRARIES': ['SPIRV-Tools']
+      'IMPORTED_CONFIGURATIONS': ['RELEASE']
+      'IMPORTED_IMPLIB_RELEASE': ['D:/a/_temp/msys64/ucrt64/lib/libSPIRV-Tools-opt.dll.a']
+      'IMPORTED_LOCATION_RELEASE': ['D:/a/_temp/msys64/ucrt64/bin/libSPIRV-Tools-opt.dll']
+     }
+  -- tline: CMake TRACE: D:/a/_temp/msys64/ucrt64/lib/cmake/SPIRV-Tools-opt/SPIRV-Tools-optTargets.cmake:59 add_library(['SPIRV-Tools-opt', 'SHARED', 'IMPORTED'])
+CMake TARGET:
+  -- name:      SPIRV-Tools
+  -- type:      SHARED
+  -- imported:  True
+  -- properties: {
+      'INTERFACE_INCLUDE_DIRECTORIES': ['D:/a/_temp/msys64/ucrt64/include']
+      'IMPORTED_CONFIGURATIONS': ['RELEASE']
+      'IMPORTED_IMPLIB_RELEASE': ['D:/a/_temp/msys64/ucrt64/lib/libSPIRV-Tools.dll.a']
+      'IMPORTED_LOCATION_RELEASE': ['D:/a/_temp/msys64/ucrt64/bin/libSPIRV-Tools.dll']
+     }
+  -- tline: CMake TRACE: D:/a/_temp/msys64/ucrt64/lib/cmake/SPIRV-Tools/SPIRV-ToolsTarget.cmake:59 add_library(['SPIRV-Tools', 'SHARED', 'IMPORTED'])
+Include Dirs:         ['D:/a/_temp/msys64/ucrt64/include']
+Compiler Options:     ['-DGLSLANG_IS_SHARED_LIBRARY=1']
+Libraries:            ['D:/a/_temp/msys64/ucrt64/lib/libSPIRV-Tools-opt.dll.a', 'D:/a/_temp/msys64/ucrt64/lib/libSPIRV-Tools.dll.a', 'D:/a/_temp/msys64/ucrt64/lib/libglslang.dll.a']
+Run-time dependency glslang found: YES 16.6.0
+
+Executing subproject volk method cmake for machine: host 
+
+CMake binary for host machine is cached.
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build/CMakeMesonToolchainFile.cmake"
+
+Configuring the build directory with CMake version 4.4.4
+Running CMake with: -G Ninja -DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe -DCMAKE_INSTALL_PREFIX=/qemu -DCMAKE_INSTALL_LIBDIR=lib -DVOLK_STATIC_DEFINES=VK_NO_PROTOTYPES -DCMAKE_BUILD_TYPE=Debug
+  - build directory:          D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build
+  - source directory:         D:/a/xemu/xemu/subprojects/volk
+  - toolchain file:           D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build/CMakeMesonToolchainFile.cmake
+  - preload file:             D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake
+  - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+  - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+Calling CMake (['D:\\a\\_temp\\msys64\\ucrt64\\bin/cmake.exe']) in D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build with:
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe"
+  - "-DCMAKE_INSTALL_PREFIX=/qemu"
+  - "-DCMAKE_INSTALL_LIBDIR=lib"
+  - "-DVOLK_STATIC_DEFINES=VK_NO_PROTOTYPES"
+  - "-DCMAKE_BUILD_TYPE=Debug"
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_POLICY_WARNING_CMP0025=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0047=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0056=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0060=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0065=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0066=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0067=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0082=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0089=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0102=OFF"
+  - "-DCMAKE_POLICY_CMP0141=NEW"
+  - "-DCMAKE_TOOLCHAIN_FILE=D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build/CMakeMesonToolchainFile.cmake"
+  - "-DMESON_PRELOAD_FILE=D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake"
+  - "D:/a/xemu/xemu/subprojects/volk"
+Put cmake in trace mode, but with variables expanded.
+Put cmake in trace mode and sets the trace output format.
+The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+Put cmake in trace mode and redirect trace output to a file instead of stderr.
+Trace will be written to cmake_trace.txt
+-- The C compiler identification is GNU 16.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/a/_temp/msys64/ucrt64/bin/cc.EXE - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+volk: using Vulkan_INCLUDE_DIRS from FindVulkan module
+-- Configuring done (0.9s)
+CMake Warning (policy) at CMakeLists.txt:35 (add_library):
+  Policy CMP0179 is not set: De-duplication of static libraries on link lines
+  keeps first occurrence.  Run "cmake --help-policy CMP0179" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Since the policy is not set, static libraries de-duplication will keep the
+  last occurrence of the static libraries.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+-- Generating done (0.0s)
+CMake Warning (policy) in CMakeLists.txt:
+  Policy CMP0200 is not set: Location and configuration selection for
+  imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Configuration selection for imported target "Vulkan::Headers" selected
+  configuration "(none)", but would select configuration "DEBUG" under the
+  NEW policy.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) in CMakeLists.txt:
+  Policy CMP0200 is not set: Location and configuration selection for
+  imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Configuration selection for imported target "Vulkan::Vulkan" selected
+  configuration "(none)", but would select configuration "DEBUG" under the
+  NEW policy.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) in CMakeLists.txt:
+  Policy CMP0200 is not set: Location and configuration selection for
+  imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Configuration selection for imported target "Vulkan::glslangValidator"
+  selected configuration "(none)", but would select configuration "DEBUG"
+  under the NEW policy.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) in CMakeLists.txt:
+  Policy CMP0200 is not set: Location and configuration selection for
+  imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Configuration selection for imported target "Vulkan::glslangValidator"
+  selected configuration "(none)", but would select configuration "DEBUG"
+  under the NEW policy.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) in CMakeLists.txt:
+  Policy CMP0200 is not set: Location and configuration selection for
+  imported targets is more consistent.  Run "cmake --help-policy CMP0200" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Configuration selection for imported target "Vulkan::glslangValidator"
+  selected configuration "(none)", but would select configuration "DEBUG"
+  under the NEW policy.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+-- Build files have been written to: D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build
+
+CMake configuration: SUCCEEDED
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/fileAPI.json"
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build/CMakeFiles/CMakeScratch/TryCompile-r9b2co/CMakeLists.txt:22 add_executable(['cmTC_6c761'])
+CMake trace warning: target_link_libraries() TARGET cmTC_6c761 not found
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/__CMake_build/CMakeFiles/CMakeScratch/TryCompile-r9b2co/CMakeLists.txt:28 target_link_libraries(['cmTC_6c761', ''])
+CMake TARGET:
+  -- name:      volk
+  -- type:      NORMAL
+  -- imported:  False
+  -- properties: {
+      'INCLUDE_DIRECTORIES': ['D:/a/xemu/xemu/subprojects/volk', '', 'D:/a/_temp/msys64/ucrt64/include']
+      'INTERFACE_INCLUDE_DIRECTORIES': ['D:/a/xemu/xemu/subprojects/volk', '', 'D:/a/_temp/msys64/ucrt64/include']
+      'COMPILE_DEFINITIONS': ['VK_NO_PROTOTYPES']
+      'INTERFACE_COMPILE_DEFINITIONS': ['VK_NO_PROTOTYPES']
+     }
+  -- tline: CMake TRACE: D:/a/xemu/xemu/subprojects/volk/CMakeLists.txt:35 add_library(['volk', 'STATIC', 'volk.h', 'volk.c'])
+CMake TARGET:
+  -- name:      volk_headers
+  -- type:      INTERFACE
+  -- imported:  False
+  -- properties: {
+      'INCLUDE_DIRECTORIES': []
+      'INTERFACE_INCLUDE_DIRECTORIES': ['D:/a/xemu/xemu/subprojects/volk', '', 'D:/a/_temp/msys64/ucrt64/include']
+     }
+  -- tline: CMake TRACE: D:/a/xemu/xemu/subprojects/volk/CMakeLists.txt:56 add_library(['volk_headers', 'INTERFACE'])
+CMake project volk 350 has 2 build targets.
+Generated Meson AST: D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/meson.build
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/subprojects/volk/meson.build"
+Project name: volk
+Project version: 350
+C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+C compiler for the build machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+C linker for the build machine: cc -m64 ld.bfd 2.47.20260726
+Build targets in project: 3
+Subproject volk finished.
+
+
+Executing subproject SPIRV-Reflect method cmake for machine: host 
+
+CMake binary for host machine is cached.
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeMesonToolchainFile.cmake"
+
+Configuring the build directory with CMake version 4.4.4
+Running CMake with: -G Ninja -DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe -DCMAKE_INSTALL_PREFIX=/qemu -DCMAKE_INSTALL_LIBDIR=lib -DSPIRV_REFLECT_STATIC_LIB=ON -DCMAKE_BUILD_TYPE=Debug
+  - build directory:          D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build
+  - source directory:         D:/a/xemu/xemu/subprojects/SPIRV-Reflect
+  - toolchain file:           D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeMesonToolchainFile.cmake
+  - preload file:             D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake
+  - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+  - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+Calling CMake (['D:\\a\\_temp\\msys64\\ucrt64\\bin/cmake.exe']) in D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build with:
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_MAKE_PROGRAM=D:/a/_temp/msys64/ucrt64/bin/ninja.exe"
+  - "-DCMAKE_INSTALL_PREFIX=/qemu"
+  - "-DCMAKE_INSTALL_LIBDIR=lib"
+  - "-DSPIRV_REFLECT_STATIC_LIB=ON"
+  - "-DCMAKE_BUILD_TYPE=Debug"
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_POLICY_WARNING_CMP0025=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0047=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0056=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0060=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0065=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0066=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0067=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0082=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0089=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0102=OFF"
+  - "-DCMAKE_POLICY_CMP0141=NEW"
+  - "-DCMAKE_TOOLCHAIN_FILE=D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeMesonToolchainFile.cmake"
+  - "-DMESON_PRELOAD_FILE=D:/a/_temp/msys64/ucrt64/lib/python3.14/site-packages/mesonbuild/cmake/data/preload.cmake"
+  - "D:/a/xemu/xemu/subprojects/SPIRV-Reflect"
+Put cmake in trace mode, but with variables expanded.
+Put cmake in trace mode and sets the trace output format.
+The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+Put cmake in trace mode and redirect trace output to a file instead of stderr.
+Trace will be written to cmake_trace.txt
+-- The C compiler identification is GNU 16.2.0
+-- The CXX compiler identification is GNU 16.2.0
+CMake Warning (policy) at D:/a/_temp/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program):
+  Policy CMP0126 is not set: set(CACHE) does not remove a normal variable of
+  the same name.  Run "cmake --help-policy CMP0126" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, normal variable
+  "CMAKE_TAPI" will be removed from the current scope.
+Call Stack (most recent call first):
+  D:/a/_temp/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)
+  CMakeLists.txt:3 (project)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/a/_temp/msys64/ucrt64/bin/cc.EXE - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/a/_temp/msys64/ucrt64/bin/c++.EXE - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (1.6s)
+CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+  Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+  linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  Since the policy is not set, legacy libraries de-duplication strategy will
+  be applied.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+  Policy CMP0181 is not set: Link command-line fragment variables are parsed
+  and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  Since the policy is not set, the contents of variable
+  'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+  Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+  linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  Since the policy is not set, legacy libraries de-duplication strategy will
+  be applied.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+  Policy CMP0181 is not set: Link command-line fragment variables are parsed
+  and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  Since the policy is not set, the contents of variable
+  'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) at CMakeLists.txt:116 (add_library):
+  Policy CMP0156 is not set: De-duplicate libraries on link lines based on
+  linker capabilities.  Run "cmake --help-policy CMP0156" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  Since the policy is not set, legacy libraries de-duplication strategy will
+  be applied.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+-- Generating done (0.0s)
+CMake Warning (policy) at CMakeLists.txt:27 (add_executable):
+  Policy CMP0181 is not set: Link command-line fragment variables are parsed
+  and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  Since the policy is not set, the contents of variable
+  'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) at CMakeLists.txt:58 (add_executable):
+  Policy CMP0181 is not set: Link command-line fragment variables are parsed
+  and re-quoted.  Run "cmake --help-policy CMP0181" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  Since the policy is not set, the contents of variable
+  'CMAKE_CXX_CREATE_CONSOLE_EXE' will be used as is.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+-- Build files have been written to: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build
+
+CMake configuration: SUCCEEDED
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/fileAPI.json"
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeFiles/CMakeScratch/TryCompile-5i682b/CMakeLists.txt:24 add_executable(['cmTC_e3b18'])
+CMake trace warning: target_link_libraries() TARGET cmTC_e3b18 not found
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeFiles/CMakeScratch/TryCompile-5i682b/CMakeLists.txt:30 target_link_libraries(['cmTC_e3b18', ''])
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeFiles/CMakeScratch/TryCompile-pd4e37/CMakeLists.txt:24 add_executable(['cmTC_4f2a2'])
+CMake trace warning: target_link_libraries() TARGET cmTC_4f2a2 not found
+CMake TRACE: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/__CMake_build/CMakeFiles/CMakeScratch/TryCompile-pd4e37/CMakeLists.txt:30 target_link_libraries(['cmTC_4f2a2', ''])
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:27 add_executable(['spirv-reflect', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/main.cpp', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/spirv_reflect.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/spirv_reflect.c', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/examples/arg_parser.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/examples/arg_parser.cpp', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/examples/common.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/examples/common.cpp', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/common/output_stream.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/common/output_stream.cpp'])
+CMake trace warning: target_compile_options() TARGET spirv-reflect not found
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:36 target_compile_options(['spirv-reflect', 'PRIVATE', '$<$<CXX_COMPILER_ID:MSVC>:/W4', '/WX>', '$<$<CXX_COMPILER_ID:GNU>:-Wall', '-Wextra', '-Wpedantic', '-Werror>', '$<$<CXX_COMPILER_ID:Clang>:-Wall', '-Wextra', '-Wpedantic', '-Werror>', '$<$<CXX_COMPILER_ID:AppleClang>:-Wall', '-Wextra', '-Wpedantic', '-Werror>'])
+CMake trace warning: set_target_properties() TARGET spirv-reflect not found
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:45 set_target_properties(['spirv-reflect', 'PROPERTIES', 'CXX_STANDARD', '11'])
+CMake trace warning: target_include_directories() TARGET spirv-reflect not found
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:46 target_include_directories(['spirv-reflect', 'PRIVATE', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect'])
+CMake trace warning: target_compile_definitions() TARGET spirv-reflect not found
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:48 target_compile_definitions(['spirv-reflect', 'PRIVATE', '_CRT_SECURE_NO_WARNINGS'])
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:58 add_executable(['spirv-reflect-pp', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/main.cpp', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/spirv_reflect.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/spirv_reflect.cpp', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/examples/arg_parser.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/examples/arg_parser.cpp', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/examples/common.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/examples/common.cpp', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/common/output_stream.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/common/output_stream.cpp'])
+CMake trace warning: target_compile_options() TARGET spirv-reflect-pp not found
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:67 target_compile_options(['spirv-reflect-pp', 'PRIVATE', '$<$<CXX_COMPILER_ID:MSVC>:/W4', '/WX>', '$<$<CXX_COMPILER_ID:GNU>:-Wall', '-Wextra', '-Wpedantic', '-Werror>', '$<$<CXX_COMPILER_ID:Clang>:-Wall', '-Wextra', '-Wpedantic', '-Werror>', '$<$<CXX_COMPILER_ID:AppleClang>:-Wall', '-Wextra', '-Wpedantic', '-Werror>'])
+CMake trace warning: set_target_properties() TARGET spirv-reflect-pp not found
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:75 set_target_properties(['spirv-reflect-pp', 'PROPERTIES', 'CXX_STANDARD', '11'])
+CMake trace warning: target_include_directories() TARGET spirv-reflect-pp not found
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:76 target_include_directories(['spirv-reflect-pp', 'PRIVATE', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect'])
+CMake trace warning: target_compile_definitions() TARGET spirv-reflect-pp not found
+CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:78 target_compile_definitions(['spirv-reflect-pp', 'PRIVATE', '_CRT_SECURE_NO_WARNINGS'])
+CMake TARGET:
+  -- name:      spirv-reflect-static
+  -- type:      NORMAL
+  -- imported:  False
+  -- properties: {
+      'INCLUDE_DIRECTORIES': ['D:/a/xemu/xemu/subprojects/SPIRV-Reflect']
+      'INTERFACE_INCLUDE_DIRECTORIES': ['D:/a/xemu/xemu/subprojects/SPIRV-Reflect']
+      'PUBLIC_HEADER': ['D:/a/xemu/xemu/subprojects/SPIRV-Reflect/spirv_reflect.h']
+     }
+  -- tline: CMake TRACE: D:/a/xemu/xemu/subprojects/SPIRV-Reflect/CMakeLists.txt:116 add_library(['spirv-reflect-static', 'STATIC', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/spirv_reflect.h', 'D:/a/xemu/xemu/subprojects/SPIRV-Reflect/spirv_reflect.c'])
+CMake project spirv-reflect  has 3 build targets.
+Generated Meson AST: D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/meson.build
+!meson_ci!/ci_include "D:/a/xemu/xemu/build-uwp-embed/subprojects/SPIRV-Reflect/meson.build"
+Project name: spirv-reflect
+Project version: undefined
+C compiler for the host machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+C linker for the host machine: cc -m64 ld.bfd 2.47.20260726
+C++ compiler for the host machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+C++ linker for the host machine: c++ -m64 ld.bfd 2.47.20260726
+C compiler for the build machine: cc -m64 (gcc 16.2.0 "cc (Rev6, Built by MSYS2 project) 16.2.0")
+C linker for the build machine: cc -m64 ld.bfd 2.47.20260726
+C++ compiler for the build machine: c++ -m64 (gcc 16.2.0 "c++ (Rev6, Built by MSYS2 project) 16.2.0")
+C++ linker for the build machine: c++ -m64 ld.bfd 2.47.20260726
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpcfpctdec
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("version")
+          #error "Header 'version' could not be found"
+         #endif
+        #else
+         #include <version>
+        #endif
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpcfpctdec/testfile.cpp -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -U_FORTIFY_SOURCE -fpermissive` -> 0
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp02s78751
+Code:
+
+        #include <version>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef _LIBCPP_VERSION
+                _LIBCPP_VERSION;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp02s78751/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp02s78751/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive` -> 1
+stderr:
+D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp02s78751/testfile.cpp: In function 'int main()':
+D:/a/xemu/xemu/build-uwp-embed/meson-private/tmp02s78751/testfile.cpp:6:17: error: '_LIBCPP_VERSION' was not declared in this scope
+    6 |                 _LIBCPP_VERSION;
+      |                 ^~~~~~~~~~~~~~~
+-----------
+Running compile:
+Working directory:  D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpruhkrrnj
+Code:
+
+        #include <version>
+        using _LIBCPP_VERSION;
+        int main(void) { return 0; }
+-----------
+Command line: `c++ -m64 D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpruhkrrnj/testfile.cpp -o D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpruhkrrnj/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive` -> 1
+stderr:
+D:/a/xemu/xemu/build-uwp-embed/meson-private/tmpruhkrrnj/testfile.cpp:3:15: error: expected nested-name-specifier before '_LIBCPP_VERSION'
+    3 |         using _LIBCPP_VERSION;
+      |               ^~~~~~~~~~~~~~~
+-----------
+Build targets in project: 6
+Subproject SPIRV-Reflect finished.
+
+Determining dependency 'samplerate' with pkg-config executable 'D:\\a\\_temp\\msys64\\ucrt64\\bin/pkg-config.exe'
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --modversion samplerate` -> 0
+stdout:
+0.2.2
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --cflags samplerate` -> 0
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs samplerate` -> 0
+stdout:
+-LD:/a/_temp/msys64/ucrt64/lib -lsamplerate
+-----------
+env[PKG_CONFIG_PATH]: D:\a\_temp\msys64\ucrt64\lib\pkgconfig;D:\a\_temp\msys64\ucrt64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: D:/a/_temp/msys64/ucrt64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: D:/a/_temp/msys64/ucrt64/lib
+env[PKG_CONFIG]: D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe
+-----------
+Called: `D:\a\_temp\msys64\ucrt64\bin/pkg-config.exe --libs samplerate` -> 0
+stdout:
+-lsamplerate
+-----------
+Run-time dependency samplerate found: YES 0.2.2
+Applying diff file "imgui-uwp.diff"
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file backends/imgui_impl_opengl3_loader.h
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file meson.build
+/usr/bin/patch: **** malformed patch at line 41: diff --git a/meson_options.txt b/meson_options.txt
+ERROR: Subproject imgui is buildable: NO
+
+../meson.build:2461:13: ERROR: Failed to apply diff file "imgui-uwp.diff"
+
+::endgroup::
+
+
+ERROR: meson setup failed
+
