@@ -1,0 +1,100 @@
+name: Build near-native probe (UWP)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [nn-probe]
+    paths:
+      - 'UWP-NearNativeProbe/**'
+      - '.github/workflows/nn-probe.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nn-probe-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: NnProbe (Release, x64)
+    runs-on: windows-2025
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out probe sources only
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            UWP-NearNativeProbe
+
+      - name: Configure MSVC x64 environment
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Build and package
+        shell: pwsh
+        run: |
+          msbuild UWP-NearNativeProbe\NnProbe.vcxproj `
+            /t:Rebuild `
+            /p:Configuration=Release `
+            /p:Platform=x64 `
+            /p:PlatformToolset=v145 `
+            /p:AppxBundle=Never `
+            /p:UapAppxPackageBuildMode=SideloadOnly `
+            /m /nologo /v:minimal 2>&1 | Tee-Object -FilePath build.log
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Verify package
+        shell: pwsh
+        run: |
+          Get-ChildItem UWP-NearNativeProbe\AppPackages -Recurse | ForEach-Object { Write-Host $_.FullName } | Tee-Object -FilePath package-listing.log
+          $packages = @(Get-ChildItem UWP-NearNativeProbe\AppPackages -Recurse -Filter *.msix)
+          if ($packages.Count -ne 1) { throw "Expected exactly one MSIX package, found $($packages.Count)." }
+
+      - name: Upload package
+        uses: actions/upload-artifact@v4
+        with:
+          name: NnProbe-x64-Release
+          path: |
+            UWP-NearNativeProbe/AppPackages/**/*.msix
+            UWP-NearNativeProbe/AppPackages/**/*.cer
+            UWP-NearNativeProbe/AppPackages/**/Dependencies/**
+          if-no-files-found: error
+          compression-level: 0
+
+      - name: Publish release with package (direct download)
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "nn-probe-run${{ github.run_number }}"
+          $files = @(Get-ChildItem UWP-NearNativeProbe\AppPackages -Recurse -Include *.msix,*.cer,*.appx | Select-Object -ExpandProperty FullName)
+          gh release create $tag @files --repo "${{ github.repository }}" --title "Near-native probe (run ${{ github.run_number }})" --notes "Sideload the .msix (plus the VCLibs .appx if not already installed) through Xbox Device Portal, run it, and send back LocalState/nn-probe.txt (and nn-probe-state.txt)." --prerelease
+
+      - name: Push build logs to ci-logs branch
+        if: always()
+        shell: bash
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          work="$(mktemp -d)"
+          mkdir -p "$work/nn-probe"
+          cp build.log "$work/nn-probe/build-${{ github.run_number }}.log" 2>/dev/null
+          cp package-listing.log "$work/nn-probe/package-listing-${{ github.run_number }}.log" 2>/dev/null
+          cd "$work"
+          git init -q
+          git config user.name "ci"
+          git config user.email "ci@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
+          if git fetch -q --depth 1 origin ci-logs 2>/dev/null; then
+            git checkout -q -b ci-logs FETCH_HEAD
+          else
+            git checkout -q -b ci-logs
+          fi
+          git add -A
+          git commit -qm "nn-probe logs for run ${{ github.run_number }}"
+          git push -q origin HEAD:ci-logs
